@@ -2,6 +2,7 @@
 
 **Created:** 2025-11-15
 **Status:** Complete and ready for production
+**Repository:** https://github.com/h4x0r/ai-mythbuster-book
 
 ---
 
@@ -9,7 +10,7 @@
 
 This is a complete dual-format AI education package targeting executives and middle management:
 
-1. **Leanpub Book** (50-75 pages): "AI Mythbusters: What Executives Actually Need to Know"
+1. **Leanpub Book** (70-90 pages): "AI Mythbusters: What Executives Actually Need to Know"
 2. **Gamma Presentation** (30-40 min): "AI Mythbusters: What You Actually Need to Know"
 
 Both use the **Myth-Busting Framework**: Emotional hook before education, realistic but optimistic tone.
@@ -25,21 +26,23 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 │   └── /plans
 │       └── 2025-11-15-ai-mythbusters-design.md (master design document)
 ├── /manuscript (Leanpub book)
-│   ├── outline.md
+│   ├── outline.md (optimized chapter order with cognitive flow analysis)
 │   ├── chapter-01-introduction.md (3-5 pages)
 │   ├── chapter-02-ai-can-think.md (8-10 pages)
 │   ├── chapter-03-ai-will-replace-you.md (8-10 pages)
-│   ├── chapter-04-ai-is-always-right.md (8-10 pages) [SAMPLE]
-│   ├── chapter-05-just-prompt-and-go.md (8-10 pages)
-│   ├── chapter-06-demos-equal-production.md (8-10 pages)
-│   └── chapter-07-realistic-action-plan.md (10-12 pages)
+│   ├── chapter-04-ai-agents.md (8-10 pages) [NEW - Autonomous vs Scripted]
+│   ├── chapter-05-ai-is-always-right.md (8-10 pages) [ORIGINAL SAMPLE]
+│   ├── chapter-06-ai-for-legal.md (8-10 pages) [NEW - Harvey, Lexis+, RAG limits]
+│   ├── chapter-07-just-prompt-and-go.md (8-10 pages)
+│   ├── chapter-08-demos-equal-production.md (8-10 pages)
+│   └── chapter-09-realistic-action-plan.md (10-12 pages)
 └── /presentation (Gamma slides + speaker scripts)
-    ├── outline.md
-    ├── visual-guidelines.md
+    ├── outline.md (25-slide structure)
+    ├── visual-guidelines.md (design specs)
     ├── act-1-introduction.md (Slides 1-5)
     ├── myth-1-ai-can-think.md (Slides 6-8)
     ├── myth-2-ai-will-replace-you.md (Slides 9-11)
-    ├── myth-3-ai-is-always-right.md (Slides 12-14) [SAMPLE]
+    ├── myth-3-ai-is-always-right.md (Slides 12-14) [ORIGINAL SAMPLE]
     ├── myth-4-just-prompt-and-go.md (Slides 15-17)
     ├── myth-5-demos-equal-production.md (Slides 18-20)
     └── act-3-action-plan.md (Slides 21-25)
@@ -47,49 +50,120 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 
 ---
 
-## Book Content (Complete - 7 Chapters)
+## Book Content (Complete - 9 Chapters, Optimized Order)
 
-### Chapter 1: Introduction - Why Everyone's Confused About AI
+### PART 1: FOUNDATION & HOOKS (Chapters 1-4)
+
+#### Chapter 1: Introduction - Why Everyone's Confused About AI
 - Hooks reader with shared confusion
 - Establishes hype vs reality problem
 - Previews structure and approach
 - **Key takeaway:** Confusion is rational, we'll cut through it
 
-### Chapter 2: Myth - "AI Can Think" / Reality - "AI Completes Patterns"
+#### Chapter 2: Myth - "AI Can Think" / Reality - "AI Completes Patterns"
 - Explains what AI/ML/GenAI actually are
 - Introduces autocomplete mental model
 - Shows pattern completion vs reasoning
 - **Key takeaway:** AI is sophisticated autocomplete, not thinking entity
+- **Why here:** Foundation - everything builds on this concept
 
-### Chapter 3: Myth - "AI Will Replace You" / Reality - "AI Augments Your Work"
+#### Chapter 3: Myth - "AI Will Replace You" / Reality - "AI Augments Your Work"
 - Addresses job displacement fears
-- Introduces copilot model
+- Introduces copilot model (augmentation not replacement)
 - Sets realistic productivity expectations (2-3x, not 10x)
 - **Key takeaway:** Your job changes but judgment remains essential
+- **Why here:** Emotional hook early, sets up augmentation framework
 
-### Chapter 4: Myth - "AI Is Always Right" / Reality - "Hallucinations and Limitations"
-- Strawberry test demonstration
-- Explains why AI hallucinates
-- Provides verification checklist
+#### Chapter 4: Myth - "AI Agents Are Autonomous" / Reality - "They're Scripted Workflows with LLM Calls"
+- What people think agents are (AGI promises, autonomous entities)
+- What agents actually are (LLM-powered workflows choosing from predefined actions)
+- Why they're not autonomous or self-improving
+- Multi-agent coordination complexity, reliability issues
+- Real use cases where agents work (narrow, well-defined tasks)
+- Framework explosion (AutoGPT, BabyAGI, LangChain)
+- Economics: $200K platforms often don't justify ROI
+- **Key takeaway:** Agents are useful automation tools with careful engineering, not AGI
+- **Why here:** Current relevance hook (agents are THE hot topic), extends Ch 3 augmentation concept
+
+### PART 2: LIMITATIONS & EVIDENCE (Chapters 5-6)
+
+#### Chapter 5: Myth - "AI Is Always Right" / Reality - "Hallucinations and Limitations"
+- Strawberry test demonstration ("How many r's in strawberry?")
+- Why AI hallucinates (pattern matching, not facts)
+- Confidence ≠ correctness
+- Summarization risks, verification checklist
 - **Key takeaway:** Confidence ≠ correctness, always verify
+- **Why here:** After foundation, readers ready for bad news; introduces core limitation
 
-### Chapter 5: Myth - "Just Prompt and Go" / Reality - "Engineering Good Results"
-- Teaches prompt engineering (5 elements)
-- Shows garbage in, garbage out
-- Explains when to use specialized tools
-- **Key takeaway:** Better prompts = better results
+#### Chapter 6: Myth - "Legal AI Is Ready for Practice" / Reality - "Hallucinations Get Lawyers Sanctioned"
+- Real lawyer sanctions: 486+ documented cases, $5K-$10K fines, 90-day suspensions
+- Legal AI landscape:
+  - Harvey AI: $1K-$1.2K/lawyer/month, opaque pricing, no public accuracy data
+  - Lexis+ AI: 17%+ error rate despite RAG and legal database
+  - Westlaw AI: 33%+ error rate
+- Three types of legal AI errors: fake cases, fake quotes, correct citation with wrong principle
+- **Why RAG doesn't fully solve hallucinations:**
+  - Retrieval pulls irrelevant content (wrong jurisdiction, wrong context)
+  - LLMs ignore retrieved content (parametric memory override)
+  - Summarization drift (legal precision lost)
+  - Long document confusion (majority vs dissent, holding vs dicta)
+- Professional liability implications, cost-benefit analysis
+- **Key takeaway:** Even specialized legal AI hallucinates 17-33% of time; RAG reduces but doesn't eliminate errors
+- **Why here:** Immediately reinforces Ch 5 with dramatic proof; shows specialized ≠ safe
 
-### Chapter 6: Myth - "Demos = Production Ready" / Reality - "The Vibe Coding Gap"
-- Reveals iceberg problem (20% visible, 80% underwater)
-- Lists what's missing from demos
-- Provides production readiness checklist
-- **Key takeaway:** Budget 4-10x demo time for production
+### PART 3: SKILLS & ADVANCED TOPICS (Chapters 7-8)
 
-### Chapter 7: Your Realistic AI Action Plan
-- Three-tier framework (start here, build toward, never do)
-- Real metrics vs vanity metrics
-- Team scaling strategy
+#### Chapter 7: Myth - "Just Prompt and Go" / Reality - "Engineering Good Results"
+- The magical thinking problem
+- 5 elements of strong prompts: context, format, constraints, examples, success criteria
+- Garbage in, garbage out (weak vs strong prompts)
+- Overcoming AI limitations through structure (Python scripts, RAG, human-in-loop)
+- Building your prompt library
+- **Key takeaway:** Better prompts = better results; prompt engineering is being specific
+- **Why here:** Readers now understand risks, so mitigation makes sense
+
+#### Chapter 8: Myth - "Demos = Production Ready" / Reality - "The Vibe Coding Gap"
+- The two-hour miracle (impressive demos, misleading promises)
+- Iceberg problem: 20% visible (demo), 80% underwater (production)
+- What's missing: error handling, edge cases, performance, security, integration, monitoring
+- Technical debt time bomb
+- When vibe coding makes sense vs dangerous
+- Real-world estimates: demo 2-8 hours, production 1-2 weeks (4-10x multiplier)
+- **Key takeaway:** AI accelerates MVPs but obscures production complexity
+- **Why here:** Advanced topic requiring foundation from all previous chapters
+
+### PART 4: SYNTHESIS (Chapter 9)
+
+#### Chapter 9: Your Realistic AI Action Plan
+- Three-tier framework:
+  - **Tier 1 - Start here tomorrow:** Summarization, drafting, research (low-risk wins)
+  - **Tier 2 - Build toward this:** Process automation, data analysis
+  - **Tier 3 - Never do this:** Mission-critical without review, compliance/legal unreviewed
+- Measuring what actually matters (time saved net, quality maintained vs vanity metrics)
+- Building team AI literacy (4-phase rollout)
+- Your first 90 days (week-by-week breakdown)
 - **Key takeaway:** Start small, measure honestly, scale what works
+- **Why here:** True conclusion, synthesizes all 8 previous chapters
+
+---
+
+## Cognitive Flow (Why This Chapter Order Works)
+
+### Complexity Builds Gradually
+- **Simple (Ch 1-3):** Problem statement, pattern completion, augmentation model
+- **Moderate (Ch 4-6):** Agents extend augmentation, hallucinations, legal proof
+- **Complex (Ch 7-8):** Prompt engineering, production complexity
+- **Synthesis (Ch 9):** Action plan pulling from all chapters
+
+### Topics Clustered for Reinforcement
+- **Augmentation cluster (Ch 3-4):** General model → Specific agent case
+- **Limitation cluster (Ch 5-6):** Hallucinations explained → Hallucinations proven with 486 cases
+- **Skills cluster (Ch 7-8):** How to prompt → How to evaluate production readiness
+
+### Hooks Placed Strategically
+- **Early:** Job fears (Ch 3), current agent hype (Ch 4)
+- **Mid:** Dramatic lawyer sanctions (Ch 6)
+- **Late:** Practical skills (Ch 7), production reality (Ch 8)
 
 ---
 
@@ -113,7 +187,7 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 ### Act 3: Action Plan (Slides 21-25, ~5-10 min)
 - Start here tomorrow (Tier 1: summarize, draft, research)
 - Build toward this (Tier 2: automation, analysis)
-- Never do this (Tier 3: mission-critical, compliance, etc.)
+- Never do this (Tier 3: mission-critical, compliance)
 - Measure what matters (real metrics vs vanity)
 - Questions? (Q&A)
 
@@ -129,16 +203,40 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 ### Structure: Myth-Busting Framework
 - Hooks emotionally before educating
 - Each myth follows: Myth → Reality → So What
-- Memorable examples (strawberry test, iceberg)
+- Memorable examples (strawberry test, iceberg, 486 lawyer sanctions)
 
 ### Target Audience
 - **Primary:** Executives and middle managers
-- **Pain points:** Confused by hype, worried about jobs
+- **Pain points:** Confused by hype, worried about jobs, pitched expensive "agentic AI"
 - **Outcome:** Confident AI adoption with realistic expectations
 
 ### Length
-- **Book:** 55-70 pages (quick executive read, 2-3 hours)
+- **Book:** 70-90 pages (quick executive read, 3-4 hours)
 - **Presentation:** 30-40 minutes (perfect for briefings)
+
+---
+
+## What Makes This Different
+
+### New Chapters Add Critical Value
+
+**Chapter 4: AI Agents**
+- Addresses peak 2024-2025 hype cycle ("year of agents")
+- Deflates AGI/autonomous claims with evidence
+- Economic reality check ($200K platforms vs actual ROI)
+- Timely - addresses current market confusion
+
+**Chapter 6: Legal AI**
+- Real-world case study: 486+ documented lawyer sanctions
+- Proves specialized AI still fails (17-33% error rates)
+- Explains RAG limitations with domain example
+- Universal lessons: if legal AI fails, what about your domain?
+
+### Marketing Hooks
+- "Why that $200K 'autonomous agent platform' is just expensive workflows" (Ch 4)
+- "486 lawyers sanctioned for AI fake citations - here's why even specialized AI fails" (Ch 6)
+- "Legal AI hallucinations prove RAG isn't a silver bullet - what it means for your business" (Ch 6)
+- "The strawberry test that proves AI is confidently wrong" (Ch 5)
 
 ---
 
@@ -148,7 +246,7 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 
 1. **Format for Leanpub:**
    - Create `Book.txt` file listing chapter order
-   - Ensure all chapters are in `/manuscript` folder
+   - Ensure all chapters are in `/manuscript` folder ✅
    - Review markdown formatting
    - Test with Leanpub preview
 
@@ -160,12 +258,13 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 3. **Write Book Description:**
    - For Leanpub sales page
    - Hook: "Confused about AI? You should be."
-   - Preview: What readers will learn
+   - Preview: What readers will learn (9 myths busted)
    - CTA: Download now
 
 4. **Pricing Strategy:**
-   - Suggested: $9.99 minimum, $19.99 suggested, $29.99 maximum
+   - Suggested: $12.99 minimum, $24.99 suggested, $39.99 maximum
    - Or use variable pricing
+   - Higher than original 7-chapter version due to expanded content
 
 5. **Beta Reader Review:**
    - Send to 5-10 executives for feedback
@@ -181,7 +280,7 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 ### For the Presentation (Gamma)
 
 1. **Create Slides in Gamma:**
-   - Use `/presentation/*-script.md` files as speaker notes
+   - Use `/presentation/*.md` files as speaker notes
    - Follow `/presentation/visual-guidelines.md` for design specs
    - Create 25 slides matching outline
 
@@ -194,7 +293,7 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 3. **Key Visual Requirements:**
    - **Slide 13 (Strawberry):** Build animation must work perfectly
    - **Slide 19 (Iceberg):** Underwater reveal must be dramatic
-   - **Color palette:** Deep blue, electric orange, green, red, charcoal
+   - **Color palette:** Deep blue (#1E3A8A), electric orange (#FF6B35), green, red, charcoal
    - **Fonts:** Helvetica Neue or similar (60pt+ for headers)
 
 4. **Rehearse:**
@@ -242,19 +341,23 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 
 ### Book Outline
 **File:** `manuscript/outline.md`
-**Use:** Chapter structure, status tracking, production notes
+**Use:** Chapter structure with optimized ordering rationale, cognitive flow analysis, production notes
 
-### Sample Chapter
-**File:** `manuscript/chapter-04-ai-is-always-right.md`
-**Use:** Template for tone, depth, structure of remaining chapters
+### Original Sample Chapter
+**File:** `manuscript/chapter-05-ai-is-always-right.md`
+**Use:** Template for tone, depth, structure (strawberry test chapter)
+
+### New Agent Chapter
+**File:** `manuscript/chapter-04-ai-agents.md`
+**Use:** Current hot topic, deflates AGI claims, economic reality check
+
+### New Legal Chapter
+**File:** `manuscript/chapter-06-ai-for-legal.md`
+**Use:** Real-world sanctions evidence, RAG limitations explained, high-stakes domain lessons
 
 ### Presentation Outline
 **File:** `presentation/outline.md`
 **Use:** Slide structure, timing, adaptation notes
-
-### Sample Presentation Script
-**File:** `presentation/myth-3-ai-is-always-right.md`
-**Use:** Template for speaker notes, timing, delivery instructions
 
 ### Visual Guidelines
 **File:** `presentation/visual-guidelines.md`
@@ -271,6 +374,8 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 - ✅ Honest about limitations
 - ✅ 8-10 pages per core chapter
 - ✅ Chapter summaries included
+- ✅ Optimized ordering for cognitive load
+- ✅ Current topics covered (agents, legal AI)
 
 ### Presentation Scripts
 - ✅ Full speaker notes with timing
@@ -282,37 +387,19 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 
 ---
 
-## Estimated Production Time
-
-### If You Complete Yourself
-- **Book editing/refinement:** 10-15 hours
-- **Leanpub formatting:** 3-5 hours
-- **Cover design:** 5-10 hours (or outsource)
-- **Slide creation in Gamma:** 10-15 hours
-- **Visual asset sourcing:** 5-8 hours
-- **Rehearsal:** 5-8 hours
-- **Total:** 38-61 hours
-
-### If You Outsource
-- **Book editor:** $500-1500
-- **Cover designer:** $300-800
-- **Slide designer:** $500-1000
-- **Total budget:** $1300-3300
-
----
-
 ## Success Metrics
 
 ### Book
 - **Quantitative:**
-  - 100+ downloads in first month
+  - 150+ downloads in first month (higher due to expanded content)
   - 70%+ completion rate
   - 4.0+ average rating
 
 - **Qualitative:**
   - Reader testimonials
   - "I tried X and it worked" reports
-  - Team adoption stories
+  - "Saved us from expensive agent platform" feedback
+  - "Changed how we evaluate legal AI vendors" reports
 
 ### Presentation
 - **Quantitative:**
@@ -330,14 +417,15 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 ## Maintenance Plan
 
 ### Quarterly Review (Every 3 Months)
-- Update examples with latest AI capabilities
-- Refresh statistics and data points
-- Add new use cases discovered
+- Update agent landscape (new frameworks, updated reliability data)
+- Update legal AI error rates (as new studies emerge)
+- Add new documented lawyer sanction cases
+- Refresh examples with latest AI capabilities
 - Remove outdated tool recommendations
 
 ### Annual Overhaul (Yearly)
 - Major content revision
-- Add new chapter if needed
+- Consider new chapters if needed (healthcare AI, financial AI, creative AI)
 - Redesign presentation visuals
 - Incorporate year's learnings
 
@@ -347,6 +435,7 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 
 ### Book
 - **Leanpub marketplace** (primary)
+- **GitHub repository** (version control, collaboration)
 - **Your company website** (free or paid)
 - **LinkedIn article series** (excerpts as lead gen)
 - **Email to your network** (launch announcement)
@@ -364,46 +453,10 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 
 ---
 
-## Legal & Compliance Notes
-
-### Content Licensing
-- Book and presentation are your IP
-- If distributing within company, no additional licensing needed
-- If selling/distributing externally, consider Creative Commons or All Rights Reserved
-
-### Third-Party Content
-- Stock photos: Ensure commercial use rights
-- Icons: Check attribution requirements
-- Examples: Anonymize if using real company data
-
-### Disclaimers
-Consider adding:
-- "Educational purposes only, not legal/financial advice"
-- "AI capabilities change rapidly, content current as of [date]"
-- "Test AI tools within your company's security policies"
-
----
-
-## Support & Updates
-
-### Where to Get Help
-- Leanpub documentation: https://leanpub.com/help
-- Gamma tutorials: https://gamma.app/docs
-- Markdown formatting: https://commonmark.org/help/
-
-### Suggested Improvements
-As you use this content, track:
-- Examples that resonate most
-- Sections that confuse people
-- Questions that come up repeatedly
-- New use cases to add
-
----
-
 ## Final Checklist Before Launch
 
 ### Book
-- [ ] All chapters written and edited
+- [x] All 9 chapters written and edited
 - [ ] Markdown formatting validated
 - [ ] Book.txt file created with chapter order
 - [ ] Cover designed (1600x2400px)
@@ -414,6 +467,7 @@ As you use this content, track:
 - [ ] Final edits complete
 
 ### Presentation
+- [x] All 25 slide scripts complete
 - [ ] All 25 slides created in Gamma
 - [ ] Visual assets sourced and licensed
 - [ ] Speaker notes added to slides
@@ -433,15 +487,60 @@ As you use this content, track:
 
 ---
 
+## Repository & Version Control
+
+**GitHub Repository:** https://github.com/h4x0r/ai-mythbuster-book
+
+This repository contains:
+- Complete book manuscript (9 chapters)
+- Complete presentation scripts (25 slides)
+- Design documentation
+- Visual guidelines
+- Production checklists
+
+**Branch Strategy:**
+- `main` - Production-ready content
+- Create feature branches for major updates
+- Use pull requests for review before merging
+
+**Collaboration:**
+- Fork and submit pull requests for contributions
+- Issues for tracking improvements
+- Discussions for content ideas
+
+---
+
 ## Contact & Attribution
 
 **Author:** [Your Name]
 **Created:** 2025-11-15
-**Version:** 1.0
+**Version:** 1.1 (9 chapters, optimized ordering)
 **License:** [Your Choice]
+**Repository:** https://github.com/h4x0r/ai-mythbuster-book
 
 **Generated with assistance from Claude (Anthropic)**
 Co-authored by: AI (Claude) + Human (You)
+
+---
+
+## Quick Start
+
+1. **Clone the repository:**
+   ```bash
+   git clone https://github.com/h4x0r/ai-mythbuster-book.git
+   ```
+
+2. **Review content:**
+   - Start with `manuscript/outline.md` for structure
+   - Read sample chapters: `chapter-05-ai-is-always-right.md`, `chapter-04-ai-agents.md`, `chapter-06-ai-for-legal.md`
+   - Review `docs/plans/2025-11-15-ai-mythbusters-design.md` for strategy
+
+3. **Choose your format:**
+   - **Book only:** Focus on `/manuscript` directory
+   - **Presentation only:** Focus on `/presentation` directory
+   - **Both:** Complete package ready to go
+
+4. **Follow production checklists** above for your chosen format
 
 ---
 
