@@ -30,9 +30,9 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 │   ├── chapter-01-introduction.md (3-5 pages)
 │   ├── chapter-02-ai-can-think.md (8-10 pages)
 │   ├── chapter-03-ai-will-replace-you.md (8-10 pages)
-│   ├── chapter-04-ai-agents.md (8-10 pages) [NEW - Autonomous vs Scripted]
-│   ├── chapter-05-ai-is-always-right.md (8-10 pages) [ORIGINAL SAMPLE]
-│   ├── chapter-06-ai-for-legal.md (8-10 pages) [NEW - Harvey, Lexis+, RAG limits]
+│   ├── chapter-04-ai-agents.md (8-10 pages)
+│   ├── chapter-05-ai-is-always-right.md (8-10 pages)
+│   ├── chapter-06-ai-for-legal.md (8-10 pages)
 │   ├── chapter-07-just-prompt-and-go.md (8-10 pages)
 │   ├── chapter-08-demos-equal-production.md (8-10 pages)
 │   └── chapter-09-realistic-action-plan.md (10-12 pages)
@@ -42,7 +42,7 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
     ├── act-1-introduction.md (Slides 1-5)
     ├── myth-1-ai-can-think.md (Slides 6-8)
     ├── myth-2-ai-will-replace-you.md (Slides 9-11)
-    ├── myth-3-ai-is-always-right.md (Slides 12-14) [ORIGINAL SAMPLE]
+    ├── myth-3-ai-is-always-right.md (Slides 12-14)
     ├── myth-4-just-prompt-and-go.md (Slides 15-17)
     ├── myth-5-demos-equal-production.md (Slides 18-20)
     └── act-3-action-plan.md (Slides 21-25)
@@ -218,8 +218,6 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 
 ## What Makes This Different
 
-### New Chapters Add Critical Value
-
 **Chapter 4: AI Agents**
 - Addresses peak 2024-2025 hype cycle ("year of agents")
 - Deflates AGI/autonomous claims with evidence
@@ -264,7 +262,6 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 4. **Pricing Strategy:**
    - Suggested: $12.99 minimum, $24.99 suggested, $39.99 maximum
    - Or use variable pricing
-   - Higher than original 7-chapter version due to expanded content
 
 5. **Beta Reader Review:**
    - Send to 5-10 executives for feedback
@@ -343,15 +340,15 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 **File:** `manuscript/outline.md`
 **Use:** Chapter structure with optimized ordering rationale, cognitive flow analysis, production notes
 
-### Original Sample Chapter
+### Sample Chapter: Hallucinations
 **File:** `manuscript/chapter-05-ai-is-always-right.md`
 **Use:** Template for tone, depth, structure (strawberry test chapter)
 
-### New Agent Chapter
+### Agent Chapter
 **File:** `manuscript/chapter-04-ai-agents.md`
 **Use:** Current hot topic, deflates AGI claims, economic reality check
 
-### New Legal Chapter
+### Legal AI Chapter
 **File:** `manuscript/chapter-06-ai-for-legal.md`
 **Use:** Real-world sanctions evidence, RAG limitations explained, high-stakes domain lessons
 
@@ -391,7 +388,7 @@ Both use the **Myth-Busting Framework**: Emotional hook before education, realis
 
 ### Book
 - **Quantitative:**
-  - 150+ downloads in first month (higher due to expanded content)
+  - 150+ downloads in first month
   - 70%+ completion rate
   - 4.0+ average rating
 
@@ -514,7 +511,7 @@ This repository contains:
 
 **Author:** [Your Name]
 **Created:** 2025-11-15
-**Version:** 1.1 (9 chapters, optimized ordering)
+**Version:** 1.0
 **License:** [Your Choice]
 **Repository:** https://github.com/h4x0r/ai-mythbuster-book
 
