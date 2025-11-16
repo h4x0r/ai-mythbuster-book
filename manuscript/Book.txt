@@ -1,0 +1,9 @@
+chapter-01-introduction.md
+chapter-02-ai-can-think.md
+chapter-03-ai-will-replace-you.md
+chapter-04-ai-agents.md
+chapter-05-ai-is-always-right.md
+chapter-06-ai-for-legal.md
+chapter-07-just-prompt-and-go.md
+chapter-08-demos-equal-production.md
+chapter-09-realistic-action-plan.md
