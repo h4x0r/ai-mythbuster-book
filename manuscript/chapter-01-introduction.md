@@ -50,6 +50,12 @@ The gap between hype and reality is costing companies millions. I've watched exe
 
 **You can avoid these mistakes. But first, you need clarity about what AI actually is.**
 
+I'm Albert Hui, and I've spent thirty years watching tech trends cycle through hype, disappointment, and eventual calibration. As IBM's Global Security Architect, I worked at a company that's been experimenting with AI since the 1950s - long before it was trendy. Later, as a Risk Advisory Director at Deloitte and now as a Cyber Security Advisor at the Institute of Directors, I've seen what happens when organizations chase trends without understanding fundamentals.
+
+With generative AI, I've become what I call a cautious change agent - navigating between "AI will change everything" and "AI changes nothing" because the truth is more nuanced and more useful than either extreme. I found myself having the same conversation dozens of times: explaining to conservative executives why they can't ignore this, then immediately warning reckless adopters about the dangers they weren't seeing.
+
+This book is my attempt to stop repeating myself. It's a distillation of pattern-spotting across three decades, Big Tech AI history, enterprise risk assessment, and countless conversations with people trying to figure out what's real. I'm not here to sell you AI. I'm here to help you use it without making expensive mistakes I've watched others make.
+
 ## What This Book Will (and Won't) Do
 
 ### This Book Will:

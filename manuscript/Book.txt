@@ -10,3 +10,5 @@ chapter-06-ai-for-legal.md
 chapter-07-just-prompt-and-go.md
 chapter-08-demos-equal-production.md
 chapter-09-realistic-action-plan.md
+{backmatter}
+about-author.md
