@@ -1,10 +1,10 @@
 # Chapter 4: Myth - "AI Is Always Right" / Reality - "Hallucinations and Limitations"
 
-## The Strawberry Test
+## The Alice Test
 
 Before you read another word, do me a favor. Open ChatGPT, Claude, or whatever AI assistant you have handy. Ask it this simple question:
 
-"How many times does the letter 'r' appear in the word 'strawberry'?"
+"Alice has 2 brothers and she also has 1 sister. How many sisters does Alice's brother have?"
 
 Go ahead. I'll wait.
 
@@ -12,35 +12,35 @@ Go ahead. I'll wait.
 
 Did you try it? What answer did you get?
 
-If you're like most people, the AI told you there are **two** r's in strawberry. Confidently. Authoritatively. With zero hesitation.
+The correct answer is **2** sisters (Alice herself + Alice's 1 sister = 2 sisters).
 
-Count them with me: st**r**awbe**rr**y.
+But if you're using most AI models—including GPT-4, Claude 3 Opus, Gemini, or Llama—the AI probably gave you the **wrong** answer.[^alice] Confidently. Authoritatively. With zero hesitation.
 
-That's **three** r's.
+Some AIs say "1 sister" (counting only Alice's sister, forgetting that Alice is also a sister). Others say "3" (somehow double-counting). The specific wrong answer varies, but the pattern is consistent: **the AI fails at basic relational reasoning.**
 
-The AI just failed at counting to three.
+Let that sink in for a moment. We're talking about technology that can write essays, analyze complex data, and generate computer code. But ask it to figure out a simple family relationship—something any 10-year-old can solve—and it face-plants.
 
-Let that sink in for a moment. We're talking about technology that can write essays, analyze complex data, and generate computer code. But ask it to count letters in a single word, and it face-plants.
+This isn't a bug. This isn't a glitch in one particular AI system. This is a fundamental feature of how these tools work. And if you don't understand why AI gets the Alice test wrong, you're going to make expensive mistakes when you try to use it.
 
-This isn't a bug. This isn't a glitch in one particular AI system. This is a fundamental feature of how these tools work. And if you don't understand why AI gets the strawberry test wrong, you're going to make expensive mistakes when you try to use it.
+[^alice]: Research from "Easy Problems That LLMs Get Wrong" (2025), showing that leading models including GPT-4, Claude 3 Opus, Gemini, and Llama fail the "Alice in Wonderland" (AIW) family relationship problem. See also: MakeUseOf, "ChatGPT Still Can't Answer These 4 Easy Questions" (2025), https://www.makeuseof.com/easy-questions-chatgpt-cant-answer/; ArXiv, "Easy Problems That LLMs Get Wrong" (May 2024), https://arxiv.org/html/2405.19616v2
 
 ## Why Confidence Doesn't Equal Correctness
 
-Here's what makes the strawberry problem so dangerous: the AI doesn't say "I'm not sure" or "I might be wrong." It answers with the same confidence it would use to quote Shakespeare or explain photosynthesis.
+Here's what makes the Alice problem so dangerous: the AI doesn't say "I'm not sure" or "I might be wrong." It answers with the same confidence it would use to quote Shakespeare or explain photosynthesis.
 
 In human conversation, confidence usually correlates with accuracy. When your CFO confidently states a number, you generally trust it because she's checked her work. When your engineer confidently recommends an architecture, you trust he's thought through the alternatives.
 
 AI breaks that pattern completely.
 
-AI doesn't "know" anything. Remember from Chapter 2 - it's sophisticated autocomplete. When you ask about strawberry, the AI is pattern-matching: "Questions about counting letters usually involve common letters like 'e' or 's', and words typically have 2-4 of any given letter..." It's completing a pattern based on similar questions it saw during training.
+AI doesn't "know" anything. Remember from Chapter 2 - it's sophisticated autocomplete. When you ask about Alice's family, the AI is pattern-matching: "Questions about siblings usually ask 'how many brothers' or 'how many sisters,' and the answer is typically the number explicitly stated in the problem..." It's completing a pattern based on similar questions it saw during training.
 
-It's not counting. It can't count. It's guessing based on patterns, and patterns fail on this specific case.
+It's not reasoning about relationships. It can't reason. It's guessing based on patterns, and patterns fail when you need to actually understand that "Alice's brother has sisters" means counting Alice + her sister.
 
 The terrifying part? **You cannot tell from the AI's tone whether it's operating in its zone of competence or completely making things up.**
 
 ## Hallucinations: When AI Invents Reality
 
-The strawberry test is a party trick. Let's talk about where this gets serious.
+The Alice test is a party trick. Let's talk about where this gets serious.
 
 AI "hallucinations" occur when the system generates plausible-sounding but factually incorrect information. This happens constantly. Not occasionally. Not as a rare edge case. *Constantly.*
 
@@ -146,26 +146,32 @@ Okay, so AI hallucinates. Does that make it useless? Absolutely not. But it does
 
 ### Strategy 1: Use Precision Tools for Precision Tasks
 
-Remember the strawberry problem? Here's how you actually solve it:
+Remember the Alice problem? Here's how you actually solve it:
 
-**Instead of asking:** "How many r's are in strawberry?"
+**Instead of asking:** "Alice has 2 brothers and 1 sister. How many sisters does Alice's brother have?"
 
-**Do this:** "Write me a Python script to count how many times the letter 'r' appears in the word 'strawberry'"
+**Do this:** "Write me a Python script to solve this logic problem: Alice has 2 brothers and 1 sister. How many sisters does Alice's brother have? Count carefully—Alice herself is also a sister to her brothers."
 
 The AI will write:
 
 ```python
-word = "strawberry"
-letter = "r"
-count = word.count(letter)
-print(f"The letter '{letter}' appears {count} times in '{word}'")
+# Alice's siblings
+alice_brothers = 2
+alice_sisters = 1  # Alice's sister (not including Alice herself)
+
+# Alice's brother has sisters, which includes:
+# 1. Alice herself
+# 2. Alice's sister
+sisters_alice_brother_has = 1 + alice_sisters  # Alice + Alice's sister
+
+print(f"Alice's brother has {sisters_alice_brother_has} sisters")
 ```
 
-Run that script. It outputs: **3**.
+Run that script. It outputs: **2**.
 
-Now the AI has used its strength (writing code to solve a problem) while delegating precision to a tool designed for precision (Python's string counting). Problem solved.
+Now the AI has used its strength (writing code to solve a problem) while delegating precision to a tool designed for precision (Python's explicit logic). Problem solved.
 
-**Lesson:** Don't ask AI to do math, counting, or logic directly. Ask it to help you use tools that do those things correctly.
+**Lesson:** Don't ask AI to do math, counting, or relational reasoning directly. Ask it to help you write code that does those things correctly.
 
 ### Strategy 2: Implement RAG for Factual Accuracy
 
@@ -278,8 +284,8 @@ That's the zone where AI delivers real value: augmenting your work, not replacin
 
 This week, run these experiments:
 
-### Experiment 1: The Strawberry Test (5 minutes)
-- Ask your AI tool how many r's are in "strawberry"
+### Experiment 1: The Alice Test (5 minutes)
+- Ask your AI tool: "Alice has 2 brothers and 1 sister. How many sisters does Alice's brother have?"
 - Ask it to write a Python script to count them
 - Compare the answers
 - Internalize the lesson: AI can't do precision tasks directly, but it can help you use precision tools
@@ -295,7 +301,7 @@ This week, run these experiments:
 - Apply the verification checklist from this chapter
 - How many items did you originally skip? What would you have caught?
 
-### Experiment 4: Create Your Own Strawberry Test (Ongoing)
+### Experiment 4: Create Your Own Alice Test (Ongoing)
 - Identify a fact in your domain that you know cold (a statistic, a date, a specific process)
 - Ask AI about it periodically
 - Track how often it gets it right vs hallucinates
@@ -307,7 +313,7 @@ AI is not reliable. AI is useful.
 
 Those two statements are both true and not contradictory. A tool can be incredibly useful while also being unreliable - you just need to use it appropriately.
 
-The strawberry test isn't a gotcha. It's a reminder. Every time you're tempted to trust AI output without verifying, remember that this technology confidently fails to count to three. Then verify anyway.
+The Alice test isn't a gotcha. It's a reminder. Every time you're tempted to trust AI output without verifying, remember that this technology confidently fails at relationships a 10-year-old can solve. Then verify anyway.
 
 The executives who get 2-3x productivity gains from AI are the ones who've internalized this lesson. They use AI aggressively for drafting, brainstorming, and analysis. They also verify everything before it matters.
 
