@@ -1,3 +1,6 @@
+{frontmatter}
+title-page.md
+{mainmatter}
 chapter-01-introduction.md
 chapter-02-ai-can-think.md
 chapter-03-ai-will-replace-you.md
