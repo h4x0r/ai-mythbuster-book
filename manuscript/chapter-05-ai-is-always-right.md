@@ -46,9 +46,11 @@ AI "hallucinations" occur when the system generates plausible-sounding but factu
 
 In 2023, a lawyer used ChatGPT to research legal precedents for a court filing. The AI helpfully provided several relevant case citations. The lawyer included them in his brief.
 
-Problem: the cases didn't exist. ChatGPT had invented case names, decision dates, and legal reasoning that sounded perfectly legitimate. The lawyer faced sanctions. The case made national news.
+Problem: the cases didn't exist. ChatGPT had invented case names, decision dates, and legal reasoning that sounded perfectly legitimate. The lawyer faced sanctions. The case made national news.[^1]
 
 The AI didn't malfunction. It did exactly what it's designed to do: complete the pattern of "legal brief with case citations" based on thousands of similar examples it had seen. It just happened to complete that pattern with fictional data.
+
+[^1]: Mata v. Avianca, Inc., 22-cv-1461 (S.D.N.Y. May 27, 2023); The New York Times, "Here's What Happens When Your Lawyer Uses ChatGPT" (May 2023), https://www.nytimes.com/2023/05/27/nyregion/avianca-airline-lawsuit-chatgpt.html
 
 **Example 2: The Confident Historical Errors**
 

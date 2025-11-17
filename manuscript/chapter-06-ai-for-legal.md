@@ -200,4 +200,291 @@ How do you choose? That's what the rest of this chapter answers.
 
 [^19]: TechCrunch, "Thomson Reuters buys Casetext for $650M" (June 2023), https://techcrunch.com/2023/06/26/thomson-reuters-buys-casetext-an-ai-legal-tech-startup-for-650m-in-cash/; LawSites, "Thomson Reuters Launches CoCounsel Legal with Agentic AI" (Aug. 2025), https://www.lawnext.com/2025/08/thomson-reuters-launches-cocounsel-legal-with-agentic-ai-and-deep-research-capabilities-along-with-a-new-and-final-version-of-westlaw.html
 
-[Due to length constraints, I'll continue Chapter 6 in next response with vendor landscape, vendor selection framework, implementation roadmap, and action plans - all converted to prose]
+## The Complete Legal AI Vendor Landscape (2024-2025)
+
+You're in a partner meeting. The managing partner asks: "What legal AI should we buy?"
+
+Here's the complete landscape. Not just the top three vendors, but every vendor a competent lawyer should know about when making this decision.
+
+### Tier 1: Enterprise Solutions from Database Incumbents
+
+These are the vendors law librarians and BigLaw firms actually evaluate.
+
+**LexisNexis Ecosystem**
+
+The LexisNexis universe starts with Lexis+ AI, an AI research layer built on top of the massive LexisNexis legal database.[^20] The marketing promises sound compelling: hallucination-free answers to legal questions, all responses grounded in actual LexisNexis content, complete with Shepard's citations for verification, all powered by RAG (Retrieval Augmented Generation).
+
+Here's the reality. A 2024 study by Stanford RegLab and HAI found that Lexis+ AI produced incorrect information more than 17% of the time, correctly answering only 65% of queries.[^20] It still hallucinates despite RAG and database grounding. It's better than ChatGPT, but it's far from "hallucination-free."
+
+Pricing runs around $100-200 per lawyer annually, incremental to your existing Lexis subscription. It's best for firms already on Lexis who want low-risk initial research direction. But that 17% error rate means you verify everything.
+
+In August 2024, LexisNexis launched Protégé AI Assistant as their answer to Thomson Reuters CoCounsel.[^21] The marketing touts a "substantial leap forward in personalized generative AI" with workflow-focused capabilities competing directly with CoCounsel. The problem: it's too new for independent error rate studies, though it likely matches Lexis+ AI's hallucination rates of 17% or higher. The marketing is heavy on promises, light on independent verification. Pricing remains undisclosed, likely separate from Lexis+ AI. It's worth evaluating if you're comparing against CoCounsel and want a LexisNexis alternative, but there are no independent accuracy benchmarks yet.
+
+**Thomson Reuters Ecosystem**
+
+Thomson Reuters offers Westlaw AI-Assisted Research plus Ask Practical Law AI, their AI research layer on the Westlaw database.[^22] The promise matches Lexis: AI-powered research grounded in case law. The reality is worse. Stanford's updated June 2024 study found that Westlaw's AI-Assisted Research hallucinated more than 33% of the time, nearly double Lexis+ AI's error rate. One in three queries produced incorrect information.
+
+Pricing is included in Westlaw Precision subscriptions, which are already premium-priced. It's suitable for firms already on Westlaw Precision who want basic AI features, but that 33% error rate makes it worse than competitors.
+
+The real Thomson Reuters story is CoCounsel. After acquiring Casetext for $650 million in August 2023, Thomson Reuters built a workflow-focused AI legal assistant powered by GPT-4.[^23] Unlike the research-focused Westlaw AI, CoCounsel tackles document review, legal research memos, deposition prep, and contract analysis with direct integration into iManage, NetDocuments, and SharePoint.
+
+CoCounsel launched in March 2023 as one of the first GPT-4 legal applications. By 2024, they released CoCounsel 2.0 (three times faster). In 2025 came CoCounsel Legal with agentic AI workflows capable of bulk document review at scale (10,000 documents). The tool has been deployed at 45-plus large U.S. law firms including six of the Am Law 10.
+
+Independent error rate studies haven't been published yet, though the adoption suggests performance similar to or better than Lexis+ AI's 17% baseline. The focus on workflows rather than just research sets it apart. Pricing is separate from Westlaw and undisclosed, with industry estimates ranging from $500 to $1,500 per lawyer annually. It's best for mid-to-large firms with document-heavy practices looking for workflow automation. The red flags: pricing opacity and lack of public error rate data.
+
+**Harvey AI**
+
+Harvey AI is the enterprise legal AI platform that has raised over $100 million and established a partnership with LexisNexis.[^24] The promise is compelling: an AI assistant built specifically for legal professionals to handle complex legal tasks including document analysis, contract drafting, and legal research, aimed at global law firms and Fortune 500 legal departments.
+
+The reality check: Harvey is too new for comprehensive independent error rate studies. Limited independent verification data exists. Access is restricted to large firms through an enterprise sales model. The LexisNexis partnership suggests a RAG approach similar to Lexis+ AI, but without public benchmarks to confirm.
+
+Pricing is opaque and not publicly disclosed. Estimates vary wildly: some sources suggest $1,000 to $1,200 per lawyer per month ($12,000 to $14,400 annually), while conflicting sources suggest $500 to $1,200 per year total. The enterprise sales model includes consultative pricing with implementation and training fees on top. Typical contracts range from $200,000 to over $1 million annually for law firms.
+
+Harvey is best suited for BigLaw firms with budgets for premium tools working on complex, high-value matters. The red flags are substantial: pricing opacity, no public accuracy benchmarks, marketing heavy on promises and light on data, and high cost without proven ROI.
+
+### Tier 2: Strong Alternatives and Innovators
+
+**vLex Vincent AI** won the 2024 AALL (American Association of Law Libraries) New Product of the Year award, making it the first generative AI tool validated by law librarians.[^25]
+
+Vincent is a global legal AI platform with twelve workflows spanning research, litigation, and transactions. The September 2024 upgrade added 20-plus pre-built workflows (up from four initially), including contract analysis, deposition analysis, and 50-state surveys. Global coverage spans 100-plus countries with 25-plus years of legal data, working in English, French, and Portuguese. Integration with Docket Alarm provides access to 820 million-plus documents.
+
+Independent benchmarking claims a 38% productivity boost minimum. Randomized controlled trials suggest Vincent is 3.67 times more reliable than leading LLMs and outperforms human research without AI. These claims need independent verification, but the AALL award carries weight in the legal community.
+
+Pricing is more accessible than Harvey, though specific numbers remain undisclosed (contact for quote). Vincent is best for firms wanting broad workflow coverage, international practice, or firms where AALL validation matters. The red flag: those "3.67 times more reliable" and "outperforms humans" claims still need independent verification beyond the vendor's own studies.
+
+### Tier 3: Budget and Niche Options
+
+**Fastcase** provides affordable AI-powered legal research targeted at solo practitioners and small firms.[^26] The platform offers an AI Sandbox for experimentation, intuitive search, case citation tools, and claims 70% faster research than traditional methods while balancing affordability with features.
+
+It's best for solo practitioners, small firms, and budget-conscious practices. The limitation: Fastcase is not in the same league as Lexis, Westlaw, or Harvey for complex research needs.
+
+### Defunct (Do Not Evaluate)
+
+**ROSS Intelligence** no longer operates.[^27] The company pioneered AI legal research using NLP and machine learning, claiming 30-40% time savings, but is no longer available. The lesson: the AI legal market is volatile. Today's hot vendor may be tomorrow's defunct company.
+
+[^20]: Stanford RegLab & HAI, "Hallucination-Free? Assessing AI Legal Research Reliability" (2024), https://dho.stanford.edu/wp-content/uploads/Legal_RAG_Hallucinations.pdf; Legal Dive, "Legal GenAI tools mislead 17% of time: Stanford study" (May 2024), https://www.legaldive.com/news/legal-genai-tools-mislead-17-percent-of-time-stanford-HAI-hallucinations-incorrect-law-citations/717128/
+[^21]: LawSites, "It's the Battle of the AI Legal Assistants, As LexisNexis Unveils Its New Protégé and Thomson Reuters Rolls Out CoCounsel 2.0" (Aug. 2024), https://www.lawnext.com/2024/08/its-the-battle-of-the-ai-legal-assistants-as-lexisnexis-unveils-its-new-protege-and-thomson-reuters-rolls-out-cocounsel-2-0.html
+[^22]: LawSites, "In Redo of Its Study, Stanford Finds Westlaw's AI Hallucinates At Double the Rate of LexisNexis" (June 2024), https://www.lawnext.com/2024/06/in-redo-of-its-study-stanford-finds-westlaws-ai-hallucinates-at-double-the-rate-of-lexisnexis.html
+[^23]: Thomson Reuters PR, "Thomson Reuters Completes Acquisition of Casetext, Inc." (Aug. 2023), https://www.prnewswire.com/news-releases/thomson-reuters-completes-acquisition-of-casetext-inc-301903701.html; TechCrunch, "Thomson Reuters buys Casetext for $650M" (June 2023), https://techcrunch.com/2023/06/26/thomson-reuters-buys-casetext-an-ai-legal-tech-startup-for-650m-in-cash/; LawSites, "Thomson Reuters Launches CoCounsel Legal" (Aug. 2025), https://www.lawnext.com/2025/08/thomson-reuters-launches-cocounsel-legal-with-agentic-ai-and-deep-research-capabilities-along-with-a-new-and-final-version-of-westlaw.html
+[^24]: OpenAI, "Customizing models for legal professionals" (2024), https://openai.com/index/harvey/; eesel AI, "A complete guide to Harvey AI pricing in 2025" (2025), https://www.eesel.ai/blog/harvey-ai-pricing; Clio, "Harvey AI Alternatives" (2024), https://www.clio.com/blog/harvey-ai-legal/
+[^25]: LawSites, "vLex May Now Be the Most Capable AI Assistant in the Legal Market" (Sept. 2024), https://www.lawnext.com/2024/09/as-it-unveils-major-upgrade-of-its-vincent-ai-vlex-may-now-be-the-most-capable-ai-assistant-in-the-legal-market.html; vLex PR, "vLex Launches Vastly Expanded Vincent Legal GenAI Toolset" (Sept. 2024), https://www.prnewswire.com/news-releases/vlex-launches-vastly-expanded-vincent-legal-genai-toolset-and-ai-focused-co-development-lab-302116091.html
+[^26]: Documind, "Top AI for Legal Research Tools in 2025" (2025), https://www.documind.chat/blog/ai-for-legal-research
+[^27]: Analytics Insight, "Top 10 AI-Driven Legal Research Platforms" (2024), https://www.analyticsinsight.net/artificial-intelligence/top-10-ai-driven-legal-research-platforms
+
+---
+
+## Vendor Selection Framework: The Questions You Must Ask
+
+You're now in the partner meeting with three finalist vendors. Here's your playbook.
+
+**Category 1: Accuracy and Reliability**
+
+Start with the question that matters most: What is your documented error rate on legal research tasks? Accept independent study results from Stanford, AALL, or law school research. Reject vague marketing speak like "nearly perfect," "state of the art," or "industry-leading" without numbers. If the vendor won't provide data, that's your red flag to walk away.
+
+Second question: How do you handle hallucinations and what's your detection and correction mechanism? Accept specific technical approaches like RAG architecture, confidence scoring, or human review layers. Reject the claim "Our AI is trained on legal data so it doesn't hallucinate." Red flag: any vendor claiming their system is hallucination-free. That's impossible.
+
+Third question: Can we see error logs and failure modes for the past six months? Accept transparency about what goes wrong and how often. Reject "That's proprietary" as an excuse. Red flag: the vendor has no error tracking system.
+
+**Category 2: Confidentiality and Security**
+
+Fourth question: Do you train your AI models on our client data? The only acceptable answer is "No, enterprise customers opt out of training." Reject "We use data to improve the model for everyone." Red flag: vague language about "improving service" without clarity on data usage.
+
+Fifth question: What data security measures protect confidential information? Accept SOC 2 Type II compliance, encryption in transit and at rest, and geographic data residency options. Reject generic "industry-standard security" claims. Red flag: no security certifications.
+
+Sixth question: Who has access to our data, and can your employees read our queries? Accept "Zero access except for specific troubleshooting with written permission." Reject "Quality control team reviews conversations." Red flag: vendor employees can read everything.
+
+Seventh question: What happens to our data if we cancel? Can we export it, and is it deleted? Accept complete export capability with certified deletion within 30 days. Reject "Data remains in system for archival purposes." Red flag: no data portability.
+
+**Category 3: Integration and Workflow**
+
+Eighth question: Does your tool integrate with our DMS (iManage, NetDocuments, or SharePoint)? Accept native integration with server-to-server, bi-directional sync. Reject "We have an API" that requires you to build against. Red flag: manual upload and download only.
+
+Ninth question: Can we customize workflows for our practice groups? Accept configurable templates, practice-specific setups, and shareable workflows. Reject "one-size-fits-all" approaches. Red flag: customization requires expensive professional services.
+
+Tenth question: What's the implementation timeline and what resources do we need to provide? Accept a detailed project plan with clear milestones and realistic timeframes (8 to 16 weeks). Reject "It's turnkey, you'll be live in a week." Red flag: the vendor has never done an implementation at your firm size.
+
+**Category 4: Training and Support**
+
+Eleventh question: What training do you provide, and is it ongoing or one-time? Accept initial training plus quarterly updates, practice group customization, and self-service resources. Reject "One 2-hour webinar." Red flag: training costs extra beyond the base price.
+
+Twelfth question: What's your support model and response time SLAs? Accept 24/7 support with less than one hour for critical issues, less than four hours for normal issues, and a dedicated account manager. Reject "Email support during business hours." Red flag: no SLAs.
+
+**Category 5: Pricing and ROI**
+
+Thirteenth question: What's the all-in cost including licensing, implementation, training, and ongoing support? Accept a transparent breakdown with no hidden fees. Reject "Base price is $X, but you'll also need..." Red flag: pricing changes after you've started implementation.
+
+Fourteenth question: What's your customer attrition rate and why do customers leave? Accept less than 10% annual churn with honest discussion of why customers leave (budget constraints, changing needs). Reject "We don't track that." Red flag: more than 20% annual churn signals customers aren't getting value.
+
+Fifteenth question: Can we talk to three current customers in our practice area and firm size? Accept direct contact information with permission to ask tough questions. Reject "We'll set up a call with our best customer." Red flag: no customer references available.
+
+**Category 6: Vendor Viability**
+
+Sixteenth question: What's your funding situation and how long can you operate without additional capital? Accept profitable or three-plus years of runway. Reject "We're raising our Series B right now." Red flag: less than twelve months of runway means you might lose your vendor mid-contract.
+
+Seventeenth question: What's your product roadmap and are you being acquired? Accept a clear roadmap with no active M&A discussions or "nothing material to disclose." Reject evasive answers. Red flag: the vendor is shopping themselves, which means your tool might disappear post-acquisition.
+
+---
+
+## The Implementation Roadmap: From Decision to Deployment
+
+You've selected a vendor. Now what?
+
+**Phase 1: Policy and Governance (Weeks 1-2)**
+
+Before anyone uses AI, establish the ground rules. Create a written AI usage policy that specifies what's allowed (research direction, drafting assistance), what's prohibited (final work product without review, confidential data in public tools), verification requirements (cite-check everything), confidentiality protocols (approved tools only), and professional responsibility compliance.
+
+Build your governance structure with an AI Committee comprising the managing partner, general counsel, practice group leads, and IT. Establish an approval process for new tools, create an incident response plan for when AI hallucinates, and define metrics and reporting requirements.
+
+Develop client communication protocols including an informed consent process to tell clients when AI is used on their matters, fee arrangements (discounted for AI-assisted work or full rate?), and client opt-out rights.
+
+Deliverable: approved policy, governance charter, and client communication templates.
+
+**Phase 2: Technical Implementation (Weeks 3-8)**
+
+Weeks three through four focus on infrastructure: DMS integration setup, authentication configuration (SSO and MFA), user provisioning, and network plus security configuration.
+
+Weeks five through six concentrate on testing with a pilot group of five to ten attorneys across practice groups. Run test scenarios using real work instead of demos, track and resolve bugs, and conduct performance testing for speed, accuracy, and reliability.
+
+Weeks seven through eight involve iteration: fix integration issues, refine workflows based on pilot feedback, update documentation, and prepare for broader rollout.
+
+Deliverable: production-ready system and pilot results report.
+
+**Phase 3: Training (Weeks 9-12)**
+
+Week nine trains the trainers with deep dives for two to three power users per practice group, covering advanced features and workflows, troubleshooting common issues, and how to train others.
+
+Weeks ten through eleven execute firm-wide training with four-hour sessions by practice group, hands-on exercises with real scenarios, Q&A and best practices, and certification (pass an assessment to get access).
+
+Week twelve provides office hours and support including daily drop-in support sessions, a Slack or Teams channel for questions, FAQ and tip sheets, and video tutorials.
+
+Deliverable: trained user base, training materials, and support infrastructure.
+
+**Phase 4: Verification Protocols (Weeks 13-16)**
+
+This is non-negotiable. Every attorney must follow verification protocols.
+
+For AI-assisted legal research, every case cited must be pulled and read. Every quote must be verified against the source document. Every legal principle must be confirmed. The attorney must apply independent judgment. The work product belongs to the attorney (AI is a tool, not the author).
+
+For AI-assisted document review, AI findings must be spot-checked (minimum 10% sample). High-risk findings require 100% verification. The attorney must review the AI's reasoning and certify the completeness of the review.
+
+For AI-assisted contract drafting, every clause must be reviewed for client-specific requirements. Boilerplate must be verified against firm standard. Definitions must be consistent throughout. The attorney must review for unintended commitments.
+
+Enforcement includes random quality audits (10% of AI-assisted work), quarterly reviews with practice groups, and discipline for verification failures (this is not optional).
+
+Deliverable: verification checklist, audit process, and enforcement mechanism.
+
+**Phase 5: Measurement and Iteration (Ongoing)**
+
+Measure what matters. Good metrics include net time saved (generation time plus verification time versus traditional time), quality maintained (error rate same or better), adoption rate (percentage of eligible work using AI), user satisfaction (NPS survey quarterly), and cost per matter (with AI versus without AI).
+
+Avoid vanity metrics like number of queries (doesn't mean value), money spent (cost doesn't equal benefit), and content volume generated (if you're verifying it all, volume is irrelevant).
+
+Monthly reporting should cover practice group usage, time savings versus verification overhead, error incidents and resolutions, training completion rates, and cost tracking.
+
+Quarterly business reviews should include ROI calculation (honest), assessment of what's working and what's not, tool improvements (vendor roadmap check), policy updates (based on incidents), and training refresh needs.
+
+Deliverable: monthly metrics dashboard and quarterly ROI report.
+
+---
+
+## What Actually Works in Legal AI (And What Doesn't)
+
+Let's be pragmatic about where legal AI delivers value and where it falls short.
+
+**What Legal AI Does Well**
+
+AI excels at initial research direction. Ask it to "point me toward cases about [topic]" and it's faster than manual database searching. It gets you into the right area of law. But you still read the actual cases.
+
+Document summarization works with verification. AI can summarize long contracts or briefs, extract key terms and dates, and identify issues for deeper review. But never trust the summary without checking the source.
+
+Drafting assistance (not final drafting) provides value. AI can generate first drafts of routine motions, suggest legal arguments to consider, and outline structures for briefs. But you heavily edit, add analysis, and cite-check everything.
+
+Comparative analysis saves time. Ask AI to "compare these three contracts for differences in indemnification clauses" and it's faster than manual review. It highlights areas for attorney review. But the attorney must verify that highlighted differences are accurate.
+
+Deposition preparation benefits from AI. The tool can extract key testimony points, create timelines from transcripts, and formulate follow-up questions. But the attorney reviews all outputs before using them.
+
+**What Legal AI Fails At**
+
+Don't trust AI-generated citations without checking. Even specialized tools hallucinate 17-33% of the time. Verify every case, every quote, every legal principle. No exceptions.
+
+AI can't create novel legal arguments. It pattern-matches from existing arguments. It can't generate genuinely novel legal theory. It suggests what's common, not what's best for your unique case. Lawyer creativity is still required.
+
+Strategic judgment remains human-only territory. Questions like "Should we file this motion?" "Will this argument persuade this judge?" and "What's our settlement leverage?" require judgment AI doesn't have.
+
+Client counseling requires human skills AI lacks: explaining complex legal issues to clients, understanding the client's business context and priorities, and managing client expectations and emotions. Relationships and empathy are human domains.
+
+Ethical compliance has career-ending consequences if you get it wrong. Attorney-client privilege considerations, conflict checks, and professional responsibility rules require human judgment and accountability.
+
+---
+
+## Monday Morning Action Plan
+
+This week, if legal AI is in your organization (or you're considering it), run these experiments.
+
+**Experiment 1: The Citation Verification Test (30 minutes)**
+
+If you have access to legal AI tools, ask it to find ten cases on a topic you know well. Manually verify every citation. Count how many are real versus hallucinated. For real cases, check if quoted language actually appears.
+
+Calculate your tool's error rate. General AI like ChatGPT should show 50%-plus errors. Specialized AI like Lexis+ should show 17%-plus errors. If your tool's error rate is higher than specialized tools, don't use it for legal work.
+
+**Experiment 2: The Policy Audit (1 hour)**
+
+Review your current AI usage policy or lack thereof. Ask: Do we have a written policy? (If no, create one this week.) Does it specify verification requirements? Does it address confidentiality? Does it require training? Is it enforced?
+
+If you don't have a policy, use the Phase 1 framework above as a template.
+
+**Experiment 3: The Complete Vendor Evaluation (2-4 hours)**
+
+If you're evaluating vendors, create a comparison matrix with all vendors from this chapter. Send the seventeen questions from the vendor selection framework to finalists. Score responses: transparent answer with data equals two points, vague but acceptable equals one point, rejected answer or red flag equals zero points. Minimum passing score: 25 out of 34 (73%).
+
+Request customer references from passing vendors. Call three references per vendor and ask about verification burden, real ROI, and hidden costs.
+
+Decision criteria should include accuracy score (independent studies), confidentiality score (ABA compliance), integration score (works with your systems), cost score (ROI with honest verification time), and vendor viability score (will they exist in three years?).
+
+**Experiment 4: The Honest ROI Calculation (1 hour)**
+
+If you're considering expensive legal AI tools, calculate honestly. List costs: tool licensing per lawyer per year times number of lawyers, implementation, training (assume $150K for a 50-lawyer firm), and verification overhead (hours per year times cost per hour). Calculate total cost.
+
+List benefits: expected time savings in hours per year per lawyer times number of lawyers, minus verification time in hours per year per lawyer times number of lawyers, equals net time saved. Multiply net hours saved by billing rate to get value.
+
+Calculate ROI as value divided by total cost.
+
+Factor in risk: malpractice exposure, reputation damage from errors, and client resistance to AI-assisted billing.
+
+Proceed only if you have positive ROI after honest accounting for verification time and risk is manageable.
+
+---
+
+## The Bottom Line
+
+Legal AI in 2025 is not ready to practice law autonomously.
+
+Even the best specialized legal AI tools hallucinate 17-33% of the time. That's not "nearly perfect." That's "wrong one in three to one in six queries."
+
+The vendors claiming "nearly hallucination-free" are misleading you. Stanford's independent studies prove it.
+
+The lawyers getting sanctioned aren't careless idiots. They're professionals who trusted tools that vendors claimed were reliable. The tools weren't.
+
+But legal AI can provide real value if you use it correctly. Use it as a research assistant (not autonomous researcher), drafting aid (not final drafter), summarization tool (not summary you trust without verification), and workflow accelerator (not workflow owner).
+
+Never use it as citation generator without verification, final work product without review, strategic decision maker, or client counselor.
+
+The difference between appropriate use and malpractice is verification discipline.
+
+**For executives in any industry:** This chapter gave you the complete framework.
+
+You now understand the seven challenges: hallucinations, privilege, integration, training, accuracy, cost, and vendor selection. You have the complete vendor landscape: Tier 1 (LexisNexis, Thomson Reuters, Harvey), Tier 2 (vLex Vincent), Tier 3 (Fastcase), and Defunct (ROSS). You received the vendor selection playbook: seventeen questions across six categories. You learned the implementation roadmap: five phases over sixteen weeks. You know the verification protocols: non-negotiable checklists. You can calculate honest ROI: factor in verification overhead.
+
+Use this as your template for evaluating AI in any professional context where errors have consequences.
+
+Because if specialized legal AI with RAG still fails 17-33% of the time in a structured domain with decades of quality data, what's the error rate in your less-structured domain?
+
+Verify. Everything.
+
+---
+
+**Chapter Summary:**
+
+486-plus documented cases of lawyers sanctioned for AI-generated fake citations. Even specialized legal AI (Lexis+ AI) hallucinates 17%-plus of the time. Westlaw AI performs worse at 33%-plus error rate. Seven challenges exist beyond hallucinations: privilege, integration, training, accuracy, cost, and vendor selection. Complete vendor landscape includes LexisNexis (Lexis+, Protégé), Thomson Reuters (Westlaw AI, CoCounsel), Harvey AI, vLex Vincent (AALL award winner), and Fastcase. Vendor selection requires seventeen hard questions across six categories. Implementation requires five phases over sixteen weeks minimum. Verification protocols are non-negotiable for all AI-assisted work. ROI requires honest accounting for verification overhead. AI works as assistant with verification but fails as autonomous tool. Policy and training are required before deployment. Zero-tolerance professions (legal, medical) show AI limitations clearly. This framework applies to any high-stakes AI adoption decision.
+
+The lesson for all executives: Specialized doesn't equal reliable. Vendor claims don't equal verified performance. Demos don't equal production reality. Verification discipline equals the difference between AI value and AI disaster.

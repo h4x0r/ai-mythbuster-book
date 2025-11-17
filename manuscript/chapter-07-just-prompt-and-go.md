@@ -1,4 +1,4 @@
-# Chapter 5: Myth - "Just Prompt and Go" / Reality - "Engineering Good Results"
+# Chapter 7: Myth - "Just Prompt and Go" / Reality - "Engineering Good Results"
 
 ## The Magical Thinking Problem
 
@@ -18,13 +18,7 @@ The answer: **You're expecting AI to read your mind.**
 
 Remember from Chapter 2: AI completes patterns. It doesn't reason about what you actually need; it predicts what usually comes next based on similar patterns.
 
-When you say "Write a marketing plan," AI has to guess:
-- What type of product or service?
-- What industry and market?
-- What stage (launch, growth, mature)?
-- What goals (awareness, leads, revenue)?
-- What format (one-page, comprehensive, executive summary)?
-- What audience (board, team, external partners)?
+When you say "Write a marketing plan," AI has to guess the type of product or service, the industry and market, the stage (launch, growth, mature), the goals (awareness, leads, revenue), the format (one-page, comprehensive, executive summary), and the audience (board, team, external partners).
 
 Without this context, AI picks the most common pattern: Generic Marketing Plan Template #4,392.
 
@@ -43,15 +37,8 @@ Let me show you the difference between a weak prompt and a strong prompt:
 ```
 
 ### What AI Gets From This
-- No product context
-- No target audience
-- No goals or metrics
-- No timeline
-- No constraints
-- Default format: whatever's most common in training data
 
-### What You Get
-A 5-page generic template that could apply to any product. Sections on "target market" that don't identify your actual market. "Marketing channels" that list every channel without prioritization. No actionable insights.
+With no product context, no target audience, no goals or metrics, no timeline, and no constraints, AI defaults to whatever's most common in training data. You get a five-page generic template that could apply to any product, with sections on "target market" that don't identify your actual market, "marketing channels" that list every channel without prioritization, and no actionable insights.
 
 **Time saved:** 0 minutes (because you can't use it)
 **Time wasted:** 5 minutes reading unusable output
@@ -74,15 +61,11 @@ Format: Executive summary style, bullet points, suitable for board presentation.
 ```
 
 ### What AI Gets From This
-- Specific product and market
-- Clear scope and timeline
-- Explicit sections to include
-- Competitive context
-- Measurable goals
-- Format requirements
-- Audience context
+
+AI now has specific product and market, clear scope and timeline, explicit sections to include, competitive context, measurable goals, format requirements, and audience context.
 
 ### What You Get
+
 A usable first draft that includes your specific context. You'll still need to review and refine, but you've got 70% of the work done in 30 seconds instead of starting from scratch.
 
 **Time saved:** 40 minutes (draft generation vs blank page)
@@ -199,7 +182,7 @@ After testing hundreds of prompts, I've found five elements that consistently im
 
 ## Overcoming AI Limitations Through Structure
 
-Remember from Chapter 4: AI hallucinates, especially on precision tasks. Here's how to work around those limitations:
+Remember from Chapter 5: AI hallucinates, especially on precision tasks. Here's how to work around those limitations:
 
 ### Limitation: AI Can't Count or Calculate Reliably
 
@@ -219,7 +202,7 @@ AI writes the script (it's good at code). The script does the counting (it's goo
 
 **Instead:** "Here's our remote work policy document: [paste it]. Summarize the key rules in bullet points for new hires."
 
-This is RAG (Retrieval Augmented Generation) - you provide the source material, AI summarizes it.
+This is RAG (Retrieval Augmented Generation). You provide the source material, AI summarizes it.
 
 **Principle:** Feed AI the information it needs. Don't expect it to know company-specific details.
 
@@ -241,56 +224,31 @@ You provide facts, AI formats them.
 
 **Don't ask AI:** [One massive prompt with 10 interdependent steps]
 
-**Instead:** Break into steps:
-1. AI does step 1
-2. You verify and provide output to step 2
-3. AI does step 2
-4. You verify and provide output to step 3
-5. Continue...
+**Instead:** Break into steps. AI does step 1, you verify and provide output to step 2. AI does step 2, you verify and provide output to step 3. Continue this pattern.
 
 **Principle:** Human-in-the-loop for complex reasoning. AI handles individual steps, you verify logic between steps.
 
 ## The Right Tool for the Job
 
-Not all AI tools are created equal. Using general-purpose AI for specialized tasks is like using a Swiss Army knife for surgery - technically it has a blade, but you want the right tool.
+Not all AI tools are created equal. Using general-purpose AI for specialized tasks is like using a Swiss Army knife for surgery. Technically it has a blade, but you want the right tool.
 
 ### General-Purpose AI (ChatGPT, Claude, Gemini)
 
-**Use for:**
-- Drafting and editing text
-- Summarizing documents
-- Brainstorming ideas
-- General research
-- Format conversion
+Good for drafting and editing text, summarizing documents, brainstorming ideas, general research, and format conversion.
 
-**Don't use for:**
-- Mission-critical code (will work but might have subtle bugs)
-- Legal or compliance documents (hallucination risk too high)
-- Financial calculations (use spreadsheets)
-- Highly specialized domains (use purpose-built tools)
+Not suitable for mission-critical code (will work but might have subtle bugs), legal or compliance documents (hallucination risk too high), financial calculations (use spreadsheets), or highly specialized domains (use purpose-built tools).
 
 ---
 
 ### Purpose-Built AI Tools
 
-Different tools for different jobs:
+Different tools for different jobs.
 
-**Code generation and review:**
-- **GitHub Copilot:** Good for writing code as you type
-- **Augment Code:** Good for code review without regenerating code (less hallucination)
-- **Claude Code:** Good for iterative coding with human oversight
+**Code generation and review:** GitHub Copilot is good for writing code as you type. Augment Code is good for code review without regenerating code (less hallucination). Claude Code is good for iterative coding with human oversight. Each is optimized for specific workflows. Use the right one for your task.
 
-Each optimized for specific workflows. Use the right one for your task.
+**Data analysis:** General AI can describe trends but might hallucinate statistics. Excel plus AI plugins let AI suggest formulas while Excel calculates (precision preserved). Purpose-built analytics tools use AI to identify patterns validated by statistical methods.
 
-**Data analysis:**
-- **General AI:** Can describe trends, but might hallucinate statistics
-- **Excel + AI plugins:** AI suggests formulas, Excel calculates (precision preserved)
-- **Purpose-built analytics tools:** AI identifies patterns, validated by statistical methods
-
-**Content creation:**
-- **General AI:** Good for first drafts, general content
-- **Jasper, Copy.ai:** Optimized for marketing copy (trained on high-converting examples)
-- **Grammarly:** AI-powered editing, not generation (different use case)
+**Content creation:** General AI is good for first drafts and general content. Jasper and Copy.ai are optimized for marketing copy (trained on high-converting examples). Grammarly provides AI-powered editing, not generation (different use case).
 
 **Principle:** Match the tool to the task. General AI for general tasks. Specialized AI for high-stakes or domain-specific work.
 
@@ -313,52 +271,36 @@ Review. Every. Time.
 Not a quick skim. Actual review:
 
 **1. Does this make logical sense?**
-- Trust your domain expertise
-- If something feels off, it probably is
-- AI doesn't have your context or judgment
+Trust your domain expertise. If something feels off, it probably is. AI doesn't have your context or judgment.
 
 **2. Are the facts accurate?**
-- Verify statistics against sources
-- Check names, dates, numbers
-- Confirm quotes are real (AI paraphrases)
+Verify statistics against sources. Check names, dates, numbers. Confirm quotes are real (AI paraphrases).
 
 **3. Is the tone appropriate?**
-- AI defaults to generic professional
-- You know your audience better
-- Adjust for relationship, context, culture
+AI defaults to generic professional. You know your audience better. Adjust for relationship, context, culture.
 
 **4. What if this is wrong?**
-- Consider consequences of errors
-- Higher stakes = more thorough review
-- Customer-facing? Board presentation? Legal document? Verify EVERYTHING.
+Consider consequences of errors. Higher stakes require more thorough review. Customer-facing? Board presentation? Legal document? Verify everything.
 
 **5. Would I defend this if questioned?**
-- If you wouldn't put your name on it, don't ship it
-- AI is your tool, not your scapegoat
-- You're accountable for the output
+If you wouldn't put your name on it, don't ship it. AI is your tool, not your scapegoat. You're accountable for the output.
 
 ### The Time Equation
 
 Some people skip review because "it takes too long."
 
-Let's do the math:
+Let's do the math.
 
 **Scenario: Drafting a project proposal**
 
 **Option A: Write it yourself**
-- Time: 2 hours
-- Quality: High (you know the project)
-- Risk: Low (you caught errors as you wrote)
+Time: 2 hours. Quality: High (you know the project). Risk: Low (you caught errors as you wrote).
 
 **Option B: AI generates, you ship without review**
-- Time: 5 minutes
-- Quality: Unknown (might be great, might be garbage)
-- Risk: HIGH (hallucinations, wrong tone, missing context)
+Time: 5 minutes. Quality: Unknown (might be great, might be garbage). Risk: HIGH (hallucinations, wrong tone, missing context).
 
 **Option C: AI generates, you review and refine**
-- Time: 30 minutes (5 min generation + 25 min review/editing)
-- Quality: High (AI draft + your expertise)
-- Risk: Low (you caught errors in review)
+Time: 30 minutes (5 min generation plus 25 min review and editing). Quality: High (AI draft plus your expertise). Risk: Low (you caught errors in review).
 
 **Option C is the winner: 75% time savings, high quality, low risk.**
 
@@ -370,21 +312,11 @@ One of the best productivity hacks: Build a library of proven prompts for your c
 
 ### How to Build It
 
-1. **Identify recurring tasks**
-   - Weekly status updates
-   - Client proposals
-   - Meeting summaries
-   - Data analysis requests
-   - Email responses
+**Step 1: Identify recurring tasks.** Look for weekly status updates, client proposals, meeting summaries, data analysis requests, and email responses.
 
-2. **Develop a strong prompt for each**
-   - Include all five elements (context, format, constraints, examples, success criteria)
-   - Test and refine until output is consistently good
-   - Save the working prompt as a template
+**Step 2: Develop a strong prompt for each.** Include all five elements (context, format, constraints, examples, success criteria). Test and refine until output is consistently good. Save the working prompt as a template.
 
-3. **Create fill-in-the-blank templates**
-
-Example template:
+**Step 3: Create fill-in-the-blank templates.** Here's an example template:
 
 ```
 Summarize this [MEETING TYPE] meeting for [AUDIENCE]. Focus on [KEY TOPICS].
@@ -402,10 +334,7 @@ Max length: [LENGTH]
 
 When you need it, just fill in the brackets and paste.
 
-4. **Share with your team**
-   - Create a shared document of proven prompts
-   - Standardize output quality across team
-   - Onboard new team members faster
+**Step 4: Share with your team.** Create a shared document of proven prompts. Standardize output quality across team. Onboard new team members faster.
 
 ## Monday Morning Action Plan
 
@@ -417,12 +346,7 @@ Pick a task you've tried with AI before that gave mediocre results.
 
 **Step 1:** Use your original weak prompt. Save the output.
 
-**Step 2:** Rewrite the prompt with all five elements:
-- Context (situation and audience)
-- Format (specific structure)
-- Constraints (boundaries and limits)
-- Examples (what good looks like)
-- Success criteria (how you'll know it's right)
+**Step 2:** Rewrite the prompt with all five elements (context for situation and audience, format for specific structure, constraints for boundaries and limits, examples of what good looks like, and success criteria for how you'll know it's right).
 
 **Step 3:** Compare outputs. Measure improvement.
 
@@ -434,12 +358,7 @@ Pick a task you've tried with AI before that gave mediocre results.
 
 Identify your most frequent AI task (status updates, summaries, emails, whatever).
 
-Create a fill-in-the-blank prompt template:
-1. Include all five elements
-2. Mark what changes each time with [BRACKETS]
-3. Test it 3 times with real examples
-4. Refine until consistently good
-5. Save it somewhere accessible
+Create a fill-in-the-blank prompt template. Include all five elements. Mark what changes each time with brackets. Test it three times with real examples. Refine until consistently good. Save it somewhere accessible.
 
 **Goal:** Reusable prompt that saves time every time you use it.
 
@@ -449,10 +368,7 @@ Create a fill-in-the-blank prompt template:
 
 Pick one task where you've been using general-purpose AI.
 
-Research: Is there a purpose-built tool for this?
-- Code? Try Copilot or Augment
-- Marketing copy? Try specialized tools
-- Data analysis? Try AI-enhanced analytics platforms
+Research whether there's a purpose-built tool for this. For code, try Copilot or Augment. For marketing copy, try specialized tools. For data analysis, try AI-enhanced analytics platforms.
 
 Try the specialized tool. Compare quality and time vs general AI.
 
@@ -463,6 +379,7 @@ Try the specialized tool. Compare quality and time vs general AI.
 ### Experiment 4: The Review Checklist (Ongoing)
 
 Create your personal AI output review checklist:
+
 - □ Logical sense check
 - □ Facts verified
 - □ Tone appropriate
@@ -476,11 +393,7 @@ Print it. Put it next to your monitor. Use it every time.
 
 "Just prompt and go" is magical thinking.
 
-Real productivity comes from:
-- Writing specific, structured prompts (prompt engineering)
-- Using the right tool for the job (general vs specialized)
-- Reviewing output before shipping (human-in-the-loop)
-- Building reusable templates (efficiency over time)
+Real productivity comes from writing specific, structured prompts (prompt engineering), using the right tool for the job (general vs specialized), reviewing output before shipping (human-in-the-loop), and building reusable templates (efficiency over time).
 
 The executives getting 2-3x productivity from AI aren't lucky. They're not AI whisperers with secret knowledge. They're just being specific about what they want and verifying what they get.
 
@@ -488,18 +401,12 @@ Prompt engineering isn't magic. It's communication. You're communicating clearly
 
 The better your communication, the better the results.
 
-In the next chapter, we'll tackle the seductive danger of "vibe coding" - the gap between impressive demos and production-ready systems.
+In the next chapter, we'll tackle the seductive danger of "vibe coding": the gap between impressive demos and production-ready systems.
 
 ---
 
 **Chapter Summary:**
 
-✓ Weak prompts get weak results (garbage in, garbage out)
-✓ Strong prompts include: context, format, constraints, examples, success criteria
-✓ Use AI to create precision tools (scripts) rather than doing precision tasks directly
-✓ RAG (feed AI your documents) overcomes hallucination on company-specific info
-✓ Match tool to task: general AI for general work, specialized AI for specialized work
-✓ ALWAYS review AI output before shipping - no exceptions
-✓ Build a prompt library for recurring tasks (reusable efficiency)
+Weak prompts get weak results (garbage in, garbage out). Strong prompts include context, format, constraints, examples, and success criteria. Use AI to create precision tools (scripts) rather than doing precision tasks directly. RAG (feed AI your documents) overcomes hallucination on company-specific info. Match tool to task: general AI for general work, specialized AI for specialized work. Always review AI output before shipping (no exceptions). Build a prompt library for recurring tasks (reusable efficiency).
 
-**Next Chapter:** Myth - "Demos = Production Ready" / Reality - "The Vibe Coding Gap"
+**Next Chapter:** Myth - "Demos Equal Production Ready" / Reality - "The Vibe Coding Gap"
