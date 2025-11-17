@@ -1,5 +1,4 @@
 {frontmatter}
-title-page.md
 acknowledgments.md
 {mainmatter}
 chapter-01-introduction.md
