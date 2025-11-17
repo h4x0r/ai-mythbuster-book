@@ -10,6 +10,6 @@ This book exists because dozens of executives asked me the same questions about 
 
 To the colleagues and clients who reviewed drafts, challenged assumptions, and shared their own expensive AI lessons - your honesty made this better. Special thanks to those who admitted their mistakes publicly so others could learn privately.
 
-A note on AI assistance: This book was written with Claude (Anthropic's AI assistant). Every chapter was extensively reviewed, rewritten, fact-checked, and cited to professional standards. The irony of using AI to write a book debunking AI hype isn't lost on me - it's exactly the point. AI is a powerful tool when used with verification and judgment. I take full responsibility for every word, claim, and recommendation in these pages.
+A note on AI assistance: This book was written with Claude (Anthropic's AI assistant). Every chapter was extensively reviewed, rewritten, fact-checked, and cited to professional standards. The irony of using AI to write a book debunking AI hype isn't lost on me. That's exactly the point. AI is a powerful tool when used with verification and judgment. I take full responsibility for every word, claim, and recommendation in these pages.
 
 Finally, to the readers: If this book saves you from one expensive AI mistake or helps you spot one genuine opportunity, it's done its job. The goal isn't to make you an AI expert - it's to make you strategically competent with a confusing tool. If you got that, we both succeeded.
