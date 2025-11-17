@@ -56,7 +56,7 @@ This is a guide to pragmatic AI adoption for executives and managers. Not a tech
 
 ## Who This Book Is For
 
-You're in the right place if you're an executive or middle manager trying to understand AI's real value. This book is for you if you've tried AI and gotten mixed results, if you're pressured to "adopt AI" but unsure where to start, or if you're worried about job displacement or falling behind.
+You're in the right place if you're an executive or manager trying to understand AI's real value. This book is for you if you've tried AI and gotten mixed results, if you're pressured to "adopt AI" but unsure where to start, or if you're worried about job displacement or falling behind.
 
 It's for people who want honest answers instead of marketing pitches. People who need practical guidance rather than theoretical concepts.
 
