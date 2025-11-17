@@ -12,6 +12,6 @@ This book is Albert's answer to that repetition - a distillation of three decade
 
 Albert believes AI is neither miracle nor apocalypse. It's a powerful tool that requires skill to use well and honesty to assess clearly. This book reflects that philosophy: no hype, no panic, just pragmatic guidance for people trying to make informed decisions.
 
-Connect with Albert on LinkedIn at linkedin.com/in/alberthui or via email at albert@securityronin.com. He's particularly interested in hearing from executives implementing AI strategies - both the wins and the expensive lessons.
+Connect with Albert on LinkedIn at [linkedin.com/in/alberthui](https://www.linkedin.com/in/alberthui) or via email at [albert@securityronin.com](mailto:albert@securityronin.com). He's particularly interested in hearing from executives implementing AI strategies - both the wins and the expensive lessons.
 
 He's based in London, where he continues to advise organizations on technology risk and strategic adoption. When he's not explaining AI to skeptics or warning enthusiasts, he's usually savouring whisky (single malt, cask strength).
