@@ -2,243 +2,137 @@
 
 ## You're Not Alone
 
-Let me guess why you're reading this book.
+You're reading this book because someone made you a promise about AI.
 
-Someone told you AI will "10x your productivity." Or maybe you read that AI will make your job obsolete. Possibly both, from the same person, in the same conversation.
+The promise varies. Maybe a vendor claimed AI would 10x your productivity. Maybe you read that AI will make your job obsolete. Possibly you heard both predictions from the same person in the same week.
 
-You've tried ChatGPT or Claude. Sometimes it's shockingly good - it drafts an email better than you would have written. Other times it's confidently wrong about basic facts, and you waste 20 minutes verifying and fixing its output.
+Your experience with AI has been confusing. Sometimes ChatGPT or Claude drafts an email better than you would have written it. Other times the same tool confidently states wrong facts, and you waste 20 minutes verifying and fixing the output.
 
 You've seen demos of AI coding assistants building entire apps in minutes. You've also heard horror stories about security vulnerabilities and unmaintainable code.
 
-Your CEO is asking: "How are we leveraging AI?" Your team is asking: "Will this replace us?" You're caught in the middle, trying to separate hype from reality, opportunity from risk.
+Meanwhile, your CEO asks how the company is using AI. Your team asks whether this technology will replace them. You're caught in the middle, trying to separate hype from reality and opportunity from risk.
 
-**You're confused. And honestly? You should be.**
+The confusion is rational. The AI conversation is a mess right now. Marketing hype collides with fear-mongering. The truth sits somewhere in the middle, buried under noise.
 
-The AI conversation is a mess right now. Marketing hype ("Revolutionary! Game-changing! 10x productivity!") collides with fear-mongering ("Jobs are obsolete! Human work is over!"). The truth is somewhere in the middle, but good luck finding it.
-
-This book cuts through the noise. No hype. No panic. Just honest assessment of what AI actually does, where it helps, where it fails, and how to use it productively without making expensive mistakes.
+This book cuts through that noise. No hype. No panic. Just honest assessment of what AI actually does, where it helps, where it fails, and how to use it productively without making expensive mistakes.
 
 ## The Hype Cycle Has Outpaced Reality
 
-Here's what you hear:
+Here's what you hear from different sources:
 
-**From vendors:** "Our AI will transform your business overnight!"
+Vendors promise their AI will transform your business overnight. Headlines announce "AI Achieves Human-Level Performance" without mentioning the specific benchmark, controlled conditions, or narrow task involved. Consultants warn that companies must adopt AI immediately or get left behind.
 
-**From headlines:** "AI Achieves Human-Level Performance!" (On one specific benchmark, under specific conditions, not mentioned in the headline.)
-
-**From consultants:** "Companies that don't adopt AI immediately will be left behind!"
-
-**From skeptics:** "AI is just glorified autocomplete. It's overhyped."
-
-**From doomers:** "AI will replace all knowledge workers by 2030."
+Skeptics dismiss AI as glorified autocomplete, overhyped and underdelivering. Doomers predict AI will replace all knowledge workers by 2030.
 
 Who's right? Frustratingly, they're all partially right and mostly misleading.
 
-**The reality:**
-- AI is genuinely powerful for specific tasks
-- AI is genuinely limited in ways that aren't obvious
-- AI adoption requires skill, not just access
-- AI changes work but doesn't eliminate it
-- Most productivity claims are exaggerated
-- Most fear-mongering is also exaggerated
+The reality is more complex. AI genuinely excels at specific tasks. AI also has genuine limitations that aren't obvious at first. Adoption requires skill, not just access to the technology. AI changes how work gets done but doesn't eliminate the work itself. Most productivity claims are exaggerated. Most fear-mongering is also exaggerated.
 
-The gap between hype and reality is costing companies millions. I've watched executives:
-- Abandon AI after disappointing results (because expectations were inflated)
-- Ship AI-generated content without review (because they trusted it too much)
-- Over-invest in AI for the wrong tasks (because they didn't understand limitations)
-- Under-invest in training (because they assumed it's simple to use)
+The gap between hype and reality costs companies millions. I've watched executives abandon AI after disappointing results because their expectations were inflated. I've seen them ship AI-generated content without review because they trusted the output too much. They over-invest in AI for the wrong tasks because they don't understand the limitations, then under-invest in training because they assume using AI is simple.
 
-**You can avoid these mistakes. But first, you need clarity about what AI actually is.**
+You can avoid these mistakes. But first, you need clarity about what AI actually is.
 
-I'm Albert Hui, and I've spent thirty years watching tech trends cycle through hype, disappointment, and eventual calibration. As IBM's Global Security Architect, I worked at a company that's been experimenting with AI since the 1950s - long before it was trendy. Later, as a Risk Advisory Director at Deloitte and now as a Cyber Security Advisor at the Institute of Directors, I've seen what happens when organizations chase trends without understanding fundamentals.
+I'm Albert Hui, and I've spent thirty years watching technology trends cycle through hype, disappointment, and eventual calibration. As IBM's Global Security Architect, I worked at a company that's been experimenting with AI since the 1950s, long before it was trendy. Later, as a Risk Advisory Director at Deloitte and now as a Cyber Security Advisor at the Institute of Directors, I've seen what happens when organizations chase trends without understanding fundamentals.
 
-With generative AI, I've become what I call a cautious change agent - navigating between "AI will change everything" and "AI changes nothing" because the truth is more nuanced and more useful than either extreme. I found myself having the same conversation dozens of times: explaining to conservative executives why they can't ignore this, then immediately warning reckless adopters about the dangers they weren't seeing.
+With generative AI, I've become what I call a cautious change agent. I navigate between "AI will change everything" and "AI changes nothing" because the truth is more useful than either extreme. I found myself having the same conversation dozens of times: explaining to conservative executives why they can't ignore this technology, then immediately warning reckless adopters about dangers they weren't seeing.
 
 This book is my attempt to stop repeating myself. It's a distillation of pattern-spotting across three decades, Big Tech AI history, enterprise risk assessment, and countless conversations with people trying to figure out what's real. I'm not here to sell you AI. I'm here to help you use it without making expensive mistakes I've watched others make.
 
 ## What This Book Will (and Won't) Do
 
-### This Book Will:
+This book will explain what AI actually is. Spoiler: it's sophisticated pattern completion, not thinking. It will set realistic expectations about productivity gains: 2-3x improvement in specific tasks, not universal 10x magic.
 
-**✅ Explain what AI actually is** (spoiler: sophisticated pattern completion, not thinking)
+You'll learn where AI genuinely helps. Drafting, summarizing, brainstorming, and format conversion are the sweet spots. You'll also learn where AI fails: hallucinations in precision tasks, struggles with novel problems, and inability to make judgment calls.
 
-**✅ Set realistic expectations** (2-3x productivity in specific tasks, not universal 10x)
+I'll give you practical frameworks for what to try first, what to avoid, and how to measure results. You'll learn how to avoid expensive mistakes by understanding verification requirements, when to use specialized tools instead of AI, and the critical gap between demos and production-ready systems.
 
-**✅ Show you where AI helps** (drafting, summarizing, brainstorming, format conversion)
+Most importantly, you'll get actionable next steps. What to do Monday morning. How to build team literacy around AI. Real experiments you can run this week.
 
-**✅ Show you where AI fails** (hallucinations, precision tasks, novel problems, judgment calls)
+This book won't teach you to code, though it will explain vibe coding and its limits. It won't promise magical productivity. You're getting honest assessment only. I won't attempt to cover every AI tool on the market. Instead, we'll focus on principles that apply across tools regardless of which vendor you choose.
 
-**✅ Give you practical frameworks** (what to try first, what to avoid, how to measure results)
+I won't predict the future, because AI evolves too fast for predictions to hold. And this book won't replace hands-on experimentation. You'll still need to try things yourself.
 
-**✅ Help you avoid expensive mistakes** (verification requirements, when to use specialized tools, production vs demo)
-
-**✅ Provide actionable next steps** (what to do Monday morning, how to build team literacy)
-
-### This Book Won't:
-
-**❌ Teach you to code** (though it will explain vibe coding and its limits)
-
-**❌ Promise magical productivity** (honest assessment only)
-
-**❌ Cover every AI tool** (focus is on principles that apply across tools)
-
-**❌ Predict the future** (AI evolves too fast for predictions to hold)
-
-**❌ Replace hands-on experimentation** (you'll need to try things yourself)
-
-**This is a guide to pragmatic AI adoption for executives and managers.** Not a technical manual. Not a hype document. Not a fear-mongering warning. A realistic roadmap.
+This is a guide to pragmatic AI adoption for executives and managers. Not a technical manual. Not a hype document. Not a fear-mongering warning. A realistic roadmap.
 
 ## Who This Book Is For
 
-**You're in the right place if:**
+You're in the right place if you're an executive or middle manager trying to understand AI's real value. This book is for you if you've tried AI and gotten mixed results, if you're pressured to "adopt AI" but unsure where to start, or if you're worried about job displacement or falling behind.
 
-- You're an executive or middle manager trying to understand AI's real value
-- You've tried AI and gotten mixed results
-- You're pressured to "adopt AI" but unsure where to start
-- You're worried about job displacement or falling behind
-- You want honest answers, not marketing pitches
-- You need practical guidance, not theoretical concepts
+It's for people who want honest answers instead of marketing pitches. People who need practical guidance rather than theoretical concepts.
 
-**You're in the wrong place if:**
+You're in the wrong place if you want to build AI systems from scratch. This is about using AI, not creating it. If you're looking for academic deep dives into machine learning, this book is too pragmatic for your needs. And if you already have an AI strategy that's working well, you probably don't need this, though you might still find useful calibration.
 
-- You want to build AI systems from scratch (this is about using AI, not creating it)
-- You're looking for academic deep dives into machine learning (this is pragmatic, not theoretical)
-- You already have an AI strategy that's working well (though you might still find useful calibration)
-
-**Technical background not required.** I'll explain concepts clearly without jargon. When technical terms are necessary, I'll define them.
+Technical background not required. I'll explain concepts clearly without jargon. When technical terms are necessary, I'll define them.
 
 ## How This Book Is Structured
 
-We're going to bust five myths that are clouding your judgment about AI:
+We're going to bust five myths that cloud judgment about AI.
 
-**Myth #1: "AI Can Think"**
-- Reality: AI completes patterns, it doesn't reason
-- Why this matters: Understanding the mechanism helps you use the tool correctly
-- Chapter 2
+**Myth 1: "AI Can Think"** appears in Chapter 2. Reality: AI completes patterns, it doesn't reason. Why this matters: understanding the mechanism helps you use the tool correctly.
 
-**Myth #2: "AI Will Replace You"**
-- Reality: AI augments your work, you still own judgment and relationships
-- Why this matters: Reduces fear, clarifies where you add value
-- Chapter 3
+**Myth 2: "AI Will Replace You"** gets addressed in Chapter 3. Reality: AI augments your work, you still own judgment and relationships. Why this matters: reduces fear, clarifies where you add value.
 
-**Myth #3: "AI Is Always Right"**
-- Reality: AI hallucinates frequently, confidence ≠ correctness
-- Why this matters: Teaches you when to trust vs verify
-- Chapter 4
+**Myth 3: "AI Is Always Right"** is the focus of Chapter 4. Reality: AI hallucinates frequently, and confidence doesn't equal correctness. Why this matters: teaches you when to trust versus verify output.
 
-**Myth #4: "Just Prompt and Go"**
-- Reality: Good results require good prompts and verification
-- Why this matters: Shows you how to actually get useful output
-- Chapter 5
+**Myth 4: "Just Prompt and Go"** gets examined in Chapter 5. Reality: good results require good prompts and verification. Why this matters: shows you how to actually get useful output.
 
-**Myth #5: "Demos = Production Ready"**
-- Reality: The gap between MVP and production is 80% of the work
-- Why this matters: Prevents catastrophic timeline and budget errors
-- Chapter 6
+**Myth 5: "Demos Equal Production Ready"** gets debunked in Chapter 6. Reality: the gap between MVP and production is 80% of the work. Why this matters: prevents catastrophic timeline and budget errors.
 
-**Finally: Your Realistic AI Action Plan**
-- Practical frameworks for what to try, what to avoid, how to measure
-- Chapter 7
+**Finally, Chapter 7 provides your realistic AI action plan.** Practical frameworks for what to try, what to avoid, and how to measure success.
 
-Each chapter follows the same structure:
-1. **The myth and why it's believed**
-2. **The reality with concrete examples**
-3. **Practical implications for your work**
-4. **Monday morning action plan** (experiments you can run this week)
+Each chapter follows the same structure. First, the myth and why people believe it. Second, the reality with concrete examples. Third, practical implications for your work. Fourth, a Monday morning action plan with experiments you can run this week.
 
-You can read straight through, or jump to the chapter addressing your biggest question. But I recommend reading in order - each chapter builds on previous ones.
+You can read straight through or jump to the chapter addressing your biggest question. I recommend reading in order because each chapter builds on previous ones.
 
 ## What You'll Get From This Book
 
-**By the end, you'll have:**
+By the end, you'll have clear mental models for understanding what AI actually is and isn't, where it excels and where it fails, and how to think about its role in your workflow.
 
-**Clear Mental Models**
-- What AI actually is (and isn't)
-- Where it excels and where it fails
-- How to think about its role in your workflow
+You'll have practical frameworks. Three-tier task prioritization shows you where to start, what to build toward, and what to never attempt with AI. Prompt engineering principles cover the five elements of strong prompts. Verification workflows show you what to check before shipping AI output.
 
-**Practical Frameworks**
-- Three-tier task prioritization (start here, build toward this, never do this)
-- Prompt engineering principles (five elements of strong prompts)
-- Verification workflows (what to check before shipping AI output)
+Your expectations will be realistic. You'll know the actual productivity numbers: 2-3x improvement in specific tasks, not universal magic. You'll understand time requirements including review time. You'll know the right success metrics to measure.
 
-**Realistic Expectations**
-- Actual productivity numbers (2-3x in specific tasks)
-- Time requirements (including review time)
-- Success metrics (what to measure)
+You'll understand risk management. When is AI low-risk versus high-risk? What are red flags for AI misuse? What do production readiness checklists need to include to prevent disasters?
 
-**Risk Management**
-- When AI is low-risk vs high-risk
-- Red flags for AI misuse
-- Production readiness checklists
+You'll have a team scaling strategy. How to build organizational AI literacy. Proven prompt libraries your team can use immediately. Continuous learning approaches that keep pace with AI evolution.
 
-**Team Scaling Strategy**
-- How to build organizational AI literacy
-- Proven prompt libraries
-- Continuous learning approaches
-
-**Confidence**
-- You'll understand how to evaluate AI claims (hype vs reality)
-- You'll know when to experiment vs when to avoid
-- You'll measure results honestly vs believing vanity metrics
+Most importantly, you'll have confidence. You'll understand how to evaluate AI claims and separate hype from reality. You'll know when to experiment versus when to avoid AI entirely. You'll measure results honestly instead of believing vanity metrics.
 
 ## A Note on Tone
 
-I'm going to be direct with you. That means:
+I'm going to be direct with you.
 
-**I'll acknowledge AI's strengths** - When AI genuinely helps, I'll show you exactly how.
+When AI genuinely helps, I'll acknowledge its strengths and show you exactly how to use them. When AI fails or hallucinates, I'll call out its limitations and explain why they happen and how to work around them.
 
-**I'll call out AI's limitations** - When AI fails or hallucinates, I'll explain why and how to work around it.
+I won't sugarcoat mistakes. If there are common pitfalls, I'll warn you explicitly. I won't hype or fear-monger. You're getting realistic assessment only, because AI is neither miracle nor apocalypse.
 
-**I won't sugarcoat mistakes** - If there are common pitfalls, I'll warn you explicitly.
-
-**I won't hype or fear-monger** - Realistic assessment only. AI is neither miracle nor apocalypse.
-
-**I'll show you the work** - No hand-waving. Concrete examples, real prompts, actual results.
+I'll show you the work. No hand-waving. You'll see concrete examples, real prompts, and actual results.
 
 This isn't a cheerleading book about AI's glorious future. This isn't a doom-scroll about AI risk. This is a field guide for executives navigating a confusing technology transition.
 
-**My promise:** By the end, you'll understand AI well enough to make informed decisions about where and how to use it in your work.
+My promise: by the end, you'll understand AI well enough to make informed decisions about where and how to use it in your work.
 
 ## How to Read This Book
 
-### Solo Reading
+If you're reading solo, focus on the Monday Morning Action Plans at the end of each chapter. Actually run the experiments. Reading doesn't equal learning. Doing equals learning. Keep notes on what works for your specific context. Build your own prompt library as you go.
 
-If you're reading this on your own:
-- **Focus on the Monday Morning Action Plans** at the end of each chapter
-- Actually run the experiments (reading ≠ learning; doing = learning)
-- Keep notes on what works for your specific context
-- Build your own prompt library as you go
+Recommended pace: one chapter per week, with experiments between chapters. Better to internalize one concept than skim all seven.
 
-**Recommended pace:** One chapter per week, with experiments between chapters. Better to internalize one concept than skim all seven.
+If your team is reading together, assign one chapter per week. Meet Friday to discuss what resonated, what surprised you, and what you're trying next. Share experiment results: what worked, what didn't, and lessons learned. Build shared resources like prompt libraries and verification checklists.
 
-### Team Reading
+Recommended format: 30-minute Friday discussion plus collective experimentation between meetings.
 
-If your team is reading together:
-- **Assign one chapter per week**
-- Meet Friday to discuss: What resonated? What surprised you? What are we trying?
-- Share experiment results (what worked, what didn't, lessons learned)
-- Build shared resources (prompt libraries, verification checklists)
+If you're time-constrained, read Chapter 1 (this introduction) and Chapter 7 (action plan). Skim the Chapter Summary sections of Chapters 2 through 6. Jump to chapters addressing your specific confusions. Implement the three-tier framework from Chapter 7.
 
-**Recommended format:** 30-minute Friday discussion + collective experimentation between meetings.
-
-### Executive Summary Approach
-
-If you're time-constrained:
-- Read Chapter 1 (this introduction) and Chapter 7 (action plan)
-- Skim the "Chapter Summary" sections of Chapters 2-6
-- Jump to chapters addressing your specific confusions
-- Implement the three-tier framework from Chapter 7
-
-**Minimum viable reading:** Chapters 1, 4, and 7 (introduction, hallucinations, action plan).
+Minimum viable reading: Chapters 1, 4, and 7. Introduction, hallucinations, and action plan.
 
 ## One Last Thing Before We Begin
 
 You picked up this book because you're confused about AI. That confusion is rational.
 
-The AI landscape is genuinely confusing right now. Capabilities are advancing faster than best practices. Marketing hype obscures real limitations. Fear-mongering overshadows genuine opportunities.
+The AI conversation is genuinely confusing right now. Capabilities are advancing faster than best practices. Marketing hype obscures real limitations. Fear-mongering overshadows genuine opportunities.
 
-**Here's what I want you to remember:**
+Here's what I want you to remember:
 
 You don't need to become an AI expert. You need to become strategically competent with a powerful tool.
 
@@ -246,19 +140,14 @@ You don't need to use AI for everything. You need to identify where it adds valu
 
 You don't need to fear AI replacing you. You need to understand how to augment your work while maintaining the judgment layer.
 
-**This book will help you do all three.**
+This book will help you do all three.
 
-Ready? Let's start by understanding what AI actually is - and isn't.
+Ready? Start by understanding what AI actually is and isn't.
 
 ---
 
 **Chapter Summary:**
 
-✓ Everyone's confused because hype has outpaced reality
-✓ AI is genuinely powerful but also genuinely limited in non-obvious ways
-✓ This book provides realistic assessment, not hype or fear-mongering
-✓ Five myths to bust: thinking, replacement, correctness, ease of use, production readiness
-✓ You'll get: clear mental models, practical frameworks, realistic expectations, risk management, team scaling strategy
-✓ Read solo (one chapter/week with experiments) or as team (weekly discussions)
+Everyone's confused about AI because hype has outpaced reality. AI is genuinely powerful but also genuinely limited in ways that aren't obvious. This book provides realistic assessment, not hype or fear-mongering. We'll bust five myths: AI can think, AI will replace you, AI is always right, prompting is easy, and demos equal production readiness. You'll get clear mental models, practical frameworks, realistic expectations, risk management strategies, and team scaling approaches. Read solo with one chapter per week and experiments in between, or as a team with weekly discussions.
 
-**Next Chapter:** Myth - "AI Can Think" / Reality - "AI Completes Patterns"
+**Next Chapter:** Myth: "AI Can Think" / Reality: "AI Completes Patterns"
