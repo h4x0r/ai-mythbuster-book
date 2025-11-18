@@ -180,7 +180,7 @@ AI-generated demo code? Usually just the happy path.
 - Expected user flows (signup then use then logout)
 
 **Production must handle:**
-- Names with apostrophes (O'Brien), hyphens (Mary-Jane), unicode (张伟), or single letters (X)
+- Names with apostrophes (O'Brien), hyphens (Mary-Jane), non-ASCII characters (Chinese, Arabic, Cyrillic), or single letters (X)
 - Users with zero data (empty state) or thousands of items (pagination, performance)
 - Users who hit back button, refresh mid-process, have multiple tabs open, or lose internet connection mid-upload
 - Users who paste emoji, code, or malicious scripts into text fields
