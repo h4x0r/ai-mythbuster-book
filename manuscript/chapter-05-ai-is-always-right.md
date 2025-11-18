@@ -180,7 +180,7 @@ AI is unreliable when you need exact facts:
 
 Why: during training, the AI saw these facts in varied contexts with slight variations. It remembers the pattern ("this event happened in the 1960s") but not the precision ("June 15, 1963").
 
-Workaround: verify every fact. If it matters, look it up in the original source. Use AI to help you find sources, not to replace them.
+Workaround: **Always require citations.** Instruct AI: "Provide a source with URL for each factual claim." Then verify the source actually says what AI claims it says. This should be standard practice for any factual query, not just suspicious ones. If AI can't cite a source, don't trust the fact.
 
 **Recent information (anything after training cutoff)**
 
@@ -192,7 +192,7 @@ AI's training data has a cutoff date (often 12-18 months before you're using it)
 
 Why: the AI has never seen this information. It will try to extrapolate from patterns, but it's fundamentally guessing.
 
-Workaround: don't ask AI about recent events unless you're using a version with web search capabilities (and even then, verify). Use AI for historical context, not breaking news.
+Workaround: Use AI with web search or RAG capabilities. Explicitly instruct: "Base your answer only on current sources you can search, not your training data. Cite each claim with the source URL." Then verify every citation actually supports the claim. Never trust AI's memory for post-cutoff information - always require searchable sources.
 
 **Niche or specialized domains**
 
@@ -204,7 +204,7 @@ When you go deep into specialized knowledge:
 
 Why: the AI's training data is broad but shallow in specialized areas. It knows general patterns but lacks depth. And it has never seen your company's internal processes.
 
-Workaround: this is where RAG (Retrieval Augmented Generation) becomes essential. Feed AI your specific documents rather than expecting it to know your domain.
+Workaround: Use RAG (Retrieval Augmented Generation) to feed AI your specific documents. Instruct: "Base your answer only on the documents provided, not your training data. Cite the specific document and section for each claim." This forces AI to work from known-good sources rather than hallucinating from vague patterns.
 
 ## Practical Mitigation Strategies
 
@@ -248,7 +248,26 @@ Most enterprise AI tools now support RAG. It's the difference between "AI assist
 
 Lesson: never ask AI to recall information it might not have. Always provide the source material.
 
-**Strategy 3: Output Review Discipline (Non-Negotiable)**
+**Strategy 3: Always Require Citations With URLs**
+
+This should be your default for any factual query, not just suspicious ones.
+
+Prompt template: "Answer this question. Cite the source with URL for each factual claim you make. If you cannot find a reliable source, say so explicitly."
+
+Why this works:
+- Forces AI to search/use RAG rather than hallucinate from training data
+- Makes verification straightforward (you have the URLs)
+- Reveals when AI is guessing (it will admit "I cannot find a source for this")
+- Creates an audit trail for important decisions
+
+What to verify:
+- Does the cited URL actually exist? (AI can hallucinate URLs)
+- Does the source actually say what AI claims? (AI can misread or distort sources)
+- Is the source authoritative? (Random blog versus peer-reviewed research)
+
+Lesson: Citations should be mandatory for any factual claim that matters. "Trust but verify" becomes "require source, then verify source."
+
+**Strategy 4: Output Review Discipline (Non-Negotiable)**
 
 This is the most important mitigation strategy. And the one most people skip.
 

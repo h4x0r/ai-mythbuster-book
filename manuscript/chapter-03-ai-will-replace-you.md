@@ -239,7 +239,7 @@ You're accountable. That's why you get paid more than AI.
 
 **Historical Note: IBM's 1979 Warning**
 
-![IBM 1979 Management Training Slide](ibm-1979-accountability-slide.jpg)
+![IBM 1979 Management Training Slide](images/ibm-1979-accountability-slide.jpg)
 
 In 1979, IBM management training materials included a warning that now seems prophetic: "Computers don't account for themselves."
 
