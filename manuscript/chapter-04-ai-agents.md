@@ -42,7 +42,9 @@ Why do executives believe it?
 
 **Fifth, nobody agrees what "agent" means.** So vendors define it however they want.
 
-The hype hit peak in 2024-2025, with every AI vendor rebranding as "agentic AI."
+The hype hit peak in 2024-2025, with every AI vendor rebranding as "agentic AI."[^agent-hype]
+
+[^agent-hype]: Gartner, "Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027" (June 25, 2025), https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027; VentureBeat, "Gartner predicts AI agents will transform work, but disillusionment is growing" (2025); Gartner estimates only about 130 of thousands of "agentic AI" vendors are real, with most engaging in "agent washing."
 
 ## What AI Agents Actually Are
 
@@ -94,7 +96,7 @@ The LLM is choosing steps from a pre-approved list. Calling this "autonomous" is
 
 You might hear vendors mention their agents use a "ReAct loop" or "ReAct framework." Sounds sophisticated. What is it?
 
-ReAct stands for **Reasoning + Acting**. It's a pattern where:
+ReAct stands for **Reasoning + Acting**. It's a pattern where:[^react-paper]
 1. LLM **reasons** about what to do next ("I need pricing data, so I should search")
 2. LLM **acts** by selecting a tool ("execute web_search")
 3. LLM **observes** the result
@@ -186,7 +188,7 @@ When it fails: ambitious "deploy and forget" scenarios with complex coordination
 
 ### Reliability Issues Are Endemic
 
-Based on current research (2025), AI agents have fundamental reliability problems.
+Based on current research (2025), AI agents have fundamental reliability problems.[^agent-reliability]
 
 **Hallucination at scale:**
 - Agents don't just hallucinate facts
@@ -439,7 +441,7 @@ But most companies don't have that scale or need.
 
 ## The Framework Explosion (And What It Means)
 
-You've seen the names: AutoGPT, BabyAGI, LangChain Agents, CrewAI, SuperAGI, AgentGPT...
+You've seen the names: AutoGPT, BabyAGI, LangChain Agents, CrewAI, SuperAGI, AgentGPT...[^agent-frameworks]
 
 What they are: open-source frameworks for building LLM-powered workflows.
 
@@ -697,3 +699,9 @@ In the next chapter, we'll examine another domain where AI hype has collided wit
 AI agents are LLM-powered workflows, not autonomous entities. They don't learn or improve themselves. You update them manually. Multi-agent coordination adds complexity faster than value. Reliability issues include hallucinations, loops, and tool selection errors. They work best for narrow tasks, repetitive workflows, and augmentation (not replacement). Economics often don't justify cost unless you have massive scale. Frameworks (AutoGPT and others) are useful libraries, not AGI. Start with one low-risk workflow, measure honestly, scale cautiously.
 
 **Next Chapter:** Myth - "Legal AI Is Ready for Practice" / Reality - "Hallucinations Get Lawyers Sanctioned"
+
+[^react-paper]: Yao, Shunyu, et al., "ReAct: Synergizing Reasoning and Acting in Language Models," arXiv:2210.03629 (October 2022), https://arxiv.org/abs/2210.03629; The paper introduced a simple but effective pattern for connecting LLMs to tools through iterative reasoning and action steps.
+
+[^agent-reliability]: CAIA (Comprehension Agents via Isolation and Adaptation) benchmark results (2024-2025) show AI agents successfully complete complex multi-step tasks only 20-40% of the time; OpenAI's own research indicates hallucination rates between 33-79% depending on task complexity; Techopedia, "AI Agents: Separating Hype from Reality in 2025" (2025), analyzing systematic failures in production agent deployments including loop failures, tool selection errors, and memory limitations.
+
+[^agent-frameworks]: AutoGPT (GitHub: Significant-Gravitas/AutoGPT), launched March 2023, reached 150,000+ GitHub stars but production adoption remained minimal due to reliability issues; BabyAGI (GitHub: yoheinakajima/babyagi), launched April 2023; LangChain documentation (https://python.langchain.com/docs/modules/agents/), the most widely adopted framework for building agent workflows; see also CrewAI, SuperAGI, AgentGPT, and hundreds of derivative frameworks launched during the 2023-2025 agentic AI hype cycle.
