@@ -153,42 +153,18 @@ Let me walk you through what's actually missing from that two-hour web app:
 
 ### 1. Error Handling (15-20% of production work)
 
-**Demo code:**
-```
-user = create_user(email, password)
-send_welcome_email(user)
-redirect_to_dashboard()
-```
+**In demos:** A user signs up with an email and password. Success! They're redirected to the dashboard.
 
-Looks fine!
+**In production reality:** What if that email is already registered? What if the email format is invalid? What if the database crashes mid-signup? What if the welcome email service is down?
 
-**But production code needs:**
-```
-try:
-    user = create_user(email, password)
-except EmailAlreadyExists:
-    show_error("Email already registered. Try logging in?")
-    return
-except InvalidEmailFormat:
-    show_error("Please enter a valid email address.")
-    return
-except DatabaseConnectionError:
-    log_error("DB connection failed during signup")
-    show_error("Service temporarily unavailable. Please try again.")
-    alert_ops_team()
-    return
+Production systems need to handle every failure gracefully:
+- Show helpful error messages ("Email already registered. Try logging in?")
+- Log failures for debugging
+- Alert the operations team when critical services fail
+- Queue retry attempts for non-critical services
+- Decide which failures block the user vs. which let them proceed anyway
 
-try:
-    send_welcome_email(user)
-except EmailServiceDown:
-    log_warning("Welcome email failed, queuing for retry")
-    queue_email_retry(user)
-    # Still let user proceed - email is nice-to-have, not critical
-
-redirect_to_dashboard()
-```
-
-**Notice the difference?** Production code is 3-5x longer because it handles all the ways things go wrong.
+Result: Production code for user signup is 3-5x longer than demo code because it handles all the ways things go wrong.
 
 AI-generated demo code? Usually just the happy path.
 
