@@ -90,6 +90,28 @@ This is a workflow.
 
 The LLM is choosing steps from a pre-approved list. Calling this "autonomous" is like calling a choose-your-own-adventure book "autonomous storytelling."
 
+**Decoding the Buzzword: "ReAct Loop"**
+
+You might hear vendors mention their agents use a "ReAct loop" or "ReAct framework." Sounds sophisticated. What is it?
+
+ReAct stands for **Reasoning + Acting**. It's a pattern where:
+1. LLM **reasons** about what to do next ("I need pricing data, so I should search")
+2. LLM **acts** by selecting a tool ("execute web_search")
+3. LLM **observes** the result
+4. Loop back to step 1
+
+That's it. It's a fancy name for "think, act, check result, repeat."
+
+Why vendors love this term: it sounds like sophisticated AI reasoning.
+
+What it actually is: a loop. The LLM pattern-matches to choose actions, executes them, reads results, pattern-matches again.
+
+Is it useful? Yes. Is it revolutionary? No. It's a structured way to chain LLM calls with tool use.
+
+When someone says "our agents use ReAct," translate that to: "our agents call the LLM repeatedly in a loop, asking it to pick tools."
+
+Not autonomous intelligence. Just a loop pattern with a research paper name.
+
 ### They Don't Learn. You Update Them.
 
 Vendors say "the agent learns from experience and improves itself!"
@@ -233,6 +255,40 @@ What happened:
 Cost: marketing team based strategy on outdated information. Realized mistake two weeks later.
 
 Why it happened: agent had no way to verify "new" equals recent. It found a product, assumed task complete.
+
+**Decoding the Buzzword: "Deep Research Agent"**
+
+Marketing teams love this phrase. It suggests an AI that conducts thorough, PhD-level research autonomously.
+
+What it actually means: an agent that searches multiple times instead of once.
+
+Here's the "deep research" workflow:
+1. Search for topic A
+2. Read results
+3. Extract key terms
+4. Search again using those terms
+5. Repeat 2-3 times
+6. Summarize everything
+
+Why "deep"? Because it searches multiple times. That's it.
+
+The reality:
+- It's not evaluating source quality (academic paper versus Reddit comment treated equally)
+- It's not verifying facts across sources (hallucinations compound)
+- It's not understanding context (pattern-matching keywords)
+- It's not reasoning about information gaps (if it finds something, it assumes complete)
+
+"Deep" research requires:
+- Source evaluation (is this credible?)
+- Cross-referencing (do multiple sources agree?)
+- Gap identification (what am I missing?)
+- Critical thinking (does this make sense?)
+
+LLMs can't do those things reliably. They pattern-match.
+
+When a vendor pitches "deep research agents," ask: "How does it evaluate source credibility?" and "How does it know when it's found wrong information?"
+
+Usually, it doesn't. It just searches more times.
 
 ## The Real Use Cases (Where Agents Actually Work)
 
