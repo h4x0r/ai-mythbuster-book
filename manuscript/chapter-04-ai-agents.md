@@ -639,7 +639,7 @@ In the next chapter, we'll examine another domain where AI hype has collided wit
 
 AI agents are LLM-powered workflows, not autonomous entities. They don't learn or improve themselves. You update them manually. Multi-agent coordination adds complexity faster than value. Reliability issues include hallucinations, loops, and tool selection errors. They work best for narrow tasks, repetitive workflows, and augmentation (not replacement). Economics often don't justify cost unless you have massive scale. Frameworks (AutoGPT and others) are useful libraries, not AGI. Start with one low-risk workflow, measure honestly, scale cautiously.
 
-**Next Chapter:** Myth - "Legal AI Is Ready for Practice" / Reality - "Hallucinations Get Lawyers Sanctioned"
+**Next Chapter:** Myth - "AI Is Always Right" / Reality - "Hallucinations and Limitations"
 
 [^react-paper]: Yao, Shunyu, et al., "ReAct: Synergizing Reasoning and Acting in Language Models," arXiv:2210.03629 (October 2022), [source](https://arxiv.org/abs/2210.03629); The paper introduced a simple but effective pattern for connecting LLMs to tools through iterative reasoning and action steps.
 
