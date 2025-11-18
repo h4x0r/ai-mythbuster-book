@@ -1,5 +1,6 @@
 {frontmatter}
 acknowledgments.md
+glossary.md
 {mainmatter}
 chapter-01-introduction.md
 chapter-02-ai-can-think.md
@@ -11,4 +12,5 @@ chapter-07-just-prompt-and-go.md
 chapter-08-demos-equal-production.md
 chapter-09-realistic-action-plan.md
 {backmatter}
+appendix-case-studies.md
 about-author.md

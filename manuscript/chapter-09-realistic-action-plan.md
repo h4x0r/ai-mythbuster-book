@@ -87,12 +87,7 @@ Low risk. High learning value. Immediate productivity gains.
 
 **Net gain:** 15-25 minutes
 
-**Start this week:**
-- Pick your next recurring meeting
-- Transcribe it (Zoom, Teams, or Google Meet have built-in transcription)
-- Use the prompt template above
-- Compare AI summary to what you would have written
-- Refine prompt based on what's missing
+**Start this week:** Pick your next recurring meeting and use its built-in transcription feature. Apply the prompt template above and compare the AI summary to what you would have manually written. Refine your prompt based on gaps.
 
 ---
 
@@ -126,11 +121,7 @@ Low risk. High learning value. Immediate productivity gains.
 
 **Net gain:** 20-30 minutes
 
-**Start this week:**
-- Pick a routine writing task (status update, client email, team announcement)
-- Use the prompt template with your specifics
-- Edit the AI draft to add your voice and verify accuracy
-- Compare time vs writing from scratch
+**Start this week:** Select a routine writing task like a status update or client email. Use the prompt template with your specific details, then edit the AI draft to add your voice and verify accuracy. Track time savings versus writing from scratch.
 
 ---
 
@@ -164,11 +155,7 @@ Low risk. High learning value. Immediate productivity gains.
 
 **Net gain:** 30-45 minutes
 
-**Start this week:**
-- Pick a topic you need to understand for upcoming project
-- Use AI for initial landscape mapping
-- Verify key points against primary sources
-- Note what AI got right vs wrong (calibrate trust)
+**Start this week:** Choose a topic relevant to an upcoming project and use AI for initial landscape mapping. Verify key findings against primary sources and document what AI got right versus wrong to calibrate your trust level.
 
 ---
 
@@ -198,10 +185,7 @@ Low risk. High learning value. Immediate productivity gains.
 
 **Net gain:** 10-15 minutes
 
-**Start this week:**
-- Take technical documentation and convert to executive summary
-- Or take bullet points and convert to client-ready email
-- Compare AI output to what you would have written
+**Start this week:** Convert technical documentation to an executive summary, or transform bullet points into a client-ready email. Compare the AI output quality to what you would have written manually.
 
 ---
 
@@ -232,11 +216,7 @@ Low risk. High learning value. Immediate productivity gains.
 
 **Net gain:** More options to consider in less time
 
-**Start this week:**
-- Pick a problem you're stuck on
-- Ask AI for 5 different approaches
-- Evaluate them with your expertise
-- Notice which suggestions are useful vs generic
+**Start this week:** Select a problem you're currently stuck on and ask AI to generate 5 different approaches. Evaluate each suggestion using your domain expertise and note which ideas are genuinely useful versus generically applicable.
 
 ---
 
@@ -442,33 +422,13 @@ Measure real productivity:
 
 ### Good Metrics
 
-**Time Saved (Net):**
-- Track time AI took plus your review time
-- Compare to time task would have taken without AI
-- Net savings equals your metric
+**Time Saved (Net):** Track time AI took plus review time, compare to time without AI. Example: Report takes 2 hours manually, 5 minutes for AI draft plus 30 minutes review equals 85 minutes saved.
 
-**Example:** Writing report without AI takes 2 hours. AI draft generation takes 5 minutes. Your review and editing takes 30 minutes. **Net savings: 85 minutes.**
+**Quality Maintained or Improved:** Subjectively assess if output is as good or better than manual work, track errors caught in review, and monitor stakeholder feedback. Example: For weeks 1-4, rate each AI-assisted task as Better, Same, or Worse than manual.
 
-**Quality Maintained or Improved:**
-- Subjective assessment: is output as good or better than you'd produce alone?
-- Track errors caught in review
-- Monitor stakeholder feedback
+**Volume Increase:** Can you handle more work in the same time while maintaining quality standards? Example: Increasing from 3 to 5 client proposals per week at same quality equals 33% volume increase.
 
-**Example tracking:** Weeks 1-4, track all AI-assisted tasks. Rate quality: Better, Same, or Worse than manual. Calculate percentage that met or exceeded your standard.
-
-**Volume Increase:**
-- Can you handle more work in same time?
-- Same quality standards maintained?
-
-**Example:** Before AI you complete 3 client proposals per week. After AI you complete 5 client proposals per week (same quality). **33% volume increase.**
-
-**Stress Reduction:**
-- Qualitative but important
-- Are you less stressed about blank pages?
-- Do you have more time for strategic thinking?
-- Better work-life balance?
-
-**Example tracking:** Weekly reflection. What did AI help with this week? What did freed-up time enable? Energy level: More, same, or less stressed?
+**Stress Reduction:** Qualitatively assess if you're less stressed about blank pages, have more time for strategic thinking, or have better work-life balance. Example: Weekly reflection on what AI helped with, what freed-up time enabled, and whether energy level increased.
 
 ### Bad Metrics (Don't Track These)
 
@@ -490,49 +450,25 @@ Here's how to scale knowledge:
 
 ### Phase 1: Lead by Example (Week 1-4)
 
-**You:**
-- Use AI for Tier 1 tasks
-- Document what works (your prompt library)
-- Share results in team meetings ("AI helped me prep this summary in 5 minutes vs 30")
-- Show both successes and failures
-
-**Goal:** Demonstrate value without hype.
+Use AI for Tier 1 tasks, document what works in your prompt library, and share results in team meetings including both successes and failures. Goal: demonstrate value without hype.
 
 ---
 
 ### Phase 2: Provide Resources (Week 5-8)
 
-**For your team:**
-- Share this book or similar resources
-- Create internal prompt library for common tasks
-- Set up office hours for "AI questions"
-- Share your verification checklist
-
-**Goal:** Lower barrier to getting started.
+Share resources like this book, create an internal prompt library for common tasks, set up office hours for AI questions, and share your verification checklist. Goal: lower the barrier to getting started.
 
 ---
 
 ### Phase 3: Structured Experimentation (Week 9-12)
 
-**Team exercise:**
-- Everyone picks 1 Tier 1 task to try with AI this week
-- Friday retro: Share results (what worked, what didn't, lessons learned)
-- Capture learnings in shared document
-- Iterate prompts together
-
-**Goal:** Build collective knowledge.
+Have everyone pick one Tier 1 task to try with AI each week, hold Friday retrospectives to share results and lessons learned, capture learnings in a shared document, and iterate prompts together. Goal: build collective knowledge.
 
 ---
 
 ### Phase 4: Standardize What Works (Ongoing)
 
-**Institutionalize:**
-- Proven prompt templates for recurring tasks
-- Quality review checklists
-- "When to use AI" decision tree
-- Tool recommendations (general vs specialized)
-
-**Goal:** Consistent quality across team.
+Institutionalize proven prompt templates for recurring tasks, quality review checklists, a "when to use AI" decision tree, and tool recommendations. Goal: consistent quality across the team.
 
 ---
 
@@ -585,48 +521,33 @@ Stay current:
 
 **Example:** Code generation was Tier 3 two years ago. Now with tools like GitHub Copilot and proper review, it's Tier 2 for many teams.
 
-**Action:** Every quarter, pick one Tier 3 task and test if it's moved to Tier 2.
+**Quarterly action:** Test one Tier 3 task to determine if improved models or tools have made it safe enough for Tier 2.
 
 ---
 
 ### Monthly: Update Your Prompt Library
 
-**As you learn what works:**
-- Refine templates based on results
-- Add new templates for new use cases
-- Remove templates that no longer work
-- Share updates with team
+**As you learn what works:** Refine templates based on results, add new ones for emerging use cases, and remove what no longer works.
 
-**Action:** Last Friday of each month, review your prompts. What needs updating?
+**Monthly action:** Last Friday of each month, review and update your prompt library.
 
 ---
 
 ### Weekly: Share Team Learnings
 
-**What worked this week:**
-- New use case someone discovered
-- Prompt improvement that got better results
-- Tool recommendation
-- Mistake that teaches a lesson
+**What worked this week:** Share new use cases, prompt improvements, tool recommendations, and instructive mistakes.
 
-**Action:** 15 minutes in team meeting for "AI learning share."
+**Weekly action:** Reserve 15 minutes in team meetings for AI learning shares.
 
 ---
 
 ### Follow Credible Sources
 
-**Good sources for staying current:**
-- Official blogs from OpenAI, Anthropic, Google
-- Hacker News (technical but valuable)
-- Industry-specific AI communities
-- Thoughtful practitioners (not hype merchants)
+**Good sources:** Official blogs from OpenAI, Anthropic, Google; Hacker News; industry-specific AI communities; and thoughtful practitioners.
 
-**Avoid:**
-- "10x your productivity!" hype articles
-- "AI will replace [entire profession]" fear-mongering
-- Vendor marketing disguised as thought leadership
+**Avoid:** Productivity hype, fear-mongering, and vendor marketing disguised as thought leadership.
 
-**Action:** Pick 2-3 credible sources, check monthly, share relevant updates with team.
+**Monthly action:** Pick 2-3 credible sources, check monthly, and share relevant updates with your team.
 
 ---
 
@@ -636,82 +557,37 @@ Here's a concrete timeline:
 
 ### Days 1-30: Foundation
 
-**Week 1:**
-- Read this book (done!)
-- Pick 1 Tier 1 task to experiment with
-- Create your first prompt template
-- Measure time saved vs time spent reviewing
+**Week 1:** Pick one Tier 1 task, create your first prompt template, and measure time saved versus review time.
 
-**Week 2:**
-- Try 2-3 more Tier 1 tasks
-- Refine prompts based on results
-- Start prompt library document
-- Share one success with your team
+**Week 2:** Try 2-3 more Tier 1 tasks, refine your prompts, start a prompt library document, and share one success with your team.
 
-**Week 3:**
-- Master verification workflow
-- Create your review checklist
-- Test same prompt on different AI tools (compare results)
-- Document what works for your specific work
+**Week 3:** Master your verification workflow, create a review checklist, test prompts across different AI tools, and document what works for your specific work.
 
-**Week 4:**
-- Assess which Tier 1 tasks are now routine for you
-- Calculate time saved this month
-- Identify next task to try
-- Share learnings with team (optional presentation)
+**Week 4:** Assess which Tier 1 tasks are now routine, calculate total time saved this month, and share learnings with your team.
 
 ---
 
 ### Days 31-60: Expansion
 
-**Week 5:**
-- Try one Tier 2 task
-- Compare complexity to Tier 1
-- Adjust expectations (takes more time to get right)
-- Refine and iterate
+**Week 5:** Try one Tier 2 task, compare its complexity to Tier 1, adjust expectations, and refine through iteration.
 
-**Week 6:**
-- Experiment with specialized tools (if relevant to your work)
-- Compare general AI vs purpose-built for same task
-- Update your tool recommendations
+**Week 6:** Experiment with specialized tools if relevant, compare general AI versus purpose-built solutions for the same task, and update your tool recommendations.
 
-**Week 7:**
-- Try teaching someone else your approach
-- Helping them forces you to articulate what works
-- Learn from their questions and struggles
+**Week 7:** Teach someone else your approach, which forces you to articulate what works, and learn from their questions and struggles.
 
-**Week 8:**
-- Assess total time saved over 60 days
-- Quality maintained? Improved? Degraded?
-- Adjust approach based on data
+**Week 8:** Assess total time saved over 60 days, evaluate whether quality was maintained, improved, or degraded, and adjust your approach based on data.
 
 ---
 
 ### Days 61-90: Optimization
 
-**Week 9:**
-- Review all prompt templates
-- Update based on 2 months of learning
-- Delete what doesn't work
-- Standardize what does
+**Week 9:** Review all prompt templates, update based on 2 months of learning, delete what doesn't work, and standardize what does.
 
-**Week 10:**
-- Expand team usage
-- Run workshop or training session
-- Share your prompt library
-- Establish team norms
+**Week 10:** Expand team usage by running a workshop or training session, sharing your prompt library, and establishing team norms.
 
-**Week 11:**
-- Identify gaps: what tasks still take too long?
-- Are they AI-augmentable? (Tier 2) Or human-only? (Tier 3)
-- Reallocate time accordingly
+**Week 11:** Identify gaps in tasks that still take too long, determine if they're AI-augmentable (Tier 2) or human-only (Tier 3), and reallocate time accordingly.
 
-**Week 12:**
-- 90-day retrospective
-- What's the actual productivity gain? (Be honest)
-- What surprised you?
-- What would you do differently starting over?
-- Plan next 90 days
+**Week 12:** Conduct a 90-day retrospective asking what the actual productivity gain was, what surprised you, what you'd do differently, and then plan the next 90 days.
 
 ---
 
