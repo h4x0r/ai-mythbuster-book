@@ -50,9 +50,7 @@ Let me show you the difference between a weak prompt and a strong prompt:
 
 ### Weak Prompt (What Most People Type)
 
-```
-"Write a marketing plan"
-```
+    "Write a marketing plan"
 
 ### What AI Gets From This
 
@@ -78,18 +76,16 @@ You get a five-page generic template that could apply to any product:
 
 ### Strong Prompt (What Works)
 
-```
-"Write a one-page marketing plan for a B2B SaaS project management tool targeting teams of 10-50 people. Focus on the next quarter. Include:
-- Target customer profile (specific)
-- Top 3 channels for customer acquisition
-- Key message positioning vs competitors
-- Success metrics (specific numbers)
-- Budget estimate
+    "Write a one-page marketing plan for a B2B SaaS project management tool targeting teams of 10-50 people. Focus on the next quarter. Include:
+    - Target customer profile (specific)
+    - Top 3 channels for customer acquisition
+    - Key message positioning vs competitors
+    - Success metrics (specific numbers)
+    - Budget estimate
 
-Our unique differentiator is AI-powered project risk prediction. Main competitors are Asana and Monday.com. Our goal is 500 new trial signups in Q1.
+    Our unique differentiator is AI-powered project risk prediction. Main competitors are Asana and Monday.com. Our goal is 500 new trial signups in Q1.
 
-Format: Executive summary style, bullet points, suitable for board presentation."
-```
+    Format: Executive summary style, bullet points, suitable for board presentation."
 
 ### What AI Gets From This
 
@@ -481,19 +477,17 @@ Test and refine until output is consistently good. Save the working prompt as a 
 
 Here's an example template:
 
-```
-Summarize this [MEETING TYPE] meeting for [AUDIENCE]. Focus on [KEY TOPICS].
+    Summarize this [MEETING TYPE] meeting for [AUDIENCE]. Focus on [KEY TOPICS].
 
-Include:
-- Decisions made (bullet points)
-- Action items with owners
-- Open questions
-- Next steps
+    Include:
+    - Decisions made (bullet points)
+    - Action items with owners
+    - Open questions
+    - Next steps
 
-Format: [FORMAT]
-Tone: [TONE]
-Max length: [LENGTH]
-```
+    Format: [FORMAT]
+    Tone: [TONE]
+    Max length: [LENGTH]
 
 When you need it, just fill in the brackets and paste.
 

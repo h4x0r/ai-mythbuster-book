@@ -459,18 +459,7 @@ But you still have to:
 - Deal with hallucinations
 - Monitor and maintain the system
 
-**The AutoGPT reality check:**
-
-When AutoGPT launched in 2023, it was hyped as "autonomous AI that sets its own goals."
-
-What actually happened:
-- Impressive demos (in controlled scenarios)
-- Real-world usage was minimal (endless loops, hallucinations)
-- Most users found that "just asking GPT-4 directly works better"
-
-Why: adding autonomy added failure modes faster than it added value.
-
-Current state (2025): these frameworks are useful for building custom workflows. They're not autonomous AI.
+These frameworks are useful for building custom workflows. They're not autonomous AI.
 
 They're libraries.
 

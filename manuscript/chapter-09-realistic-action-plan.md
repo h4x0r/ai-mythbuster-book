@@ -67,19 +67,18 @@ Low risk. High learning value. Immediate productivity gains.
 **How to do it:**
 
 **Prompt template:**
-```
-Summarize this [meeting transcript / document / email thread] for [audience].
 
-Include:
-- Key decisions made
-- Action items with owners
-- Open questions or blockers
-- Next steps
+    Summarize this [meeting transcript / document / email thread] for [audience].
 
-Format: Bullet points
-Max length: 1 page
-Tone: Professional but concise
-```
+    Include:
+    - Key decisions made
+    - Action items with owners
+    - Open questions or blockers
+    - Next steps
+
+    Format: Bullet points
+    Max length: 1 page
+    Tone: Professional but concise
 
 **Time saved:** 20-30 minutes per summary
 
@@ -105,20 +104,19 @@ Tone: Professional but concise
 **How to do it:**
 
 **Prompt template:**
-```
-Write a [document type] for [audience] about [topic].
 
-Context: [Specific situation, constraints, background]
+    Write a [document type] for [audience] about [topic].
 
-Include:
-- [Section 1]
-- [Section 2]
-- [Section 3]
+    Context: [Specific situation, constraints, background]
 
-Tone: [Professional / Friendly / Formal / etc.]
-Length: [Specific length]
-Format: [Specific format]
-```
+    Include:
+    - [Section 1]
+    - [Section 2]
+    - [Section 3]
+
+    Tone: [Professional / Friendly / Formal / etc.]
+    Length: [Specific length]
+    Format: [Specific format]
 
 **Time saved:** 30-45 minutes per draft
 
@@ -143,21 +141,19 @@ Format: [Specific format]
 **How to do it:**
 
 **Prompt template:**
-```
-I need to research [topic] for [purpose].
+    I need to research [topic] for [purpose].
 
-I need to know:
-- [Question 1]
-- [Question 2]
-- [Question 3]
+    I need to know:
+    - [Question 1]
+    - [Question 2]
+    - [Question 3]
 
-Provide:
-- Summary of key findings (bullet points)
-- Main perspectives or approaches
-- Anything surprising or counterintuitive
+    Provide:
+    - Summary of key findings (bullet points)
+    - Main perspectives or approaches
+    - Anything surprising or counterintuitive
 
-Keep it concise - I'll do deep dives on specific areas later.
-```
+    Keep it concise - I'll do deep dives on specific areas later.
 
 **Time saved:** 45-60 minutes on initial research
 
@@ -182,17 +178,15 @@ Keep it concise - I'll do deep dives on specific areas later.
 **How to do it:**
 
 **Prompt template:**
-```
-Convert this [current format] to [desired format].
+    Convert this [current format] to [desired format].
 
-Current tone: [Describe current]
-Desired tone: [Describe desired]
+    Current tone: [Describe current]
+    Desired tone: [Describe desired]
 
-Audience: [Who will read this]
-Purpose: [What should they understand/do]
+    Audience: [Who will read this]
+    Purpose: [What should they understand/do]
 
-[Paste original text]
-```
+    [Paste original text]
 
 **Time saved:** 15-20 minutes per conversion
 
@@ -216,18 +210,16 @@ Purpose: [What should they understand/do]
 **How to do it:**
 
 **Prompt template:**
-```
-Generate [number] different approaches to [problem/challenge].
+    Generate [number] different approaches to [problem/challenge].
 
-Context: [Specific situation, constraints]
-Goal: [What you're trying to achieve]
-Constraints: [Budget, time, resources, etc.]
+    Context: [Specific situation, constraints]
+    Goal: [What you're trying to achieve]
+    Constraints: [Budget, time, resources, etc.]
 
-For each approach, briefly explain:
-- Core concept
-- Key advantage
-- Main risk or trade-off
-```
+    For each approach, briefly explain:
+    - Core concept
+    - Key advantage
+    - Main risk or trade-off
 
 **Time saved:** 20-30 minutes on brainstorming
 
@@ -257,19 +249,17 @@ Once you've mastered Tier 1, expand to these more complex tasks:
 - Use specialized tools for mission-critical analysis
 
 **Example approach:**
-```
-Analyze this sales data [paste data].
+    Analyze this sales data [paste data].
 
-Find:
-1. Top 3 fastest-growing product categories
-2. Which regions are underperforming vs target
-3. Any unusual patterns or anomalies
+    Find:
+    1. Top 3 fastest-growing product categories
+    2. Which regions are underperforming vs target
+    3. Any unusual patterns or anomalies
 
-For each finding, show:
-- Specific numbers
-- Comparison to benchmark or previous period
-- One hypothesis for why this might be happening
-```
+    For each finding, show:
+    - Specific numbers
+    - Comparison to benchmark or previous period
+    - One hypothesis for why this might be happening
 
 **Time saved:** 1-2 hours on initial analysis
 
@@ -289,20 +279,18 @@ For each finding, show:
 - Test documentation with actual users
 
 **Example approach:**
-```
-Create a step-by-step guide for [process name].
+    Create a step-by-step guide for [process name].
 
-Audience: [New employees / Existing team / External partners]
-Current pain points: [What people struggle with]
+    Audience: [New employees / Existing team / External partners]
+    Current pain points: [What people struggle with]
 
-For each step include:
-- What to do (action)
-- Why it matters (context)
-- Common mistakes to avoid
-- How to know you did it right
+    For each step include:
+    - What to do (action)
+    - Why it matters (context)
+    - Common mistakes to avoid
+    - How to know you did it right
 
-Format: Numbered list with sub-bullets
-```
+    Format: Numbered list with sub-bullets
 
 **Time saved:** 2-3 hours on documentation
 
@@ -322,19 +310,17 @@ Format: Numbered list with sub-bullets
 - Apply your strategic judgment to findings
 
 **Example approach:**
-```
-Analyze these competitor announcements [paste data].
+    Analyze these competitor announcements [paste data].
 
-Compare:
-- Our positioning vs theirs
-- Features they have that we don't
-- Gaps in their offering we could exploit
+    Compare:
+    - Our positioning vs theirs
+    - Features they have that we don't
+    - Gaps in their offering we could exploit
 
-Present as:
-- Competitive matrix (table format)
-- Strategic implications (2-3 bullet points each)
-- Recommended responses (prioritized list)
-```
+    Present as:
+    - Competitive matrix (table format)
+    - Strategic implications (2-3 bullet points each)
+    - Recommended responses (prioritized list)
 
 **Time saved:** 2-3 hours on synthesis
 
