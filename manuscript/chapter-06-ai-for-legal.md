@@ -361,7 +361,7 @@ You're in a partner meeting.
 
 The managing partner asks: "What legal AI should we buy?"
 
-Here's how to tackle vendor selection:
+The key isn't knowing which vendor to recommend today—it's knowing how to evaluate any vendor tomorrow.
 
 The legal AI market changes too quickly for static vendor recommendations. Instead, this section provides an evaluation framework you can apply to assess vendors systematically using current information.
 
