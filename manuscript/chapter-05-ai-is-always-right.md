@@ -204,7 +204,13 @@ When you go deep into specialized knowledge:
 
 Why: the AI's training data is broad but shallow in specialized areas. It knows general patterns but lacks depth. And it has never seen your company's internal processes.
 
-Workaround: Use RAG (Retrieval Augmented Generation) to feed AI your specific documents. Instruct: "Base your answer only on the documents provided, not your training data. Cite the specific document and section for each claim." This forces AI to work from known-good sources rather than hallucinating from vague patterns.
+Workaround: **If your AI has RAG capabilities**, use them. Feed AI your specific documents and instruct: "Base your answer only on the documents provided, not your training data. Cite the specific document and section for each claim."
+
+**If RAG is not available**, don't ask AI to generate specialized information at all. Instead:
+- Use AI to draft general structure and format
+- Manually fill in all specialized details yourself
+- Treat AI output as a template, not as factual content
+- Example: "Create an outline for a technical specification document for [topic]" - then you populate the actual specs
 
 ## Practical Mitigation Strategies
 
