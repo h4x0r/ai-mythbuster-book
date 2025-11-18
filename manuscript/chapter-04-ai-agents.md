@@ -44,7 +44,7 @@ Why do executives believe it?
 
 The hype hit peak in 2024-2025, with every AI vendor rebranding as "agentic AI."[^agent-hype]
 
-[^agent-hype]: Gartner, "Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027" (June 25, 2025), https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027; VentureBeat, "Gartner predicts AI agents will transform work, but disillusionment is growing" (2025); Gartner estimates only about 130 of thousands of "agentic AI" vendors are real, with most engaging in "agent washing."
+[^agent-hype]: Gartner, "Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027" (June 25, 2025), [source](https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027); VentureBeat, "Gartner predicts AI agents will transform work, but disillusionment is growing" (2025); Gartner estimates only about 130 of thousands of "agentic AI" vendors are real, with most engaging in "agent washing."
 
 ## What AI Agents Actually Are
 
@@ -519,9 +519,9 @@ Behind the slick interface and AI marketing: approximately 700 human engineers i
 
 The Wall Street Journal exposed the scheme in August 2019.[^builder-wsj] The company filed for bankruptcy in May 2025 owing $85 million to Amazon and $30 million to Microsoft. Federal prosecutors are investigating for securities fraud.[^builder-bankruptcy]
 
-[^builder-wsj]: The Wall Street Journal, "AI Startup Boom Raises Questions of Exaggerated Tech Savvy" (August 2019); see also The Register, "Builder.ai coded itself into a corner – now it's bankrupt" (May 21, 2025), https://www.theregister.com/2025/05/21/builderai_insolvency/
+[^builder-wsj]: The Wall Street Journal, "AI Startup Boom Raises Questions of Exaggerated Tech Savvy" (August 2019); see also The Register, "Builder.ai coded itself into a corner – now it's bankrupt" (May 21, 2025), [source](https://www.theregister.com/2025/05/21/builderai_insolvency/)
 
-[^builder-bankruptcy]: DevOps.com, "This Bankrupt AI Startup Was More Artificial Than Intelligent" (2025); The Pragmatic Engineer, "The Pulse #137: Builder.ai did not 'fake AI with 700 engineers'" (June 12, 2025), https://newsletter.pragmaticengineer.com/p/the-pulse-137
+[^builder-bankruptcy]: DevOps.com, "This Bankrupt AI Startup Was More Artificial Than Intelligent" (2025); The Pragmatic Engineer, "The Pulse #137: Builder.ai did not 'fake AI with 700 engineers'" (June 12, 2025), [source](https://newsletter.pragmaticengineer.com/p/the-pulse-137)
 
 The tactics were identical to 1769:
 - Show impressive but irrelevant "proof" of automation (polished UI, technical jargon)
@@ -535,13 +535,13 @@ Not all "fake it till you make it" crosses into fraud. Fireflies.ai's co-founder
 
 The critical difference: Fireflies.ai successfully automated the process with genuine AI and remains operational today. They used human-powered prototyping to prove market demand before building real technology - a legitimate MVP approach, not permanent fraud.
 
-[^fireflies]: PC Gamer, "$1 billion AI company co-founder admits that its $100 a month transcription service was originally 'two guys surviving on pizza' and typing out notes by hand" (2024); Inc, "Fireflies Co-Founder Boasted About Duping Customers With 'Two Guys' Pretending to Be AI" (2024), https://www.inc.com/tekendra-parmar/fireflies-not-really-ai/91265942
+[^fireflies]: PC Gamer, "$1 billion AI company co-founder admits that its $100 a month transcription service was originally 'two guys surviving on pizza' and typing out notes by hand" (2024); Inc, "Fireflies Co-Founder Boasted About Duping Customers With 'Two Guys' Pretending to Be AI" (2024), [source](https://www.inc.com/tekendra-parmar/fireflies-not-really-ai/91265942)
 
 **The Lesson**
 
 The SEC coined the term "AI washing" in 2024 and began criminal prosecutions in 2025. The first criminal AI fraud case (Nate Inc., April 2025) involved a company claiming 93% automation while using call centers in the Philippines to manually process 100% of transactions.[^nate-doj]
 
-[^nate-doj]: U.S. Department of Justice, U.S. Attorney's Office, Southern District of New York, "Founder and CEO of Artificial Intelligence Company Charged with Securities and Wire Fraud" (April 9, 2025); White & Case LLP, "Evolution of AI Washing Enforcement: DOJ Enters the Picture" (2025), https://www.whitecase.com/insight-alert/evolution-ai-washing-enforcement-doj-enters-picture
+[^nate-doj]: U.S. Department of Justice, U.S. Attorney's Office, Southern District of New York, "Founder and CEO of Artificial Intelligence Company Charged with Securities and Wire Fraud" (April 9, 2025); White & Case LLP, "Evolution of AI Washing Enforcement: DOJ Enters the Picture" (2025), [source](https://www.whitecase.com/insight-alert/evolution-ai-washing-enforcement-doj-enters-picture)
 
 When evaluating AI agents, remember: the line between sophisticated automation and hidden humans has been blurred for 250 years.
 
@@ -689,8 +689,8 @@ AI agents are LLM-powered workflows, not autonomous entities. They don't learn o
 
 **Next Chapter:** Myth - "Legal AI Is Ready for Practice" / Reality - "Hallucinations Get Lawyers Sanctioned"
 
-[^react-paper]: Yao, Shunyu, et al., "ReAct: Synergizing Reasoning and Acting in Language Models," arXiv:2210.03629 (October 2022), https://arxiv.org/abs/2210.03629; The paper introduced a simple but effective pattern for connecting LLMs to tools through iterative reasoning and action steps.
+[^react-paper]: Yao, Shunyu, et al., "ReAct: Synergizing Reasoning and Acting in Language Models," arXiv:2210.03629 (October 2022), [source](https://arxiv.org/abs/2210.03629); The paper introduced a simple but effective pattern for connecting LLMs to tools through iterative reasoning and action steps.
 
 [^agent-reliability]: CAIA (Comprehension Agents via Isolation and Adaptation) benchmark results (2024-2025) show AI agents successfully complete complex multi-step tasks only 20-40% of the time; OpenAI's own research indicates hallucination rates between 33-79% depending on task complexity; Techopedia, "AI Agents: Separating Hype from Reality in 2025" (2025), analyzing systematic failures in production agent deployments including loop failures, tool selection errors, and memory limitations.
 
-[^agent-frameworks]: AutoGPT (GitHub: Significant-Gravitas/AutoGPT), launched March 2023, reached 150,000+ GitHub stars but production adoption remained minimal due to reliability issues; BabyAGI (GitHub: yoheinakajima/babyagi), launched April 2023; LangChain documentation (https://python.langchain.com/docs/modules/agents/), the most widely adopted framework for building agent workflows; see also CrewAI, SuperAGI, AgentGPT, and hundreds of derivative frameworks launched during the 2023-2025 agentic AI hype cycle.
+[^agent-frameworks]: AutoGPT (GitHub: Significant-Gravitas/AutoGPT), launched March 2023, reached 150,000+ GitHub stars but production adoption remained minimal due to reliability issues; BabyAGI (GitHub: yoheinakajima/babyagi), launched April 2023; LangChain documentation ([source](https://python.langchain.com/docs/modules/agents/)), the most widely adopted framework for building agent workflows; see also CrewAI, SuperAGI, AgentGPT, and hundreds of derivative frameworks launched during the 2023-2025 agentic AI hype cycle.

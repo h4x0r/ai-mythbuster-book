@@ -95,7 +95,7 @@ The AI didn't malfunction. It did exactly what it's designed to do: complete the
 
 It just happened to complete that pattern with fictional data.
 
-[^1]: Mata v. Avianca, Inc., 22-cv-1461 (S.D.N.Y. May 27, 2023); The New York Times, "Here's What Happens When Your Lawyer Uses ChatGPT" (May 2023), https://www.nytimes.com/2023/05/27/nyregion/avianca-airline-lawsuit-chatgpt.html
+[^1]: Mata v. Avianca, Inc., 22-cv-1461 (S.D.N.Y. May 27, 2023); The New York Times, "Here's What Happens When Your Lawyer Uses ChatGPT" (May 2023), [source](https://www.nytimes.com/2023/05/27/nyregion/avianca-airline-lawsuit-chatgpt.html)
 
 **Example 2: The Confident Historical Errors**
 
@@ -240,19 +240,35 @@ Lesson: don't ask AI to do math, counting, or relational reasoning directly. Ask
 
 **Strategy 2: Implement RAG for Factual Accuracy**
 
-RAG stands for Retrieval Augmented Generation. It's a fancy term for a simple concept: instead of asking AI to recall facts from its training data (unreliable), you feed it specific documents and ask it to work from those (much more reliable).
+RAG stands for Retrieval Augmented Generation. It's a fancy term for a simple concept: instead of asking AI to recall facts from its training data (unreliable), you give it access to retrieve specific information and ask it to work from that (much more reliable).
+
+RAG includes two main approaches:
+
+1. **Document feeding**: Upload specific documents for AI to read and work from
+2. **Web search**: AI searches the internet for current information before generating its response
 
 Without RAG: "Summarize our Q3 sales performance."
 
 AI has no idea what your Q3 sales were. It will hallucinate something plausible.
 
-With RAG: "Here's our Q3 sales report [attach document]. Summarize the key findings."
+With RAG (document feeding): "Here's our Q3 sales report [attach document]. Summarize the key findings."
 
 AI reads the actual document and summarizes what's there, not what it imagines.
 
-Most enterprise AI tools now support RAG. It's the difference between "AI assistant" and "AI assistant that actually knows your business."
+With RAG (web search): AI systems like Perplexity or ChatGPT with web search enabled automatically retrieve current information from the web before answering, reducing hallucinations for factual queries.
 
-Lesson: never ask AI to recall information it might not have. Always provide the source material.
+Most enterprise AI tools now support RAG in one or both forms. It's the difference between "AI assistant" and "AI assistant that actually knows your business."
+
+**Important caveat**: Even if your AI system has RAG or web search capabilities, they might not be available at the moment you need them. Common reasons:
+- Web search requires explicit enabling per conversation
+- Document upload limits or file type restrictions
+- Subscription tier doesn't include the feature
+- Feature temporarily disabled or rate-limited
+- Privacy/security policies prohibit external access
+
+If RAG isn't available when you need it, fall back to Strategy 3 (require citations) or use AI only for structure while you manually provide the factual content.
+
+Lesson: never ask AI to recall information it might not have. Always provide the source material, or use AI with web search enabled for factual queries.
 
 **Strategy 3: Always Require Citations With URLs**
 
