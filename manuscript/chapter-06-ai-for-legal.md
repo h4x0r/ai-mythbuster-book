@@ -1,4 +1,4 @@
-# Chapter 6: Myth - "Legal AI Is Ready for Practice" / Reality - "Your Complete Adoption Decision Framework"
+# Chapter 6: Myth - "Legal AI Is Ready for Practice" / Reality - "Hallucinations Get Lawyers Sanctioned"
 
 **Legal Disclaimer:** The author is not a lawyer. Nothing in this chapter constitutes legal advice. This chapter provides general information about AI tools in legal practice for educational purposes only. Consult qualified legal counsel for specific legal advice.
 
