@@ -186,32 +186,30 @@ When it fails: ambitious "deploy and forget" scenarios with complex coordination
 
 ---
 
-**Real-World Example: The Auto-GPT Hype and Reality**
+**Real-World Example: The Auto-GPT Experiment**
 
-In March 2023, Auto-GPT exploded onto the scene with a promise that seemed too good to be true: an autonomous AI agent that would "recursively improve itself" and "achieve any goal" you gave it.
+In March 2023, Auto-GPT emerged as an ambitious open-source experiment: an autonomous AI agent that would "recursively improve itself" and "achieve any goal" you gave it.
 
-The pitch was intoxicating. Give Auto-GPT a goal like "build a profitable business" or "research and write a comprehensive report," and it would autonomously break down the task, execute steps, learn from failures, and iterate until completion.
+The vision was compelling. Give Auto-GPT a goal like "build a profitable business" or "research and write a comprehensive report," and it would autonomously break down the task, execute steps, learn from failures, and iterate until completion.
 
-No human intervention needed.
+Within weeks, it became one of the fastest-growing open-source projects in history. Hundreds of thousands of GitHub stars. Viral tweets. Developer excitement reached fever pitch.
 
-Within weeks, Auto-GPT became one of the fastest-growing open-source projects in history. Hundreds of thousands of GitHub stars. Viral tweets. Developer excitement reached fever pitch.
+Reality proved more challenging.
 
-The reality check came quickly.
+Users encountered issues that revealed fundamental limitations:
+- Agents got stuck in infinite loops, repeating the same failed searches
+- Tasks were marked complete when barely started (hallucinated completion)
+- API costs mounted quickly with limited useful output
+- Constant human intervention was needed to unstick basic failures
+- Moderately complex multi-step tasks often derailed
 
-Users discovered that Auto-GPT:
-- Got stuck in infinite loops, repeating the same failed searches over and over
-- Hallucinated that it had completed tasks when it had barely started
-- Burned through hundreds of dollars in OpenAI API credits accomplishing nothing
-- Required constant human intervention to unstick it from basic failures
-- Couldn't handle even moderately complex multi-step tasks without derailing
+The "recursive self-improvement" was the AI asking itself what to do next, often choosing poorly, with no actual learning between runs.
 
-The "recursive self-improvement" turned out to be the AI asking itself what to do next, often choosing poorly, with no actual learning between runs.
+By summer 2023, initial excitement gave way to practical challenges. The GitHub issues documented real-world usage problems. What worked in demos struggled in practice.
 
-By summer 2023, adoption had crashed. The GitHub issues list filled with frustrated users documenting failures. The hype cycle deflated as quickly as it had inflated.
+Auto-GPT's value was educational: it demonstrated the gap between ambitious autonomous agent visions and current LLM capabilities. The project showed that "choosing from a list of tools in a loop" is not the same as autonomous intelligence, even when packaged impressively.
 
-Auto-GPT wasn't a failure of engineering. It was a demonstration of the fundamental gap between "autonomous agent" marketing and "LLM choosing from a list of tools" reality.
-
-The lesson: When vendors promise autonomous AI agents, remember Auto-GPT. Impressive demos. Viral excitement. Then reality.
+The lesson: When vendors promise autonomous AI agents, ask about real-world usage patterns. Demos can be compelling. Production use reveals limitations.
 
 ---
 
