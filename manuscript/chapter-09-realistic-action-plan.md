@@ -79,6 +79,7 @@ Low risk. High learning value. Immediate productivity gains.
     Format: Bullet points
     Max length: 1 page
     Tone: Professional but concise
+{lang="text"}
 
 **Time saved:** 20-30 minutes per summary
 
@@ -117,6 +118,7 @@ Low risk. High learning value. Immediate productivity gains.
     Tone: [Professional / Friendly / Formal / etc.]
     Length: [Specific length]
     Format: [Specific format]
+{lang="text"}
 
 **Time saved:** 30-45 minutes per draft
 
@@ -154,6 +156,7 @@ Low risk. High learning value. Immediate productivity gains.
     - Anything surprising or counterintuitive
 
     Keep it concise - I'll do deep dives on specific areas later.
+{lang="text"}
 
 **Time saved:** 45-60 minutes on initial research
 
@@ -187,6 +190,7 @@ Low risk. High learning value. Immediate productivity gains.
     Purpose: [What should they understand/do]
 
     [Paste original text]
+{lang="text"}
 
 **Time saved:** 15-20 minutes per conversion
 
@@ -220,6 +224,7 @@ Low risk. High learning value. Immediate productivity gains.
     - Core concept
     - Key advantage
     - Main risk or trade-off
+{lang="text"}
 
 **Time saved:** 20-30 minutes on brainstorming
 
@@ -260,6 +265,7 @@ Once you've mastered Tier 1, expand to these more complex tasks:
     - Specific numbers
     - Comparison to benchmark or previous period
     - One hypothesis for why this might be happening
+{lang="text"}
 
 **Time saved:** 1-2 hours on initial analysis
 
@@ -291,6 +297,7 @@ Once you've mastered Tier 1, expand to these more complex tasks:
     - How to know you did it right
 
     Format: Numbered list with sub-bullets
+{lang="text"}
 
 **Time saved:** 2-3 hours on documentation
 
@@ -321,6 +328,7 @@ Once you've mastered Tier 1, expand to these more complex tasks:
     - Competitive matrix (table format)
     - Strategic implications (2-3 bullet points each)
     - Recommended responses (prioritized list)
+{lang="text"}
 
 **Time saved:** 2-3 hours on synthesis
 
