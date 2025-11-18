@@ -51,6 +51,7 @@ Let me show you the difference between a weak prompt and a strong prompt:
 ### Weak Prompt (What Most People Type)
 
     "Write a marketing plan"
+{lang="text"}
 
 ### What AI Gets From This
 
@@ -86,6 +87,7 @@ You get a five-page generic template that could apply to any product:
     Our unique differentiator is AI-powered project risk prediction. Main competitors are Asana and Monday.com. Our goal is 500 new trial signups in Q1.
 
     Format: Executive summary style, bullet points, suitable for board presentation."
+{lang="text"}
 
 ### What AI Gets From This
 
@@ -488,6 +490,7 @@ Here's an example template:
     Format: [FORMAT]
     Tone: [TONE]
     Max length: [LENGTH]
+{lang="text"}
 
 When you need it, just fill in the brackets and paste.
 
