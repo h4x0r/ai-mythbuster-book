@@ -17,6 +17,12 @@ This index provides quick reference to all real-world case studies referenced th
 
 ## Technology and Product Development
 
+**Exposed API Keys / $20,000 OpenAI Bill (Ongoing Pattern)**
+- **Chapter:** 8
+- **Issue:** AI-generated code hardcoded API keys in client-side JavaScript; bots scraped and abused the keys
+- **Consequence:** $5K-$100K+ unexpected bills; pattern repeats constantly across vibe-coded apps
+- **Key Lesson:** AI optimizes for "working demo" not "secure production." Demos don't need backend proxies, environment variables, rate limiting, or monitoring. Production does. Always ask: "Where are the API keys stored?"
+
 **Healthcare.gov Launch Disaster (2013)**
 - **Chapter:** 8
 - **Issue:** Affordable Care Act website launched with perfect demos but catastrophic production failures

@@ -218,12 +218,49 @@ AI generates functional code, not optimized code.
 - Secure session management
 - Data encryption (at rest and in transit)
 - API authentication and authorization
+- Not exposing API keys in client-side code or public repositories
 - Audit logging (who did what when)
 - Compliance (GDPR, CCPA, HIPAA, SOC2, whatever applies to your industry)
 
 **AI-generated code:** Often includes basic auth but misses many security hardening steps.
 
 **Why this matters:** Security breaches aren't just embarrassing. They're expensive (fines, lawsuits, reputation damage, customer loss).
+
+---
+
+**Cautionary Tale: The $20,000 OpenAI Bill from Exposed API Keys**
+
+A developer used AI pair programming to build a web app in a weekend. The demo worked beautifully. They deployed it to production Monday morning.
+
+By Wednesday, they received an email from OpenAI: $20,000 in API charges.
+
+What happened? The AI-generated code hardcoded the OpenAI API key directly in the client-side JavaScript. Anyone who opened the browser's developer tools could see it. Bots scrape GitHub and public websites for exposed API keys 24/7.
+
+Someone found the key, extracted it, and used it to run their own workload—cryptomining prompts, bulk content generation, whatever maximizes API usage. All billed to the original developer's account.
+
+**The pattern repeats constantly:**
+- Developer asks AI to "build a chatbot that uses GPT-4"
+- AI generates working code with `const API_KEY = "sk-proj-..."`
+- Developer tests it, sees it works, deploys immediately
+- API key is visible in browser source or committed to public GitHub repo
+- Bots find the key within hours
+- Bill arrives days later: $5K, $20K, sometimes $100K+
+
+**Why vibe coding makes this worse:**
+
+AI-generated code optimizes for "working demo" not "secure production." The code that makes the demo work fastest is putting the API key where the browser can access it directly. AI doesn't think "this will be exposed to the public" because AI doesn't understand deployment context.
+
+Traditional developers learned this lesson the hard way over decades. They know: never commit secrets, always use environment variables, always use backend proxies for API keys. These lessons aren't in the training data that AI learns from because example code skips the boring parts.
+
+**The fix isn't complicated:**
+- Backend proxy: browser calls your server, your server calls OpenAI with the key
+- Environment variables: keys stored server-side, never in client code
+- Rate limiting: cap maximum spend per user/hour
+- Monitoring: alert when usage spikes unexpectedly
+
+But demos don't need these protections. Only production does. That's the gap.
+
+**The lesson for executives:** When someone shows you a working AI-powered demo and says "we can ship this," ask: "Where are the API keys stored?" If the answer is "in the code" or "I'm not sure," you have a demo, not a product.
 
 ---
 
