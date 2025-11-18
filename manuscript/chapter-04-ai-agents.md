@@ -535,6 +535,56 @@ Failure: "Your prompts need refinement" or "You need to tune it more"
 
 Impact: vendor never at fault, you keep paying
 
+---
+
+**Historical Note: The Mechanical Turk - 250 Years of Hiding Humans Behind "Automation"**
+
+In 1769, Hungarian inventor Wolfgang von Kempelen presented Empress Maria Theresa with an "automated" chess-playing machine called the Mechanical Turk. A wooden cabinet with visible gears and a Turkish-costumed automaton appeared to play chess autonomously, defeating opponents including Napoleon Bonaparte and Benjamin Franklin.
+
+For 84 years, audiences marveled at the machine's intelligence.
+
+The reality? A hidden human chess master operated it using magnets and levers, concealed through sliding panels. When Kempelen opened the cabinet to "prove" the mechanism, carefully choreographed movements hid the operator behind visible machinery.
+
+**The Pattern Persists**
+
+Fast forward 250 years. Builder.ai (formerly Engineer.ai) promised to make app development "as easy as ordering pizza" through its AI assistant "Natasha," claiming apps could be built 6x faster and 70% cheaper than traditional methods.
+
+The company raised $445 million from Microsoft, SoftBank, and Qatar Investment Authority, achieving a $1.5 billion valuation.
+
+Behind the slick interface and AI marketing: approximately 700 human engineers in India and Ukraine manually coded every application. Workers were instructed to time communications to UK business hours and avoid Indian-English colloquialisms to maintain the AI illusion.
+
+The Wall Street Journal exposed the scheme in August 2019. The company filed for bankruptcy in May 2025 owing $85 million to Amazon and $30 million to Microsoft. Federal prosecutors are investigating for securities fraud.
+
+The tactics were identical to 1769:
+- Show impressive but irrelevant "proof" of automation (polished UI, technical jargon)
+- Hide actual human operators (offshore workers, NDAs, geographic distance)
+- Create mystique around "black box" technology
+- Eventually get exposed through whistleblowers
+
+**The Ethical Gray Area**
+
+Not all "fake it till you make it" crosses into fraud. Fireflies.ai's CTO Krish Ramineni admitted on LinkedIn that their early "AI transcription" service in 2016 was actually him and his co-founder manually joining meetings and taking notes.
+
+The critical difference: Fireflies.ai successfully automated the process with genuine AI and remains operational today. They used human-powered prototyping to prove market demand before building real technology - a legitimate MVP approach, not permanent fraud.
+
+**The Lesson**
+
+The SEC coined the term "AI washing" in 2024 and began criminal prosecutions in 2025. The first criminal AI fraud case (Nate Inc., April 2025) involved a company claiming 93% automation while using call centers in the Philippines to manually process 100% of transactions.
+
+When evaluating AI agents, remember: the line between sophisticated automation and hidden humans has been blurred for 250 years.
+
+Ask vendors:
+- "Can I see the actual error logs and failure modes?"
+- "What percentage of tasks require human intervention?"
+- "How do you handle edge cases the AI can't process?"
+- "Can I talk to customers who've used this at scale for 6+ months?"
+
+If they deflect with "proprietary technology" or "trade secrets," consider whether you're looking at the 2025 version of the Mechanical Turk.
+
+Amazon explicitly named its crowdsourcing platform "Mechanical Turk" in recognition of this history, describing it as "artificial artificial intelligence." Even they acknowledge much of what we call AI relies on invisible human labor.
+
+---
+
 How to see through it:
 - Ask to see error logs
 - Request to test with your messy real-world data
