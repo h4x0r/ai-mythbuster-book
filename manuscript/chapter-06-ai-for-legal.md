@@ -208,7 +208,7 @@ Lawyers must:
 
 What this means:
 
-Public or free AI equals privilege waiver risk. ChatGPT, Claude, and Gemini standard versions reserve the right to train on inputs. Vendor employees may read conversations for "quality control." Vendors claim perpetual license to use, modify, and create derivatives from your content.
+Public or free AI equals privilege waiver risk. ChatGPT, Claude, and Gemini free versions may use your inputs for model training unless you opt out (opt-out options added in 2025). Vendor employees may access conversations for safety monitoring, abuse investigation, and incident resolution. While vendors generally don't claim ownership of your content, their terms grant licenses to use it for service operation and improvement—which could constitute third-party disclosure for privilege purposes.
 
 Enterprise AI doesn't automatically equal safe. You must verify:
 - No training on client data
