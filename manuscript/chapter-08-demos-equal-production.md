@@ -82,6 +82,8 @@ This is true for traditional development.
 
 It's especially true for AI-generated code.
 
+![The Iceberg Problem: Demos show 20% of work, production requires the hidden 80%](images/iceberg.png)
+
 ---
 
 **Cautionary Tale: The Healthcare.gov Launch Disaster**
