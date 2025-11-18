@@ -54,13 +54,13 @@ If you said "time" you're right. Why? Because "Once upon a time" is an incredibl
 
 Now try:
 
-"The three branches of the U.S. government are"
+"The five senses are"
 
-It will complete with some variation of "executive, legislative, and judicial."
+It will complete with some variation of "sight, hearing, smell, taste, and touch."
 
-Not because it "knows" about government structure.
+Not because it "understands" sensory perception.
 
-Because it has seen that exact pattern hundreds of times in civics textbooks, news articles, and Wikipedia entries.
+Because that exact phrase appears in thousands of elementary school textbooks, biology primers, and educational websites.
 
 This is pattern completion, not understanding.
 
@@ -238,9 +238,47 @@ And that's precisely the problem.
 
 The Turing Test measures whether AI can imitate human conversation, not whether it thinks. AI has gotten incredibly good at imitating patterns of human intelligence without possessing any actual intelligence.
 
-It's like those restaurant animatronic characters that can sing and dance. They're convincing as performers. But there's no performer inside. Just sophisticated pattern playback.
+It's like a music box that plays a perfect melody. The performance is beautiful, but there's no musician inside making creative decisions. Just a mechanism playing back a pre-recorded pattern.
 
 The danger is when we confuse convincing performance with actual understanding.
+
+---
+
+**Historical Note: ELIZA and the Illusion of Understanding**
+
+In 1966, MIT computer scientist Joseph Weizenbaum created ELIZA, a simple chatbot that simulated a Rogerian psychotherapist.
+
+ELIZA's "intelligence" was embarrassingly basic. It used pattern matching and substitution rules to reflect questions back at users:
+
+User: "I'm worried about my mother."
+ELIZA: "Tell me more about your family."
+
+User: "My family doesn't understand me."
+ELIZA: "Why do you think your family doesn't understand you?"
+
+No understanding. No reasoning. Just templates: recognize keywords ("mother" → respond with "family"), transform statements into questions, reflect user's words back at them.
+
+The illusion was so convincing that people opened up to ELIZA about deeply personal problems. They spent hours in conversation. They felt understood.
+
+Weizenbaum was horrified.
+
+His secretary, who had watched him build ELIZA and knew exactly how it worked, asked him to leave the room so she could talk to ELIZA privately.
+
+She knew it was a simple pattern-matching program. Yet she still felt it understood her.
+
+Weizenbaum spent the rest of his career warning about the dangers of attributing human qualities to machines. He wrote that ELIZA showed how easily people are "seduced into providing meanings" to systems that have none.
+
+Sixty years later, we face the same illusion, just with more sophisticated pattern matching.
+
+ChatGPT and Claude are ELIZA's descendants - vastly more capable at completing patterns, trained on billions of examples instead of dozens of templates, but fundamentally doing the same thing: predicting what should come next based on what usually comes next.
+
+The pattern-matching is more sophisticated. The illusion is more convincing. The danger of confusing performance with understanding is greater.
+
+When you catch yourself thinking "the AI understands what I mean," remember Weizenbaum's secretary. She knew better. She still couldn't help it.
+
+Neither can we.
+
+---
 
 ## Monday Morning Action Plan
 

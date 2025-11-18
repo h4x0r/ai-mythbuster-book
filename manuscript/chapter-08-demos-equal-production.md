@@ -76,9 +76,49 @@ When you see a working demo, here's what you're actually seeing:
 
 The underwater part is 80%.
 
+AI excels at the 20% above water (happy path code). AI struggles with the 80% below water (handling when things go wrong).
+
 This is true for traditional development.
 
 It's especially true for AI-generated code.
+
+---
+
+**Cautionary Tale: The Healthcare.gov Launch Disaster**
+
+October 1, 2013. The Affordable Care Act's healthcare.gov website launched to handle health insurance enrollment for millions of Americans.
+
+The demos had been perfect. The system worked beautifully in controlled testing. Stakeholders saw clean interfaces, smooth workflows, successful enrollments.
+
+Launch day: catastrophic failure.
+
+The site crashed within hours. Of 250,000 people who tried to enroll on day one, only six succeeded. Error messages everywhere. Timeouts. Data loss. Users locked out of accounts they'd just created.
+
+The underwater problems:
+- The system couldn't handle concurrent users (tested with dozens, faced hundreds of thousands)
+- Database queries optimized for test data froze with production load
+- Integration points between 55 different contractors hadn't been tested together
+- Error handling assumed happy paths, cascaded failures when things broke
+- Performance testing used synthetic data that didn't match real user behavior
+- Security reviews focused on features, not production attack scenarios
+
+The cost: $1.7 billion spent. Months of emergency fixes. Political crisis. Congressional hearings.
+
+The root cause wasn't incompetence. It was the demo-to-production gap.
+
+Everything worked in demos because demos don't have:
+- Real load (thousands of simultaneous users)
+- Real data (messy, incomplete, contradictory)
+- Real integration complexity (55 systems trying to coordinate)
+- Real users (who do unexpected things, have slow connections, use old browsers)
+
+Three years and hundreds of millions more dollars later, the site finally worked reliably.
+
+The lesson for executives: When someone shows you a working demo and says "we're ready to launch," ask about everything below the waterline. Demos optimized for "it works" aren't the same as production systems optimized for "it works when everything goes wrong."
+
+This was true before AI. It's even more true with AI-generated code that excels at happy paths and ignores edge cases.
+
+---
 
 ## Why AI-Generated Demos Are Deceptively Fast
 

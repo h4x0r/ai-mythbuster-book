@@ -162,6 +162,37 @@ When multi-agent works: narrowly defined, well-tested workflows with clear hando
 
 When it fails: ambitious "deploy and forget" scenarios with complex coordination.
 
+---
+
+**Real-World Example: The Auto-GPT Hype and Reality**
+
+In March 2023, Auto-GPT exploded onto the scene with a promise that seemed too good to be true: an autonomous AI agent that would "recursively improve itself" and "achieve any goal" you gave it.
+
+The pitch was intoxicating. Give Auto-GPT a goal like "build a profitable business" or "research and write a comprehensive report," and it would autonomously break down the task, execute steps, learn from failures, and iterate until completion.
+
+No human intervention needed.
+
+Within weeks, Auto-GPT became one of the fastest-growing open-source projects in history. Hundreds of thousands of GitHub stars. Viral tweets. Developer excitement reached fever pitch.
+
+The reality check came quickly.
+
+Users discovered that Auto-GPT:
+- Got stuck in infinite loops, repeating the same failed searches over and over
+- Hallucinated that it had completed tasks when it had barely started
+- Burned through hundreds of dollars in OpenAI API credits accomplishing nothing
+- Required constant human intervention to unstick it from basic failures
+- Couldn't handle even moderately complex multi-step tasks without derailing
+
+The "recursive self-improvement" turned out to be the AI asking itself what to do next, often choosing poorly, with no actual learning between runs.
+
+By summer 2023, adoption had crashed. The GitHub issues list filled with frustrated users documenting failures. The hype cycle deflated as quickly as it had inflated.
+
+Auto-GPT wasn't a failure of engineering. It was a demonstration of the fundamental gap between "autonomous agent" marketing and "LLM choosing from a list of tools" reality.
+
+The lesson: When vendors promise autonomous AI agents, remember Auto-GPT. Impressive demos. Viral excitement. Then reality.
+
+---
+
 ### Reliability Issues Are Endemic
 
 Based on current research (2025), AI agents have fundamental reliability problems.

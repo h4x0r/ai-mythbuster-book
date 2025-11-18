@@ -1,6 +1,8 @@
 # Chapter 6: Myth - "Legal AI Is Ready for Practice" / Reality - "Your Complete Adoption Decision Framework"
 
-## The $5,000 Mistake
+---
+
+**Cautionary Tale: The Lawyer Who Trusted ChatGPT**
 
 Steven Schwartz had practiced law for 30 years.
 
@@ -23,6 +25,10 @@ His firm's reputation took a hit that no dollar amount could measure.
 Schwartz's excuse: "I did not comprehend that ChatGPT could fabricate cases."[^5]
 
 **He was wrong. And he's far from alone.**
+
+This wasn't carelessness. This was a seasoned professional trusting a tool that vendors marketed as reliable. The tool wasn't.
+
+The $5,000 fine was the least of the consequences.
 
 [^1]: Mata v. Avianca, Inc., 22-cv-1461 (PKC), 2023 WL 4114965 (S.D.N.Y. June 22, 2023)
 [^2]: CNBC, "Judge sanctions lawyers for brief written by A.I. with fake citations" (June 22, 2023), https://www.cnbc.com/2023/06/22/judge-sanctions-lawyers-whose-ai-written-filing-contained-fake-citations.html
@@ -285,6 +291,8 @@ The math:
 - Lexis+ AI: 17% error rate (verify every output)
 - Westlaw AI: 33% error rate (verify everything twice)
 - General AI (ChatGPT): 50%-plus error rate (don't use for legal work)
+
+Even the BEST specialized legal AI (Lexis+ at 17%) fails far more often than the legal profession can tolerate (0% standard). Every citation must be verified. Every case must be read. No exceptions.
 
 Verification takes time:
 - Research query: 5 minutes to generate, 15-30 minutes to verify all citations

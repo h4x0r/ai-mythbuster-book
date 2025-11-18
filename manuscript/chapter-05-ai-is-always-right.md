@@ -68,11 +68,11 @@ Constantly.
 
 **Example 1: The Non-Existent Legal Case**
 
-In 2023, a lawyer used ChatGPT to research legal precedents for a court filing. The AI helpfully provided several relevant case citations. The lawyer included them in his brief.
+In 2023, experienced lawyer Steven Schwartz used ChatGPT to research legal precedents for a court filing. The AI confidently provided six relevant case citations with proper formatting, case numbers, and quoted text from the decisions. He filed them with the court.
 
-Problem: the cases didn't exist.
+Problem: none of the cases existed.
 
-ChatGPT had invented case names, decision dates, and legal reasoning that sounded perfectly legitimate. The lawyer faced sanctions. The case made national news.[^1]
+ChatGPT had fabricated everything. The lawyer faced $5,000 in sanctions and national media coverage that damaged his firm's reputation.[^1] (We'll examine this case in detail in Chapter 6.)
 
 The AI didn't malfunction. It did exactly what it's designed to do: complete the pattern of "legal brief with case citations" based on thousands of similar examples it had seen.
 
@@ -139,7 +139,7 @@ Anyone who tells you otherwise is selling something.
 
 ## When AI Gets It Wrong: Pattern Recognition
 
-Let's get practical. When does AI hallucinate? There are recognizable patterns.
+Let's get practical. When does AI hallucinate? There are recognizable patterns:
 
 **Precision tasks (counting, math, logic)**
 

@@ -118,6 +118,50 @@ You'll still need to review and refine. But you've got 70% of the work done in 3
 
 This is the skeleton principle in action: The better the skeleton you provide, the better AI completes it.
 
+---
+
+**Real-World Example: The Google Search Evolution**
+
+Remember the early 2000s when Google search was pure keyword matching?
+
+You'd type: "cheap hotels seattle"
+
+And you'd get a mess of results - some about cheap things in Seattle, some about hotels elsewhere, some about Seattle's hotel industry. You'd spend 20 minutes clicking through pages trying to find what you actually wanted.
+
+Users had to learn "Google-speak":
+- Use quotes for exact phrases
+- Add minus signs to exclude words
+- String together keywords in just the right order
+- Know the difference between "seattle hotels cheap" and "cheap seattle hotels"
+
+It was a skill. People got good at it. SEO experts made careers optimizing for keyword matching.
+
+Fast forward to today. You type:
+
+"Where should I stay in Seattle for under $150/night near Pike Place Market with parking?"
+
+And you get exactly what you want. Natural language. Specific requirements. Clear intent.
+
+What changed? Google got better at understanding vague queries, yes. But more importantly, users learned that specific input gets useful results while vague input gets vague results.
+
+The learning curve took years.
+
+Now we're facing the same learning curve with AI prompts.
+
+"Write a marketing plan" is the 2025 equivalent of "cheap hotels seattle."
+
+Vague. Ambiguous. Requires the system to guess what you mean.
+
+"Write a one-page marketing plan for a B2B SaaS project management tool targeting teams of 10-50 people, focusing on Q1, with specific sections on customer profile, top 3 channels, positioning vs Asana and Monday.com, and success metrics for 500 trial signups" is the equivalent of the specific modern search.
+
+The AI hasn't fundamentally changed how it works (pattern completion). You've changed how you communicate with it.
+
+Just like Google search, the executives who master AI are the ones who learned that specificity beats vagueness.
+
+The good news: you don't need years to learn this. Just the willingness to be specific about what you want.
+
+---
+
 ## The Five Elements of Strong Prompts
 
 After testing hundreds of prompts, I've found five elements that consistently improve AI output:

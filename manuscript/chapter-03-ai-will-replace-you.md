@@ -99,7 +99,7 @@ AI augments it.
 
 Think about an airplane cockpit.
 
-There's a pilot and a copilot (or autopilot system). The automation handles routine tasks: maintaining altitude, following the flight plan, monitoring systems, calculating fuel consumption.
+There's a pilot and a copilot. The copilot handles routine tasks: maintaining altitude, following the flight plan, monitoring systems, calculating fuel consumption.
 
 But the pilot remains essential for:
 - Deciding whether to fly through weather
@@ -107,7 +107,7 @@ But the pilot remains essential for:
 - Making judgment calls
 - Taking responsibility for safety
 
-The automation doesn't replace the pilot. It amplifies the pilot's ability to focus on what matters.
+The copilot doesn't replace the pilot. It amplifies the pilot's ability to focus on what matters.
 
 Same with AI and your work.
 
@@ -234,6 +234,30 @@ When something goes wrong, AI can't:
 - Own the consequences
 
 You're accountable. That's why you get paid more than AI.
+
+---
+
+**Historical Note: IBM's 1979 Warning**
+
+![IBM 1979 Management Training Slide](images/ibm-1979-accountability-slide.jpg)
+
+In 1979, IBM management training materials included a warning that now seems prophetic: "Computers don't account for themselves."
+
+This wasn't just corporate philosophy. It was a guardrail. A reminder that no matter how sophisticated the system, accountability requires a human.
+
+Fast forward to today. Organizations have shifted from questioning computer decision-making to complete dependence on AI for critical decisions: financial systems, supply chain optimization, hiring algorithms, medical diagnostics.
+
+The shift happened gradually. First, "AI assists humans." Then, "Humans verify AI." Now, increasingly, "AI decides, humans implement."
+
+IBM's 1979 warning wasn't wrong. We just chose to ignore it.
+
+The question isn't whether AI can make good decisions. Often it can. The question is: when AI makes a bad decision that costs your company money or reputation, who takes the call from your CEO?
+
+Not the algorithm.
+
+You do.
+
+---
 
 ## The Real Productivity Numbers
 
