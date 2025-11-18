@@ -598,12 +598,10 @@ The executives who succeed with AI coding understand this gap.
 
 They use AI to accelerate early stages (ideation, prototyping) while budgeting properly for production-readiness.
 
-In the final chapter, we'll synthesize everything into your realistic AI action plan.
+That's the difference between using AI effectively and getting burned by it.
 
 ---
 
 **Chapter Summary:**
 
 Vibe coding equals AI-assisted rapid prototyping (great for demos and MVPs). Demo equals 20% of work, production equals 80% (the iceberg problem). AI generates happy-path code but misses error handling, edge cases, security, performance, and monitoring. Technical debt accumulates fast with AI code (optimized for "works now" not "maintainable long-term"). Use vibe coding for prototypes, internal tools, and learning (not customer-facing production systems). Production readiness checklist covers functional, reliable, performant, secure, integrated, operational, and maintainable requirements. Budget 4-10x demo time for production-ready version.
-
-**Next Chapter:** Your Realistic AI Action Plan
