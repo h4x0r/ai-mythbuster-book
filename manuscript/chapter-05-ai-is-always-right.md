@@ -16,23 +16,40 @@ Did you try it? What answer did you get?
 
 The correct answer is **2** sisters (Alice herself + Alice's 1 sister = 2 sisters).
 
-But if you're using most AI models (including GPT-4, Claude 3 Opus, Gemini, or Llama), the AI probably gave you the **wrong** answer.
+Here's what happened when this question was tested across AI models in 2024-2025:
+- GPT-4o: correct **65%** of the time
+- Claude 3 Opus: correct **43%** of the time
+- Gemini, Llama, others: even worse
 
-Confidently. Authoritatively. With zero hesitation.
+Notice: even the best model only gets this right 65% of the time. A question any 10-year-old solves correctly 100% of the time.
 
-Some AIs say "1 sister" (counting only Alice's sister, forgetting that Alice is also a sister). Others say "3" (somehow double-counting). The specific wrong answer varies, but the pattern is consistent:
+When AI gets it wrong, it says "1 sister" (forgetting Alice herself counts) or "3" (double-counting somehow). The specific wrong answer varies.
 
-**The AI fails at basic relational reasoning.**
+When AI gets it right, ask it again in a new conversation. You may get a different answer.
 
-Let that sink in for a moment.
+**This reveals something critical: AI is probabilistic, not deterministic.**
 
-We're talking about technology that can write essays, analyze complex data, and generate computer code. But ask it to figure out a simple family relationship (something any 10-year-old can solve) and it face-plants.
+Even when your AI got the Alice question right just now, that doesn't mean it "understands" family relationships. It pattern-matched to training data that happened to include similar problems. Next time, different probability sampling might give you the wrong answer.
+
+Let's test this with a harder example that **still fails even on the most advanced models** (including OpenAI's o1 with enhanced reasoning):
+
+"Five people stand in a circle: Alan, Bob, Carol, Dan, and Eve. Alan is on Bob's immediate left. Carol is not next to Alan. Dan is on Eve's immediate right. Who is on Alan's immediate right?"
+
+The answer is straightforward: if Alan is on Bob's immediate left, then Bob must be on Alan's immediate right.
+
+Most AI models fail this. They overthink it, hallucinate complex relationships, or give contradictory answers.
+
+Try it on your AI. See what happens.
+
+**The Pattern**
+
+We're talking about technology that can write essays, analyze complex data, and generate computer code. But ask it to solve simple logic puzzles (something any human can reason through in 30 seconds) and it fails unpredictably.
 
 This isn't a bug. This isn't a glitch in one particular AI system.
 
 This is a fundamental feature of how these tools work.
 
-And if you don't understand why AI gets the Alice test wrong, you're going to make expensive mistakes when you try to use it.
+And if you don't understand why AI fails at reasoning tasks while succeeding at pattern-based tasks, you're going to make expensive mistakes when you try to use it.
 
 ## Why Confidence Doesn't Equal Correctness
 
@@ -336,15 +353,23 @@ That's the zone where AI delivers real value: augmenting your work, not replacin
 
 This week, run these experiments.
 
-**Experiment 1: The Alice Test (5 minutes)**
+**Experiment 1: The Reasoning Test (10 minutes)**
 
-Ask your AI tool: "Alice has 2 brothers and 1 sister. How many sisters does Alice's brother have?"
+Test 1 - Alice question:
+"Alice has 2 brothers and 1 sister. How many sisters does Alice's brother have?"
 
-Ask it to write a Python script to count them.
+Did it get the right answer (2)? Now start a **new conversation** and ask the exact same question again. Did you get the same answer?
 
-Compare the answers.
+Test 2 - Circle question:
+"Five people stand in a circle: Alan, Bob, Carol, Dan, and Eve. Alan is on Bob's immediate left. Carol is not next to Alan. Dan is on Eve's immediate right. Who is on Alan's immediate right?"
 
-Internalize the lesson: AI can't do precision tasks directly, but it can help you use precision tools.
+Most AIs will fail this or give inconsistent answers.
+
+Now ask your AI to write a Python script to solve these logic problems with explicit reasoning.
+
+Compare: direct answers (unreliable) versus using code to solve it (reliable).
+
+Internalize the lesson: AI can't do precision reasoning directly, but it can help you use precision tools. Even when AI gets answers right, it's probabilistic pattern-matching, not understanding.
 
 **Experiment 2: The Fact-Check Challenge (15 minutes)**
 
@@ -369,15 +394,18 @@ Apply the verification checklist from this chapter:
 
 How many items did you originally skip? What would you have caught?
 
-**Experiment 4: Create Your Own Alice Test (Ongoing)**
+**Experiment 4: The Consistency Test (Ongoing)**
 
 Identify a fact in your domain that you know cold. A statistic, a date, a specific process.
 
-Ask AI about it periodically.
+Ask AI about it **multiple times** in separate conversations.
 
-Track how often it gets it right versus hallucinates.
+Track:
+- How often it gets it right versus wrong
+- Whether it gives different answers each time
+- How confident it sounds when it's wrong
 
-Use this as your personal calibration for AI reliability in your field.
+This reveals the probabilistic nature of AI and gives you personal calibration for reliability in your field.
 
 ## The Bottom Line
 
@@ -389,9 +417,12 @@ Those two statements are both true and not contradictory.
 
 A tool can be incredibly useful while also being unreliable. You just need to use it appropriately.
 
-The Alice test isn't a gotcha. It's a reminder.
+The reasoning tests (Alice and the circle puzzle) aren't gotchas. They're reminders.
 
-Every time you're tempted to trust AI output without verifying, remember that this technology confidently fails at relationships a 10-year-old can solve.
+Every time you're tempted to trust AI output without verifying, remember:
+- Even the best models only get simple logic right 65% of the time
+- The same question can produce different answers in different conversations
+- AI sounds equally confident whether it's right or completely wrong
 
 Then verify anyway.
 
