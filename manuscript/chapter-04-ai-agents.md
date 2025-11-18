@@ -75,16 +75,16 @@ What the demo shows: agent searches web, reads articles, writes report, sends em
 
 What's actually happening:
 
-Step 1: LLM reads goal "research competitor pricing"
-Step 2: LLM selects tool "web_search" (from your list)
-Step 3: Execute web_search("competitor X pricing")
-Step 4: LLM reads search results
-Step 5: LLM selects tool "summarize"
-Step 6: Execute summarize(results)
-Step 7: LLM selects tool "write_report"
-Step 8: Execute write_report(summary)
-Step 9: LLM selects tool "send_email"
-Step 10: Execute send_email(report, recipient)
+1. LLM reads goal "research competitor pricing"
+2. LLM selects tool "web_search" (from your list)
+3. Execute web_search("competitor X pricing")
+4. LLM reads search results
+5. LLM selects tool "summarize"
+6. Execute summarize(results)
+7. LLM selects tool "write_report"
+8. Execute write_report(summary)
+9. LLM selects tool "send_email"
+10. Execute send_email(report, recipient)
 
 This is a workflow.
 
