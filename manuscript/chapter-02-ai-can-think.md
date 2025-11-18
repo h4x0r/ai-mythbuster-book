@@ -256,7 +256,7 @@ ELIZA: "Tell me more about your family."
 User: "My family doesn't understand me."
 ELIZA: "Why do you think your family doesn't understand you?"
 
-No understanding. No reasoning. Just templates: recognize keywords ("mother" -> respond with "family"), transform statements into questions, reflect user's words back at them.
+No understanding. No reasoning. Just templates: recognize keywords ("mother" &rarr; respond with "family"), transform statements into questions, reflect user's words back at them.
 
 The illusion was so convincing that people opened up to ELIZA about deeply personal problems. They spent hours in conversation. They felt understood.
 
