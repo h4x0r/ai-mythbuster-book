@@ -1,5 +1,7 @@
 # Chapter 6: Myth - "Legal AI Is Ready for Practice" / Reality - "Your Complete Adoption Decision Framework"
 
+**Legal Disclaimer:** The author is not a lawyer. Nothing in this chapter constitutes legal advice. This chapter provides general information about AI tools in legal practice for educational purposes only. Consult qualified legal counsel for specific legal advice.
+
 ---
 
 **Cautionary Tale: The Lawyer Who Trusted ChatGPT**
@@ -40,7 +42,7 @@ The $5,000 fine was the least of the consequences.
 
 ## Why This Chapter Matters (Even If You're Not a Lawyer)
 
-You might think: "I'm not a lawyer, why 13 pages on legal AI?"
+You might think: "I'm not a lawyer, why an entire chapter on legal AI?"
 
 Here's why this matters to every executive.
 
