@@ -481,4 +481,4 @@ Which one will you be?
 
 AI hallucinates frequently, inventing plausible-sounding but incorrect information. Confidence in tone does not correlate with accuracy of content. Hallucinations are especially common in precision tasks, specific facts, recent events, and specialized domains. Mitigation strategies include using precision tools, implementing RAG, enforcing output review, and choosing purpose-built AI for high-stakes tasks. Mental model: AI is a talented intern, useful for drafting, requires review before shipping. Productivity gains are real (2-3x) but not magical (10x) once verification time is factored in.
 
-**Next Chapter:** Now that you understand AI's limitations in general, the next chapter will show you a specific high-stakes domain where those limitations can get you sanctioned: legal AI.
+**Next Chapter:** Myth - "Legal AI Is Ready for Practice" / Reality - "Hallucinations Get Lawyers Sanctioned"
