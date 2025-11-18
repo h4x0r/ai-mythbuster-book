@@ -543,7 +543,7 @@ Create a fill-in-the-blank prompt template:
 Pick one task where you've been using general-purpose AI.
 
 Research whether there's a purpose-built tool for this:
-- For code: try Copilot or Augment
+- For code: try Copilot or Augment Code
 - For marketing copy: try specialized tools
 - For data analysis: try AI-enhanced analytics platforms
 
