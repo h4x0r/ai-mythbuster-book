@@ -296,6 +296,60 @@ AI-generated code accumulates technical debt fast because:
 - Making MVP production-ready: Weeks to months
 - Refactoring poorly-structured AI code: Months to "start over"
 
+## The Four Failure Modes Executives Must Recognize
+
+When evaluating demos or AI-generated systems, watch for these specific failure patterns. Each has distinct warning signs and consequences:
+
+### 1. Performance Cliffs
+
+**What it is:** System works fine until it suddenly doesn't. No gradual degradation — just a wall.
+
+**Warning signs:** Demo tested with 10 users, production expects 10,000. No load testing results. "It worked in development." Database queries not indexed. No caching strategy.
+
+**Consequence:** System crashes at launch, during marketing campaigns, or when featured in press. Customers see errors at the worst possible moments.
+
+**Executive question:** "Show me the load test results with 10x expected concurrent users."
+
+---
+
+### 2. Scale Collapse
+
+**What it is:** Architecture assumptions break as data and users grow. What worked at 1,000 records fails at 1,000,000.
+
+**Warning signs:** Single database for everything. No data archiving strategy. Linear algorithms on growing datasets. Memory-bound operations. "We'll optimize later."
+
+**Consequence:** System becomes unusable over months. Performance degrades gradually then suddenly becomes unacceptable. Requires major re-architecture.
+
+**Executive question:** "What happens to performance when we have 100x our current data volume?"
+
+---
+
+### 3. Integration Brittleness
+
+**What it is:** Connected systems cascade failures. One service goes down, everything breaks.
+
+**Warning signs:** No timeout handling for external APIs. No retry logic. No circuit breakers. Hard dependencies on third-party services. "The payment provider never goes down."
+
+**Consequence:** Your system is only as reliable as your least reliable dependency. One vendor's outage becomes your outage. No graceful degradation.
+
+**Executive question:** "What happens when [external service] is unavailable for 30 minutes?"
+
+---
+
+### 4. Cost Explosion
+
+**What it is:** Resource usage spirals unexpectedly. Cloud bills multiply. API costs become unsustainable.
+
+**Warning signs:** No usage monitoring. No rate limiting. No budget alerts. Unoptimized API calls. "The cloud scales automatically." No cost projections at scale.
+
+**Consequence:** $20,000 API bills. Cloud costs that exceed revenue. Emergency cost-cutting that breaks features.
+
+**Executive question:** "What are the projected infrastructure costs at 10x our current usage, and what's our cost per user?"
+
+---
+
+**Use these categories in vendor evaluations, internal project reviews, and launch decisions.** When someone says "the demo works great," ask about all four failure modes. If they can't answer, the system isn't production-ready.
+
 ## Choosing the Right Approach
 
 I'm not saying don't use AI for coding. I'm saying understand which approach fits your needs:
