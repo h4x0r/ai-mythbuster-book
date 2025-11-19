@@ -184,6 +184,7 @@ How do you choose when everything changes every quarter?
 That's what the vendor evaluation framework below answers.
 
 [^15]: TechCrunch, "Thomson Reuters buys Casetext for $650M" (June 2023), <https://techcrunch.com/2023/06/26/thomson-reuters-buys-casetext-an-ai-legal-tech-startup-for-650m-in-cash/>; LawSites, "Thomson Reuters Launches CoCounsel Legal with Agentic AI" (Aug. 2025), <https://www.lawnext.com/2025/08/thomson-reuters-launches-cocounsel-legal-with-agentic-ai-and-deep-research-capabilities-along-with-a-new-and-final-version-of-westlaw.html>
+[^16]: Stanford RegLab study found Lexis+ AI hallucinated 17% of the time, Westlaw AI-Assisted Research 33%, and Ask Practical Law AI 17% in empirical testing with over 200 legal queries. See Magesh et al., "Hallucination-Free? Assessing the Reliability of Leading AI Legal Research Tools," Journal of Empirical Legal Studies (2025), <https://arxiv.org/html/2405.20362v1> and <https://onlinelibrary.wiley.com/doi/abs/10.1111/jels.12413>
 
 ## Understanding the Legal AI Vendor Landscape
 
@@ -413,7 +414,7 @@ Critical requirement: verification. AI points you in the right direction, but hu
 
 **Where AI Fails**
 
-Don't trust AI-generated citations. Even specialized tools hallucinate 17-33% of the time. Verify every case, quote, and principle.
+Don't trust AI-generated citations. Even specialized tools hallucinate 17-33% of the time.[^16] Verify every case, quote, and principle.
 
 AI can't create novel arguments, apply strategic judgment, or provide client counseling. It pattern-matches from existing content but lacks creativity, context understanding, and relationship skills.
 
