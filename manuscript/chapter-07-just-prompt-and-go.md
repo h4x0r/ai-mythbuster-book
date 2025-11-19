@@ -51,7 +51,7 @@ Let me show you the difference between a weak prompt and a strong prompt:
 
 ### Weak Prompt (What Most People Type)
 
-    "Write a marketing plan"
+> "Write a marketing plan"
 
 ### What AI Gets From This
 
