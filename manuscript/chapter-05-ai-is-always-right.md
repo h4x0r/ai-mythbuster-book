@@ -17,12 +17,15 @@ Did you try it? What answer did you get?
 
 The correct answer is **2** sisters (Alice herself + Alice's 1 sister = 2 sisters).
 
-Here's what happened when this question was tested across AI models in 2024-2025:
-- GPT-4o: correct **65%** of the time
-- Claude 3 Opus: correct **43%** of the time
-- Gemini, Llama, others: even worse
+Here's what happened when this question was tested across AI models in 2024:[^alice-test]
+- Leading models frequently fail this simple logic problem
+- GPT-4o: succeeds roughly half the time
+- Claude models: more consistent but still imperfect
+- Other models: even worse
 
-Even the best model gets this right only 65% of the time. A question any 10-year-old solves correctly 100% of the time.
+Even the best models fail embarrassingly often. A question any 10-year-old solves correctly 100% of the time.
+
+[^alice-test]: The "Alice siblings" problem has been widely documented as a challenging logic test for AI models. Analysis showed GPT-4o achieving roughly 50% accuracy while Claude 3.5 Sonnet performed more consistently. See discussions at Hacker News, "Alice has N brothers and she also has M sisters" (<https://news.ycombinator.com/item?id=40585504>) and model comparisons at Sentisight, "Claude 3.5 Sonnet vs GPT-4o" (<https://www.sentisight.ai/claude-3-5-sonnet-vs-gpt-4o-ultimate-comparison/>)
 
 When wrong, it says "1 sister" (forgetting Alice) or "3" (double-counting). When right, ask again in a new conversation. You may get a different answer.
 
