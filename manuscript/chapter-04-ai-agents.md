@@ -497,7 +497,7 @@ In the next chapter, we'll examine legal AI, where hallucinations can get you sa
 
 **Chapter Summary:**
 
-AI agents are LLM-powered workflows, not autonomous entities. They don't learn or improve themselves. You update them manually. Multi-agent coordination adds complexity faster than value. Reliability issues include hallucinations, loops, and tool selection errors. They work best for narrow tasks, repetitive workflows, and augmentation (not replacement). Economics often don't justify cost unless you have massive scale. Frameworks (AutoGPT and others) are useful libraries, not AGI. Start with one low-risk workflow, measure honestly, scale cautiously.
+AI agents are LLM-powered workflows, not autonomous entities. They don't learn or improve themselves. You update them manually. Multi-agent coordination adds complexity faster than value. Reliability issues include hallucinations, loops, and tool selection errors. They work best for narrow tasks, repetitive workflows, and augmentation (not replacement). Economics often don't justify cost unless you have massive scale. Start with one low-risk workflow, measure honestly, scale cautiously.
 
 **Next Chapter:** Myth - "AI Is Always Right" / Reality - "Hallucinations and Limitations"
 
