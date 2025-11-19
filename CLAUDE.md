@@ -5,14 +5,19 @@ This is a Leanpub book manuscript about AI myths for executives. The book uses L
 
 ## Leanpub Markua Syntax Rules
 
-### Characters to Avoid
-- **Do NOT use arrow symbols** like `→`, `←`, `↔` - they may not render correctly
-  - Use words instead: "becomes", "maps to", "leads to", "results in"
-  - Example: Instead of `"mother" → "family"`, write `"mother" becomes "family"`
+### Arrow Symbols
+Use HTML entity references for arrows (not Unicode characters directly):
+- `&rarr;` for right arrow (→)
+- `&larr;` for left arrow (←)
+- `&uarr;` for up arrow (↑)
+- `&darr;` for down arrow (↓)
 
-- **Do NOT use special Unicode characters** that may not be in Leanpub's font set
-  - Stick to basic ASCII where possible
-  - Em dashes (—) and en dashes (–) are OK
+Example: `"mother" &rarr; "family"` renders as "mother" → "family"
+
+### Other Special Characters
+- Em dashes: use `—` directly or `&mdash;`
+- En dashes: use `–` directly or `&ndash;`
+- Ellipsis: use `...` (auto-converted to …)
 
 ### Footnote Format
 - Use `[^label]:` syntax for footnotes
