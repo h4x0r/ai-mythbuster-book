@@ -10,6 +10,7 @@ chapter-06-ai-for-legal.md
 chapter-07-just-prompt-and-go.md
 chapter-08-demos-equal-production.md
 {backmatter}
+epilogue.md
 glossary.md
 appendix-case-studies.md
 about-author.md
