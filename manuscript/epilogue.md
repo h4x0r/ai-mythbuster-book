@@ -48,12 +48,12 @@ The specific prompting techniques? AI models will evolve. What works in 2025 may
 
 **But the principles won't change:**
 
-- AI completes patterns, doesn't reason (Chapter 2)
-- You're accountable for AI output, not the algorithm (Chapter 3)
-- Agents are dumb tools that need guardrails (Chapter 4)
-- AI hallucinates with confidence (Chapter 5)
-- Garbage prompts get garbage results (Chapter 7)
-- Demos aren't production systems (Chapter 8)
+- AI completes patterns, doesn't reason ([Chapter 2](#chapter2))
+- You're accountable for AI output, not the algorithm ([Chapter 3](#chapter3))
+- Agents are dumb tools that need guardrails ([Chapter 4](#chapter4))
+- AI hallucinates with confidence ([Chapter 5](#chapter5))
+- Garbage prompts get garbage results ([Chapter 7](#chapter7))
+- Demos aren't production systems ([Chapter 8](#chapter8))
 
 These principles survived because they're fundamental to how current AI works: pattern prediction from training data, not reasoning or understanding.
 
