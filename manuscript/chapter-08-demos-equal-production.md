@@ -71,7 +71,7 @@ This is true for traditional development. It's especially true for AI-generated 
 
 ---
 
-**Cautionary Tale: The Healthcare.gov Launch Disaster**
+**Cautionary Tale: The Healthcare.gov Launch Disaster**[^1]
 
 October 1, 2013. The Affordable Care Act's healthcare.gov website launched to handle health insurance enrollment for millions of Americans. The demos had been perfect. Clean interfaces, smooth workflows, successful enrollments.
 
@@ -172,7 +172,7 @@ AI-generated code often includes basic auth but misses many security hardening s
 
 ---
 
-**Cautionary Tale: The $20,000 OpenAI Bill from Exposed API Keys**
+**Cautionary Tale: The $20,000 OpenAI Bill from Exposed API Keys**[^2]
 
 A developer used AI to build a web app in a weekend. The demo worked beautifully. They deployed Monday morning. By Wednesday: $20,000 in OpenAI API charges.
 
@@ -399,6 +399,9 @@ When someone shows you an AI-built demo, ask: "What's underwater?" Budget 4-10x 
 The executives who succeed with AI coding understand this gap. They use AI to accelerate early stages (ideation, prototyping) while budgeting properly for production-readiness.
 
 That's the difference between using AI effectively and getting burned by it.
+
+[^1]: The Healthcare.gov launch failure on October 1, 2013, resulted in only 6 successful enrollments out of 250,000 attempts on launch day, despite extensive demos showing the system worked. The Office of Inspector General reported costs reached $1.7 billion, with 55 contractors involved in building the site. Congressional hearings in October and November 2013 examined the failures, with HHS Secretary Kathleen Sebelius stating "Hold me accountable for the debacle." Sources: Wikipedia, "HealthCare.gov" (<https://en.wikipedia.org/wiki/HealthCare.gov>); NPR, "A Diagram Of HealthCare.gov, Based On The People Who Built It" (<https://www.npr.org/sections/alltechconsidered/2013/10/25/240532575/a-diagram-of-healthcare-gov-based-on-the-people-who-built-it>); Bloomberg, "Obamacare Website Costs Exceed $2 Billion" (<https://www.bloomberg.com/news/articles/2014-09-24/obamacare-website-costs-exceed-2-billion-study-finds>)
+[^2]: Exposed OpenAI API keys in client-side code lead to unauthorized charges as bots continuously scrape GitHub and public websites for API keys. Documented cases include charges exceeding $3,000 from stolen keys and accounts with $150,000 usage limits being compromised. The pattern involves AI-generated code hardcoding keys in browser-accessible locations, making them visible to anyone with developer tools. Sources: Vice, "People Are Pirating GPT-4 By Scraping Exposed API Keys" (<https://www.vice.com/en/article/people-pirating-gpt4-scraping-openai-api-keys/>); 1Password, "Developers: Stop exposing your OpenAI API keys" (<https://blog.1password.com/openai-chatgpt-exposed-api-keys/>); GitGuardian, "Remediating OpenAI API Key leaks" (<https://www.gitguardian.com/remediation/openai-api-key>)
 
 ---
 
