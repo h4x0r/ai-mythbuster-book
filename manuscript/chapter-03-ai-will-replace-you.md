@@ -68,7 +68,7 @@ The panic: automated tellers will eliminate bank teller jobs.
 
 The reality: the number of bank tellers actually increased because banks could open more branches cheaply.
 
-The result: tellers stopped counting cash and started selling services and building relationships.
+The result: tellers stopped counting cash and started selling services and building relationships.[^atm-accounting]
 
 **Email in the 2000s.**
 
@@ -466,6 +466,8 @@ Which one will you be?
 In the next chapter, we'll tackle another myth that's causing expensive mistakes: the belief that AI agents are truly autonomous.
 
 ---
+
+[^atm-accounting]: ATMs and bank tellers: James Bessen, "Toil and Technology," Finance & Development (March 2015) shows that after ATM deployment from the 1980s to 2015, tellers per branch fell from 20 to 13, but total U.S. bank teller employment rose from 500,000 to 600,000 because banks opened 43% more branches, <https://www.imf.org/external/pubs/ft/fandd/2015/03/bessen.htm>; Spreadsheets and accountants: Despite spreadsheet automation since the 1980s, U.S. employment of accountants and auditors has grown significantly while accounting clerk positions declined by 400,000, as accountants' work shifted from manual bookkeeping to analysis and strategy, demonstrating the automation paradox documented by David Autor, "Why Are There Still So Many Jobs?" Journal of Economic Perspectives 29:3 (2015), <https://www.aeaweb.org/articles?id=10.1257/jep.29.3.3>
 
 **Chapter Summary:**
 
