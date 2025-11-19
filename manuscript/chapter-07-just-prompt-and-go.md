@@ -77,16 +77,16 @@ You get a five-page generic template that could apply to any product:
 
 ### Strong Prompt (What Works)
 
-    "Write a one-page marketing plan for a B2B SaaS project management tool targeting teams of 10-50 people. Focus on the next quarter. Include:
-    - Target customer profile (specific)
-    - Top 3 channels for customer acquisition
-    - Key message positioning vs competitors
-    - Success metrics (specific numbers)
-    - Budget estimate
-
-    Our unique differentiator is AI-powered project risk prediction. Main competitors are Asana and Monday.com. Our goal is 500 new trial signups in Q1.
-
-    Format: Executive summary style, bullet points, suitable for board presentation."
+> "Write a one-page marketing plan for a B2B SaaS project management tool targeting teams of 10-50 people. Focus on the next quarter. Include:
+> - Target customer profile (specific)
+> - Top 3 channels for customer acquisition
+> - Key message positioning vs competitors
+> - Success metrics (specific numbers)
+> - Budget estimate
+>
+> Our unique differentiator is AI-powered project risk prediction. Main competitors are Asana and Monday.com. Our goal is 500 new trial signups in Q1.
+>
+> Format: Executive summary style, bullet points, suitable for board presentation."
 
 ### What AI Gets From This
 
