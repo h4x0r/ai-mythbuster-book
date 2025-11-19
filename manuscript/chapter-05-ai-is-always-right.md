@@ -83,7 +83,7 @@ The AI didn't malfunction. It did exactly what it's designed to do: complete the
 
 It just happened to complete that pattern with fictional data.
 
-[^1]: Mata v. Avianca, Inc., 22-cv-1461 (S.D.N.Y. May 27, 2023); The New York Times, "Here's What Happens When Your Lawyer Uses ChatGPT" (May 2023), [source](https://www.nytimes.com/2023/05/27/nyregion/avianca-airline-lawsuit-chatgpt.html)
+[^1]: Mata v. Avianca, Inc., 22-cv-1461 (S.D.N.Y. May 27, 2023); The New York Times, "Here's What Happens When Your Lawyer Uses ChatGPT" (May 2023), <https://www.nytimes.com/2023/05/27/nyregion/avianca-airline-lawsuit-chatgpt.html>
 
 **Example 2: The Confident Historical Errors**
 
