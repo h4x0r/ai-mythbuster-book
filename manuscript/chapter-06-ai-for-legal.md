@@ -105,9 +105,9 @@ That's Steven Schwartz's $5,000 mistake. That's 569 documented cases. That could
 
 Legal and medical AI demonstrate the same pattern: specialized tools with verified data still hallucinate catastrophically.
 
-**Legal:** 486-plus sanctions. Even specialized tools hallucinate 17-33% of the time. Single fake citation leads to fines, suspension, malpractice claims.[^11]
+**Legal:** 486-plus sanctions. Even specialized tools hallucinate 17-33% of the time.[^16] Single fake citation leads to fines, suspension, malpractice claims.
 
-**Medical:** FDA's own AI tool "Elsa" hallucinates nonexistent studies despite being purpose-built for drug review. It "hallucinates confidently" and can't be used for approvals. Over 1,250 AI-enabled medical devices approved, but regulatory standards don't exist yet.
+**Medical:** FDA's own AI tool "Elsa" hallucinates nonexistent studies despite being purpose-built for drug review.[^11] It "hallucinates confidently" and can't be used for approvals. Over 1,250 AI-enabled medical devices approved, but regulatory standards don't exist yet.
 
 The parallel: fake citations leading to sanctions versus fake research leading to unsafe drugs.
 
@@ -123,7 +123,7 @@ Hallucinations grab headlines. But AI adoption in high-stakes environments faces
 
 **Challenge 1: Hallucinations at Scale**
 
-AI confidently fabricates information. Even specialized legal AI with access to verified databases hallucinates 17-33% of the time.[^12] That means one in three to one in six queries returns wrong information presented with complete confidence.
+AI confidently fabricates information. Even specialized legal AI with access to verified databases hallucinates 17-33% of the time.[^16] That means one in three to one in six queries returns wrong information presented with complete confidence.
 
 For any business: if specialized tools fail this often in structured domains with quality data, expect higher error rates in your domain. Verification protocols are non-negotiable.
 
@@ -450,7 +450,7 @@ List all costs: licensing, implementation, training, verification overhead. List
 
 ## The Bottom Line
 
-Legal AI in 2025 is not ready to practice law autonomously. Even the best specialized tools hallucinate 17-33% of the time. That's "wrong one in three to one in six queries," not "nearly perfect."
+Legal AI in 2025 is not ready to practice law autonomously. Even the best specialized tools hallucinate 17-33% of the time.[^16] That's "wrong one in three to one in six queries," not "nearly perfect."
 
 The lawyers getting sanctioned aren't careless. They're professionals who trusted tools vendors claimed were reliable. The tools weren't.
 
@@ -468,7 +468,7 @@ You now understand: four critical challenges, three vendor categories, 16-questi
 
 Use this template for evaluating AI in any professional context where errors have consequences.
 
-If specialized legal AI with RAG fails 17-33% in a structured domain with quality data, what's the error rate in your less-structured domain?
+If specialized legal AI with RAG fails 17-33%[^16] in a structured domain with quality data, what's the error rate in your less-structured domain?
 
 Verify. Everything.
 
