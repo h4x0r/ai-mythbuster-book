@@ -222,6 +222,12 @@ With RAG (document feeding): "Here's our Q3 sales report [attach]. Summarize the
 
 With RAG (web search): AI systems like Perplexity or ChatGPT with web search automatically retrieve current information before answering, reducing hallucinations.
 
+**How to use RAG correctly:**
+
+For document feeding: "Base your answer only on the documents provided, not your training data. Cite the specific document and section for each claim."
+
+For web search: "Base your answer only on current sources you can search, not your training data. Cite each claim with the source URL."
+
 Most enterprise AI tools now support RAG in one or both forms. It's the difference between "AI assistant" and "AI assistant that knows your business."
 
 **Important caveat**: RAG or web search capabilities might not be available when you need them. Common reasons:
