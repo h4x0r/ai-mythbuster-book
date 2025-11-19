@@ -19,6 +19,18 @@ The confusion is rational. The AI conversation is a mess right now. Marketing hy
 
 This book cuts through that noise.
 
+**What You'll Be Able to Do After This Book**
+
+By the time you finish, you will be able to:
+
+- Separate AI hype from reality in vendor pitches and internal proposals
+- Understand what AI actually is (pattern completion) and isn't (reasoning)
+- Identify where AI genuinely helps versus where it wastes time or creates risk
+- Write prompts that get useful results instead of generic garbage
+- Build verification workflows that catch hallucinations before they cause damage
+- Evaluate vendor claims with the right questions and success metrics
+- Measure real productivity gains instead of believing vanity metrics
+
 No hype. No panic. Just honest assessment of what AI actually does, where it helps, where it fails, and how to use it productively without making expensive mistakes.
 
 ## The Hype Cycle Has Outpaced Reality
