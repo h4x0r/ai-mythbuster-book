@@ -328,7 +328,9 @@ If you're evaluating an AI-built demo for production use, run through this check
 ## Real-World Time Estimates
 
 **AI-generated demo:** 2-8 hours
+
 **Production-ready version:** 1-2 weeks (with experienced developers)
+
 **Production-ready plus roadmap features:** 1-3 months
 
 **Example breakdown:**
