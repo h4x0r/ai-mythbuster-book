@@ -175,6 +175,7 @@ You can read straight through or jump to the chapter addressing your biggest que
 - What AI actually is (and isn't)
 - Where it excels and where it fails
 - How to think about its role in your workflow
+- What buzzwords mean and which claims are exaggerated
 
 **Practical frameworks:**
 - Prompt engineering principles (the five elements of strong prompts)
