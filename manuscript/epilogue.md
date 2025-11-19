@@ -161,6 +161,6 @@ You're now one of those people.
 
 Use that wisely.
 
-— The Author
+— Albert Hui
 
 Early 2025
