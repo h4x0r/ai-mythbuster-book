@@ -1,3 +1,4 @@
+{#chapter8}
 # Chapter 8: Myth - "Demos Equal Production Ready" / Reality - "The Vibe Coding Gap"
 
 ## The Two-Hour Miracle

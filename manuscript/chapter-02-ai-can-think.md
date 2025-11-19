@@ -1,3 +1,4 @@
+{#chapter2}
 # Chapter 2: Myth - "AI Can Think" / Reality - "AI Completes Patterns"
 
 ## The Intelligence Illusion

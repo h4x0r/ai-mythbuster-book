@@ -1,3 +1,4 @@
+{#chapter3}
 # Chapter 3: Myth - "AI Will Replace You" / Reality - "AI Augments Your Work"
 
 ## The Question Everyone's Asking

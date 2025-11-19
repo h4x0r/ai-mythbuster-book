@@ -1,3 +1,4 @@
+{#chapter7}
 # Chapter 7: Myth - "Just Prompt and Go" / Reality - "Engineering Good Results"
 
 ## The Magical Thinking Problem
@@ -24,7 +25,7 @@ The answer: **You're expecting AI to read your mind.**
 
 ## The Skeleton Principle (Redux)
 
-Remember from [Chapter 2](#chapter-2-myth-ai-can-think-reality-ai-completes-patterns): AI completes patterns.
+Remember from [Chapter 2](#chapter2): AI completes patterns.
 
 It doesn't reason about what you actually need. It predicts what usually comes next based on similar patterns.
 
@@ -271,7 +272,7 @@ After testing hundreds of prompts, I've found five elements that consistently im
 
 ## Overcoming AI Limitations Through Structure
 
-Remember from [Chapter 5](#chapter-5-myth-ai-is-always-right-reality-hallucinations-and-limitations): AI hallucinates, especially on precision tasks.
+Remember from [Chapter 5](#chapter5): AI hallucinates, especially on precision tasks.
 
 Here's how to work around those limitations:
 

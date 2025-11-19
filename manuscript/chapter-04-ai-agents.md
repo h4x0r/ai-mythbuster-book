@@ -1,3 +1,4 @@
+{#chapter4}
 # Chapter 4: Myth - "AI Agents Are Autonomous" / Reality - "They're Scripted Workflows with LLM Calls"
 
 ## The AGI Illusion

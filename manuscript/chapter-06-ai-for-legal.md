@@ -1,3 +1,4 @@
+{#chapter6}
 # Chapter 6: Myth - "Legal AI Is Ready for Practice" / Reality - "Hallucinations Get Lawyers Sanctioned"
 
 **Legal Disclaimer:** The author is not a lawyer. Nothing in this chapter constitutes legal advice. This chapter provides general information about AI tools in legal practice for educational purposes only. Consult qualified legal counsel for specific legal advice.
@@ -64,7 +65,7 @@ Use this as your template for any professional AI adoption decision.
 
 ## The Hallucination Crisis in Legal Practice
 
-In [Chapter 5](#chapter-5-myth-ai-is-always-right-reality-hallucinations-and-limitations), we covered why AI hallucinates: it predicts next tokens based on patterns, not facts. It has no concept of truth, only statistical likelihood.
+In [Chapter 5](#chapter5), we covered why AI hallucinates: it predicts next tokens based on patterns, not facts. It has no concept of truth, only statistical likelihood.
 
 **The legal profession shows us what happens when hallucinations meet zero-tolerance professions.**
 

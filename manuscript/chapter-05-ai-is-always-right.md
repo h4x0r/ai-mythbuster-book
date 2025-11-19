@@ -1,3 +1,4 @@
+{#chapter5}
 # Chapter 5: Myth - "AI Is Always Right" / Reality - "Hallucinations and Limitations"
 
 ## The Alice Test
@@ -55,7 +56,7 @@ In human conversation, confidence usually correlates with accuracy. When your CF
 
 AI breaks that pattern completely.
 
-AI doesn't "know" anything. Remember [Chapter 2](#chapter-2-myth-ai-can-think-reality-ai-completes-patterns): it's sophisticated autocomplete. When you ask about Alice's family, it pattern-matches similar questions from training.
+AI doesn't "know" anything. Remember [Chapter 2](#chapter2): it's sophisticated autocomplete. When you ask about Alice's family, it pattern-matches similar questions from training.
 
 It's not reasoning about relationships. It can't reason. It guesses based on patterns. Patterns fail when you need to understand that "Alice's brother has sisters" means counting Alice plus her sister.
 
@@ -73,7 +74,7 @@ In 2023, experienced lawyer Steven Schwartz used ChatGPT to research legal prece
 
 Problem: none of the cases existed.
 
-ChatGPT had fabricated everything. The lawyer faced $5,000 in sanctions and national media coverage that damaged his firm's reputation.[^1] (We'll examine this case in detail in [Chapter 6](#chapter-6-myth-legal-ai-is-ready-for-practice-reality-hallucinations-get-lawyers-sanctioned).)
+ChatGPT had fabricated everything. The lawyer faced $5,000 in sanctions and national media coverage that damaged his firm's reputation.[^1] (We'll examine this case in detail in [Chapter 6](#chapter6).)
 
 The AI didn't malfunction. It did exactly what it's designed to do: complete the pattern of "legal brief with case citations" based on thousands of similar examples it had seen.
 
