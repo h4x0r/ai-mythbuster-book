@@ -249,9 +249,9 @@ Build shared resources: prompt libraries, verification checklists.
 
 **If you're time-constrained:**
 
-Read [Chapter 1](#chapter-1-introduction-why-everyones-confused-about-ai) (this introduction). Skim the Chapter Summary sections of [Chapters 2 through 8](#chapter-2-myth-ai-can-think-reality-ai-completes-patterns). Jump to chapters addressing your specific confusions.
+Read Chapter 1 (this introduction). Skim the Chapter Summary sections of Chapters 2 through 8. Jump to chapters addressing your specific confusions.
 
-**Minimum viable reading:** [Chapters 1](#chapter-1-introduction-why-everyones-confused-about-ai) and [5](#chapter-5-myth-ai-is-always-right-reality-hallucinations-and-limitations). Introduction and hallucinations.
+**Minimum viable reading:** [Chapter 1](#chapter-1-introduction-why-everyones-confused-about-ai) and [Chapter 5](#chapter-5-myth-ai-is-always-right-reality-hallucinations-and-limitations). Introduction and hallucinations.
 
 ## One Last Thing Before We Begin
 
