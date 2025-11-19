@@ -249,15 +249,29 @@ The danger is when we confuse convincing performance with actual understanding.
 
 In 1966, MIT computer scientist Joseph Weizenbaum created ELIZA, a simple chatbot that simulated a Rogerian psychotherapist.
 
-ELIZA's "intelligence" was embarrassingly basic. It used pattern matching and substitution rules to reflect questions back at users:
+ELIZA's "intelligence" was embarrassingly basic. It used pattern matching and substitution rules to reflect questions back at users. But look at how convincing the chat interface made it feel:
 
-User: "I'm worried about my mother."
-ELIZA: "Tell me more about your family."
+> **User:** Men are all alike.
+>
+> **ELIZA:** In what way?
+>
+> **User:** They're always bugging us about something or other.
+>
+> **ELIZA:** Can you think of a specific example?
+>
+> **User:** Well, my boyfriend made me come here.
+>
+> **ELIZA:** Your boyfriend made you come here?
+>
+> **User:** He says I'm depressed much of the time.
+>
+> **ELIZA:** I am sorry to hear you are depressed.
 
-User: "My family doesn't understand me."
-ELIZA: "Why do you think your family doesn't understand you?"
+That's a real ELIZA transcript from 1966. No understanding. No reasoning. Just templates: recognize keywords ("boyfriend" → echo it back), transform statements into questions, mirror the user's words.
 
-No understanding. No reasoning. Just templates: recognize keywords ("mother" &rarr; respond with "family"), transform statements into questions, reflect user's words back at them.
+The magic wasn't the algorithm. It was the chat interface.
+
+When responses appear in a conversational format — question, answer, question, answer — your brain fills in the gaps. You assume there's someone listening, understanding, responding thoughtfully. The UI pattern itself creates the illusion of a mind on the other end.
 
 The illusion was so convincing that people opened up to ELIZA about deeply personal problems. They spent hours in conversation. They felt understood.
 
