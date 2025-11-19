@@ -149,7 +149,7 @@ Why this matters: Prevents expensive vendor mistakes.
 Reality: AI hallucinates frequently. Confidence doesn't equal correctness.
 Why this matters: Teaches you when to trust versus verify output.
 
-**Myth 5: "Legal AI Is Ready for Practice"** ([Chapter 6](#chapter-6-myth-ai-for-legal-reality-hallucinations-get-lawyers-sanctioned))
+**Myth 5: "Legal AI Is Ready for Practice"** ([Chapter 6](#chapter-6-myth-legal-ai-is-ready-for-practice-reality-hallucinations-get-lawyers-sanctioned))
 Reality: Even specialized legal AI hallucinates 17-33% of the time.
 Why this matters: Shows that specialized doesn't equal reliable.
 

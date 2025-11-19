@@ -73,7 +73,7 @@ In 2023, experienced lawyer Steven Schwartz used ChatGPT to research legal prece
 
 Problem: none of the cases existed.
 
-ChatGPT had fabricated everything. The lawyer faced $5,000 in sanctions and national media coverage that damaged his firm's reputation.[^1] (We'll examine this case in detail in [Chapter 6](#chapter-6-myth-ai-for-legal-reality-hallucinations-get-lawyers-sanctioned).)
+ChatGPT had fabricated everything. The lawyer faced $5,000 in sanctions and national media coverage that damaged his firm's reputation.[^1] (We'll examine this case in detail in [Chapter 6](#chapter-6-myth-legal-ai-is-ready-for-practice-reality-hallucinations-get-lawyers-sanctioned).)
 
 The AI didn't malfunction. It did exactly what it's designed to do: complete the pattern of "legal brief with case citations" based on thousands of similar examples it had seen.
 

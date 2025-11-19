@@ -5,7 +5,7 @@ This index provides quick reference to all real-world case studies referenced th
 ## Legal and Professional Services
 
 **Steven Schwartz / Mata v. Avianca (2023)**
-- **Chapter:** [5](#chapter-5-myth-ai-is-always-right-reality-hallucinations-and-limitations) & [6](#chapter-6-myth-ai-for-legal-reality-hallucinations-get-lawyers-sanctioned)
+- **Chapter:** [5](#chapter-5-myth-ai-is-always-right-reality-hallucinations-and-limitations) & [6](#chapter-6-myth-legal-ai-is-ready-for-practice-reality-hallucinations-get-lawyers-sanctioned)
 - **Issue:** Lawyer used ChatGPT for legal research; AI fabricated six non-existent cases
 - **Consequence:** $5,000 sanctions, national media coverage, reputational damage
 - **Key Lesson:** AI hallucinates with confidence. Always verify output before submission, especially in high-stakes professional contexts.
