@@ -131,7 +131,7 @@ Technical background not required. I'll explain concepts clearly without jargon.
 
 ## How This Book Is Structured
 
-We're going to bust five myths that cloud judgment about AI.
+We're going to bust seven myths that cloud judgment about AI.
 
 **Myth 1: "AI Can Think"** ([Chapter 2](#chapter-2-myth-ai-can-think-reality-ai-completes-patterns))
 Reality: AI completes patterns. It doesn't reason.
