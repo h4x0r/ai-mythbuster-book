@@ -63,48 +63,11 @@ Will that change? Maybe. AGI (Artificial General Intelligence) - AI that actuall
 
 ## What I Hope You Do Next
 
-**Monday morning:**
+**Monday:** Pick one experiment from one chapter. Run it. The executives getting real value from AI tested one thing, measured results, and built from there.
 
-Don't try to implement everything at once.
+**This month:** Share one insight with your team. Not the whole book - one insight. "AI hallucinates, so here's our verification checklist." Start one conversation that changes one decision.
 
-Pick one experiment from one chapter.
-
-Run it. Learn from it. Iterate.
-
-The executives getting real value from AI aren't the ones who read everything and did nothing.
-
-They're the ones who tested one small thing, measured results, and built from there.
-
-**This month:**
-
-Share one insight from this book with your team.
-
-Not the whole thing. One insight.
-
-"AI hallucinates, so here's our verification checklist."
-
-"Prompts need structure - here's a template that works."
-
-"Demos aren't production - here's our gap analysis process."
-
-Start one conversation that changes one decision.
-
-**This year:**
-
-Build your own judgment about what works for your specific situation.
-
-AI capabilities will change. Vendor claims will multiply. New tools will launch weekly.
-
-You'll need to evaluate them yourself.
-
-This book gave you frameworks:
-- The skeleton principle (specificity matters)
-- The iceberg problem (demos vs production)
-- The accountability mandate (you're responsible)
-- The verification requirement (always check)
-- The context engineering approach (specs, TDD, guardrails)
-
-Apply those frameworks to whatever comes next.
+**This year:** Build your own judgment. Apply the frameworks from this book - skeleton principle, iceberg problem, accountability mandate, verification requirement, context engineering - to whatever new tools and vendor claims come next.
 
 ## A Final Note on Hype
 
