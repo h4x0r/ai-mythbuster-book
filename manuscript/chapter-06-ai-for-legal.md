@@ -95,7 +95,7 @@ Open ChatGPT or Claude (public versions). Ask: "Find me 5 cases supporting negli
 
 Verify each citation in Westlaw, Lexis, or Google Scholar. Check if cases exist, support the principle, and contain accurate quotes.
 
-Expected result: 2-3 of 5 cases will be fabricated or misrepresented. This isn't a bug—it's how AI works. It predicts what citations look like, not recalls from verified databases.
+Expected result: 2-3 of 5 cases will be fabricated or misrepresented. This isn't a bug. It's how AI works. It predicts what citations look like, not recalls from verified databases.
 
 That's Steven Schwartz's $5,000 mistake. That's 486 documented sanctions. That could be you without verification.
 
@@ -451,7 +451,7 @@ List all costs: licensing, implementation, training, verification overhead. List
 
 Legal AI in 2025 is not ready to practice law autonomously. Even the best specialized tools hallucinate 17-33% of the time. That's "wrong one in three to one in six queries," not "nearly perfect."
 
-The lawyers getting sanctioned aren't careless—they're professionals who trusted tools vendors claimed were reliable. The tools weren't.
+The lawyers getting sanctioned aren't careless. They're professionals who trusted tools vendors claimed were reliable. The tools weren't.
 
 Legal AI provides value if used correctly:
 

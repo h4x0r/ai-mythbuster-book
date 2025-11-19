@@ -22,7 +22,7 @@ Here's what happened when this question was tested across AI models in 2024-2025
 - Claude 3 Opus: correct **43%** of the time
 - Gemini, Llama, others: even worse
 
-Even the best model gets this right only 65% of the time—a question any 10-year-old solves correctly 100% of the time.
+Even the best model gets this right only 65% of the time. A question any 10-year-old solves correctly 100% of the time.
 
 When wrong, it says "1 sister" (forgetting Alice) or "3" (double-counting). When right, ask again in a new conversation. You may get a different answer.
 
@@ -66,7 +66,7 @@ It's not reasoning about relationships. It can't reason. It guesses based on pat
 
 The Alice test is a party trick. Let's talk about where this gets serious.
 
-AI "hallucinations" occur when the system generates plausible-sounding but factually incorrect information. This happens constantly—not occasionally, constantly.
+AI "hallucinations" occur when the system generates plausible-sounding but factually incorrect information. This happens constantly. Not occasionally, constantly.
 
 **Example 1: The Non-Existent Legal Case**
 
@@ -164,7 +164,7 @@ AI's training data has a cutoff date (often 12-18 months old):
 
 Why: AI has never seen this information. It extrapolates from patterns, but it's fundamentally guessing.
 
-Workaround: Use AI with web search or RAG capabilities. Instruct: "Base your answer only on current sources you can search, not your training data. Cite each claim with the source URL." Verify every citation supports the claim. Never trust AI's memory for post-cutoff information—always require searchable sources.
+Workaround: Use AI with web search or RAG capabilities. Instruct: "Base your answer only on current sources you can search, not your training data. Cite each claim with the source URL." Verify every citation supports the claim. Never trust AI's memory for post-cutoff information. Always require searchable sources.
 
 **Niche or specialized domains**
 
@@ -182,7 +182,7 @@ Workaround: **If your AI has RAG capabilities**, use them. Feed AI your document
 - Use AI to draft general structure and format
 - Manually fill in specialized details yourself
 - Treat AI output as a template, not factual content
-- Example: "Create an outline for a technical specification document for [topic]"—then you populate the specs
+- Example: "Create an outline for a technical specification document for [topic]". Then you populate the specs
 
 ## Practical Mitigation Strategies
 
@@ -196,7 +196,7 @@ Remember the Alice problem? Here's how to solve it.
 
 Instead of asking "Alice has 2 brothers and 1 sister. How many sisters does Alice's brother have?" try this:
 
-"Write a Python script to solve this logic problem: Alice has 2 brothers and 1 sister. How many sisters does Alice's brother have? Count carefully—Alice herself is also a sister to her brothers."
+"Write a Python script to solve this logic problem: Alice has 2 brothers and 1 sister. How many sisters does Alice's brother have? Count carefully Alice herself is also a sister to her brothers."
 
 AI writes code that explicitly tracks the logic. Run it. It outputs: 2.
 

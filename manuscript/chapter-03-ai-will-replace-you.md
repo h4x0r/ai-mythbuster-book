@@ -361,7 +361,7 @@ If you're mostly judgment, start learning to augment your work with AI. You're s
 
 Here's the kicker: human plus AI, when done right, can outperform either alone.
 
-A 2024 meta-analysis of 106 experiments found that human-AI collaboration significantly outperforms humans working alone—but success depends heavily on the task type.[^hybrid] For creative work (writing, content generation, problem-solving), human-AI teams often beat the best of either working independently. For routine decision-making where AI already excels, adding human review can actually decrease performance.
+A 2024 meta-analysis of 106 experiments found that human-AI collaboration significantly outperforms humans working alone. But success depends heavily on the task type.[^hybrid] For creative work (writing, content generation, problem-solving), human-AI teams often beat the best of either working independently. For routine decision-making where AI already excels, adding human review can actually decrease performance.
 
 The pattern:
 - Humans alone: baseline performance

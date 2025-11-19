@@ -3,7 +3,7 @@
 
 ## The Two-Hour Miracle
 
-I watched a developer build a working web app in two hours using AI pair programming. Not a prototype—an actual, functioning application. Users could sign up, create content, share it, and comment. It had a database, authentication, and looked professional.
+I watched a developer build a working web app in two hours using AI pair programming. Not a prototype. An actual, functioning application. Users could sign up, create content, share it, and comment. It had a database, authentication, and looked professional.
 
 Two hours from zero to demo.
 
@@ -63,7 +63,7 @@ When you see a working demo, here's what you're actually seeing:
 
 **The ratio:** In most software projects, the visible demo is about 20% of the total work. The underwater part is 80%.
 
-AI excels at the 20% above water—the happy path code that makes demos shine. AI struggles with the 80% below water—all the error handling, edge cases, and resilience needed when things go wrong.
+AI excels at the 20% above water. The happy path code that makes demos shine. AI struggles with the 80% below water. All the error handling, edge cases, and resilience needed when things go wrong.
 
 This is true for traditional development. It's especially true for AI-generated code.
 
@@ -73,7 +73,7 @@ This is true for traditional development. It's especially true for AI-generated 
 
 **Cautionary Tale: The Healthcare.gov Launch Disaster**
 
-October 1, 2013. The Affordable Care Act's healthcare.gov website launched to handle health insurance enrollment for millions of Americans. The demos had been perfect—clean interfaces, smooth workflows, successful enrollments.
+October 1, 2013. The Affordable Care Act's healthcare.gov website launched to handle health insurance enrollment for millions of Americans. The demos had been perfect. Clean interfaces, smooth workflows, successful enrollments.
 
 Launch day: catastrophic failure. The site crashed within hours. Of 250,000 people who tried to enroll, only six succeeded. Error messages, timeouts, data loss, and users locked out of newly created accounts.
 
@@ -87,7 +87,7 @@ The underwater problems:
 
 The cost: $1.7 billion spent, months of emergency fixes, political crisis, and Congressional hearings.
 
-The root cause wasn't incompetence—it was the demo-to-production gap.
+The root cause wasn't incompetence. It was the demo-to-production gap.
 
 Everything worked in demos because demos don't have real load (thousands of simultaneous users), real data (messy, incomplete, contradictory), real integration complexity (55 systems trying to coordinate), or real users (who do unexpected things, have slow connections, use old browsers).
 
@@ -168,7 +168,7 @@ AI generates functional code, not optimized code.
 
 **Production security needs:** Password strength requirements, protection against brute force (rate limiting), SQL injection, XSS, and CSRF, secure session management, data encryption (at rest and in transit), API authentication and authorization, secure API key storage (not exposed in client code or public repos), audit logging, and compliance (GDPR, CCPA, HIPAA, SOC2).
 
-AI-generated code often includes basic auth but misses many security hardening steps. Security breaches aren't just embarrassing—they're expensive (fines, lawsuits, reputation damage, customer loss).
+AI-generated code often includes basic auth but misses many security hardening steps. Security breaches aren't just embarrassing. They're expensive (fines, lawsuits, reputation damage, customer loss).
 
 ---
 
@@ -178,7 +178,7 @@ A developer used AI to build a web app in a weekend. The demo worked beautifully
 
 What happened? The AI-generated code hardcoded the OpenAI API key in client-side JavaScript. Anyone viewing browser developer tools could see it. Bots scrape GitHub and public websites for exposed API keys 24/7.
 
-Someone found the key and used it to run their own workload—cryptomining prompts, bulk content generation, whatever maximizes API usage. All billed to the original developer's account.
+Someone found the key and used it to run their own workload. Cryptomining prompts, bulk content generation, whatever maximizes API usage. All billed to the original developer's account.
 
 **The pattern repeats constantly:**
 - Developer asks AI to "build a chatbot that uses GPT-4"
@@ -384,7 +384,7 @@ Next time someone shows you an AI-built demo and says "we can ship this," ask: "
 
 ## The Bottom Line
 
-AI makes building demos incredibly fast—10x faster than traditional development for the happy path. That's real and valuable.
+AI makes building demos incredibly fast 10x faster than traditional development for the happy path. That's real and valuable.
 
 **But demos aren't products.**
 

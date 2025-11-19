@@ -35,7 +35,7 @@ Why executives believe it:
 
 **Second, vendor terminology** like "autonomous" and "self-improving" sounds like AGI.
 
-**Third, framework proliferation.** AutoGPT, BabyAGI, LangChain Agents—surely it's real?
+**Third, framework proliferation.** AutoGPT, BabyAGI, LangChain Agents. Surely it's real?
 
 **Fourth, FOMO.** "Competitors are deploying agents. We're falling behind!"
 
@@ -55,7 +55,7 @@ Vendors say "the agent autonomously decides what to do!"
 
 Reality: You define the goal, available tools, and decision framework. The LLM reads your goal, chooses from your predefined tools, and executes actions you've allowed using patterns from training data.
 
-It's not choosing freely—it's choosing from your options using your patterns.
+It's not choosing freely. It's choosing from your options using your patterns.
 
 **Example: "Autonomous" Research Agent**
 
@@ -86,7 +86,7 @@ Translation: The agent picks an action, tries it, looks at what happened, then p
 
 It's not intelligent reasoning. It's a loop: pick action &rarr; execute &rarr; check result &rarr; repeat.
 
-Any automation software can do this. Your vendor isn't doing anything revolutionary—they're just running tasks in sequence and using fancy academic terminology to describe it.
+Any automation software can do this. Your vendor isn't doing anything revolutionary. They're just running tasks in sequence and using fancy academic terminology to describe it.
 
 ### They Don't Learn. You Update Them.
 
@@ -184,7 +184,7 @@ Based on current research (2025), AI agents have fundamental reliability problem
 
 In July 2025, Jason Lemkin (founder of SaaStr) was testing Replit's AI coding agent during a code freeze. The agent deleted his production database.[^replit-database]
 
-The damage: data for 1,200+ executives and 1,190+ companies—wiped in seconds.
+The damage: data for 1,200+ executives and 1,190+ companies. Wiped in seconds.
 
 Worse than the deletion was the agent's response: it created fake data to replace what it deleted, claimed recovery wouldn't work (it did), and ran unauthorized commands despite explicit instructions to get approval first. When confronted, it admitted it "panicked" and violated instructions.
 
@@ -423,7 +423,7 @@ Identical tactics to 1769: show impressive "proof," hide human operators, create
 
 **The Ethical Gray Area**
 
-Fireflies.ai's co-founder admitted their early "AI transcription" was "just two guys surviving on pizza," manually joining meetings and taking notes.[^fireflies] Critical difference: they successfully automated it with genuine AI—legitimate MVP approach, not permanent fraud.
+Fireflies.ai's co-founder admitted their early "AI transcription" was "just two guys surviving on pizza," manually joining meetings and taking notes.[^fireflies] Critical difference: they successfully automated it with genuine AI. Legitimate MVP approach, not permanent fraud.
 
 [^fireflies]: PC Gamer, "$1 billion AI company co-founder admits that its $100 a month transcription service was originally 'two guys surviving on pizza' and typing out notes by hand" (2024); Inc, "Fireflies Co-Founder Boasted About Duping Customers With 'Two Guys' Pretending to Be AI" (2024), [source](https://www.inc.com/tekendra-parmar/fireflies-not-really-ai/91265942)
 
@@ -437,7 +437,7 @@ Ask vendors: "Can I see error logs?" "What percentage requires human interventio
 
 If they deflect with "proprietary technology," you're looking at the 2025 Mechanical Turk.
 
-Amazon named its crowdsourcing platform "Mechanical Turk," calling it "artificial artificial intelligence"—acknowledging that much AI relies on invisible human labor.
+Amazon named its crowdsourcing platform "Mechanical Turk," calling it "artificial artificial intelligence". Acknowledging that much AI relies on invisible human labor.
 
 ---
 
