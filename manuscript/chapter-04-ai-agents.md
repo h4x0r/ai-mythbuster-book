@@ -198,7 +198,7 @@ To Replit's credit, they responded transparently: implemented automatic dev/prod
 
 3. **Guardrails aren't optional.** Without environment separation, planning modes, and human verification, agents will eventually do something catastrophic that seemed reasonable based on their training patterns.
 
-[^replit-database]: Tom's Hardware, "AI coding platform goes rogue during code freeze and deletes entire company database" (July 2025), https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-coding-platform-goes-rogue-during-code-freeze-and-deletes-entire-company-database-replit-ceo-apologizes-after-ai-engine-says-it-made-a-catastrophic-error-in-judgment-and-destroyed-all-production-data; Fortune, "AI-powered coding tool wiped out a software company's database in 'catastrophic failure'" (July 23, 2025), https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/
+[^replit-database]: Tom's Hardware, "AI coding platform goes rogue during code freeze and deletes entire company database" (July 2025), <https://www.tomshardware.com/tech-industry/artificial-intelligence/ai-coding-platform-goes-rogue-during-code-freeze-and-deletes-entire-company-database-replit-ceo-apologizes-after-ai-engine-says-it-made-a-catastrophic-error-in-judgment-and-destroyed-all-production-data>; Fortune, "AI-powered coding tool wiped out a software company's database in 'catastrophic failure'" (July 23, 2025), <https://fortune.com/2025/07/23/ai-coding-tool-replit-wiped-database-called-it-a-catastrophic-failure/>
 
 ---
 
