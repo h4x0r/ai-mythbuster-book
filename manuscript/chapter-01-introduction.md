@@ -133,37 +133,33 @@ Technical background not required. I'll explain concepts clearly without jargon.
 
 We're going to bust five myths that cloud judgment about AI.
 
-**Myth 1: "AI Can Think"** (Chapter 2)
+**Myth 1: "AI Can Think"** ([Chapter 2](#chapter-2-myth-ai-can-think-reality-ai-completes-patterns))
 Reality: AI completes patterns. It doesn't reason.
 Why this matters: Understanding the mechanism helps you use the tool correctly.
 
-**Myth 2: "AI Will Replace You"** (Chapter 3)
+**Myth 2: "AI Will Replace You"** ([Chapter 3](#chapter-3-myth-ai-will-replace-you-reality-ai-augments-your-work))
 Reality: AI augments your work. You still own judgment and relationships.
 Why this matters: Reduces fear. Clarifies where you add value.
 
-**Myth 3: "AI Agents Are Autonomous"** (Chapter 4)
+**Myth 3: "AI Agents Are Autonomous"** ([Chapter 4](#chapter-4-myth-ai-agents-are-autonomous-reality-theyre-scripted-workflows-with-llm-calls))
 Reality: They're scripted workflows with LLM calls.
 Why this matters: Prevents expensive vendor mistakes.
 
-**Myth 4: "AI Is Always Right"** (Chapter 5)
+**Myth 4: "AI Is Always Right"** ([Chapter 5](#chapter-5-myth-ai-is-always-right-reality-hallucinations-and-limitations))
 Reality: AI hallucinates frequently. Confidence doesn't equal correctness.
 Why this matters: Teaches you when to trust versus verify output.
 
-**Myth 5: "Legal AI Is Ready for Practice"** (Chapter 6)
+**Myth 5: "Legal AI Is Ready for Practice"** ([Chapter 6](#chapter-6-myth-ai-for-legal-reality-hallucinations-get-lawyers-sanctioned))
 Reality: Even specialized legal AI hallucinates 17-33% of the time.
 Why this matters: Shows that specialized doesn't equal reliable.
 
-**Myth 6: "Just Prompt and Go"** (Chapter 7)
+**Myth 6: "Just Prompt and Go"** ([Chapter 7](#chapter-7-myth-just-prompt-and-go-reality-engineering-good-results))
 Reality: Good results require good prompts and verification.
 Why this matters: Shows you how to actually get useful output.
 
-**Myth 7: "Demos Equal Production Ready"** (Chapter 8)
+**Myth 7: "Demos Equal Production Ready"** ([Chapter 8](#chapter-8-myth-demos-equal-production-ready-reality-the-vibe-coding-gap))
 Reality: The gap between MVP and production is 80% of the work.
 Why this matters: Prevents catastrophic timeline and budget errors.
-
-**Finally, Chapter 9 provides your realistic AI action plan.**
-
-Practical frameworks for what to try, what to avoid, and how to measure success.
 
 **Structure of each chapter:**
 1. The myth and why people believe it
@@ -258,9 +254,9 @@ Build shared resources: prompt libraries, verification checklists.
 
 **If you're time-constrained:**
 
-Read Chapter 1 (this introduction) and Chapter 9 (action plan). Skim the Chapter Summary sections of Chapters 2 through 8. Jump to chapters addressing your specific confusions. Implement the three-tier framework from Chapter 9.
+Read [Chapter 1](#chapter-1-introduction-why-everyones-confused-about-ai) (this introduction). Skim the Chapter Summary sections of [Chapters 2 through 8](#chapter-2-myth-ai-can-think-reality-ai-completes-patterns). Jump to chapters addressing your specific confusions.
 
-**Minimum viable reading:** Chapters 1, 5, and 9. Introduction, hallucinations, and action plan.
+**Minimum viable reading:** [Chapters 1](#chapter-1-introduction-why-everyones-confused-about-ai) and [5](#chapter-5-myth-ai-is-always-right-reality-hallucinations-and-limitations). Introduction and hallucinations.
 
 ## One Last Thing Before We Begin
 

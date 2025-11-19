@@ -64,7 +64,7 @@ Use this as your template for any professional AI adoption decision.
 
 ## The Hallucination Crisis in Legal Practice
 
-In Chapter 5, we covered why AI hallucinates: it predicts next tokens based on patterns, not facts. It has no concept of truth, only statistical likelihood.
+In [Chapter 5](#chapter-5-myth-ai-is-always-right-reality-hallucinations-and-limitations), we covered why AI hallucinates: it predicts next tokens based on patterns, not facts. It has no concept of truth, only statistical likelihood.
 
 **The legal profession shows us what happens when hallucinations meet zero-tolerance professions.**
 

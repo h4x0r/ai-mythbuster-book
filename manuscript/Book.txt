@@ -1,6 +1,5 @@
 {frontmatter}
 acknowledgments.md
-glossary.md
 {mainmatter}
 chapter-01-introduction.md
 chapter-02-ai-can-think.md
@@ -11,5 +10,6 @@ chapter-06-ai-for-legal.md
 chapter-07-just-prompt-and-go.md
 chapter-08-demos-equal-production.md
 {backmatter}
+glossary.md
 appendix-case-studies.md
 about-author.md
