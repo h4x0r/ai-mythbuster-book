@@ -81,7 +81,7 @@ I'm not here to sell you AI. I'm here to help you use it without making expensiv
 
 Explain what AI actually is. Spoiler: it's sophisticated pattern completion, not thinking.
 
-Set realistic expectations about productivity gains. You're looking at 2-3x improvement in specific tasks, not universal 10x magic.
+Set realistic expectations about productivity gains. You're looking at 2-3x improvement in specific tasks, not universal 10x magic.[^1]
 
 Show you where AI genuinely helps. Drafting. Summarizing. Brainstorming. Format conversion. These are the sweet spots.
 
@@ -283,6 +283,8 @@ Ready?
 Let's start by understanding what AI actually is and isn't.
 
 ---
+
+[^1]: Field studies show 20-40% average time saved on specific knowledge-worker tasks, not universal 10x productivity. McKinsey Global Institute, "The Economic Potential of Generative AI" (June 2023), <https://www.mckinsey.com/capabilities/mckinsey-digital/our-insights/the-economic-potential-of-generative-ai-the-next-productivity-frontier>; Stanford AI Index 2024 reports Microsoft Copilot users complete tasks 26-73% faster, Harvard Business School consultants with GPT-4 were 25% faster and 12% more productive, and NBER call-center agents handled 14% more calls per hour with AI assistance, <https://hai.stanford.edu/ai-index/2024-ai-index-report/economy>
 
 **Chapter Summary:**
 
