@@ -356,13 +356,13 @@ Specialized AI tools exist for different coding workflows. Some emphasize genera
 
 **Data analysis:**
 - General AI can describe trends but might hallucinate statistics
-- Excel plus AI plugins: let AI suggest formulas while Excel calculates (precision preserved)
+- Spreadsheet tools with AI plugins: let AI suggest formulas while spreadsheet calculates (precision preserved)
 - Purpose-built analytics tools: use AI to identify patterns validated by statistical methods
 
 **Content creation:**
 - General AI: good for first drafts and general content
-- Jasper and Copy.ai: optimized for marketing copy (trained on high-converting examples)
-- Grammarly: AI-powered editing, not generation (different use case)
+- Marketing-focused AI tools: optimized for conversion copy (trained on high-performing examples)
+- AI editing tools: focus on improving existing content, not generating from scratch (different use case)
 
 **Principle:** Match the tool to the task. General AI for general tasks. Specialized AI for high-stakes or domain-specific work.
 
@@ -538,7 +538,7 @@ Create a fill-in-the-blank prompt template:
 Pick one task where you've been using general-purpose AI.
 
 Research whether there's a purpose-built tool for this:
-- For code: try Copilot or Augment Code
+- For code: try specialized coding AI tools
 - For marketing copy: try specialized tools
 - For data analysis: try AI-enhanced analytics platforms
 
