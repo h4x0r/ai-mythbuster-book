@@ -364,25 +364,33 @@ But most companies don't have that scale or need.
 **Technique 1: Redefine "Autonomous"**
 
 Old: "Operates independently, sets goals, learns"
+
 New: "Chooses from pre-approved actions without asking permission"
+
 Result: workflow = "autonomous agent"
 
 **Technique 2: Hide the Scaffolding**
 
 Show: agent "deciding" and "acting"
+
 Hide: 500 lines of if-then logic, weeks of prompt tuning
+
 Result: looks like magic, is engineering
 
 **Technique 3: Demo Happy Paths Only**
 
 Demo: clean data, 95% success
+
 Reality: messy data, 60% success
+
 Result: expectations exceed reality
 
 **Technique 4: Credit Agent, Blame User**
 
 Success: "Our agent solved it!"
+
 Failure: "Your prompts need refinement"
+
 Result: vendor never at fault
 
 ---
