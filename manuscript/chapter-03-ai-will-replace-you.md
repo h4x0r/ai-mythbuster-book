@@ -359,16 +359,20 @@ If you're mostly judgment, start learning to augment your work with AI. You're s
 
 ## The Hybrid Advantage
 
-Here's the kicker: human plus AI outperforms either alone.
+Here's the kicker: human plus AI, when done right, can outperform either alone.
 
-Studies show:
+A 2024 meta-analysis of 106 experiments found that human-AI collaboration significantly outperforms humans working alone—but success depends heavily on the task type.[^hybrid] For creative work (writing, content generation, problem-solving), human-AI teams often beat the best of either working independently. For routine decision-making where AI already excels, adding human review can actually decrease performance.
+
+The pattern:
 - Humans alone: baseline performance
-- AI alone: fast but error-prone
-- Human plus AI (with human reviewing AI output): best performance
+- AI alone: fast, consistent, but lacks judgment on edge cases
+- Human plus AI (strategic collaboration): best performance on complex creative tasks
 
 The winning combination isn't "replace humans" or "ignore AI."
 
-It's "humans using AI strategically."
+It's "humans using AI strategically for the right tasks."
+
+[^hybrid]: Vaccaro, M., Almaatouq, A., & Malone, T. W. (2024). When combinations of humans and AI are useful: A systematic review and meta-analysis. *Nature Human Behaviour*. https://www.nature.com/articles/s41562-024-02024-1
 
 This means:
 - Your judgment becomes more valuable (you're filtering AI output)
