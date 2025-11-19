@@ -177,7 +177,6 @@ You can read straight through or jump to the chapter addressing your biggest que
 - How to think about its role in your workflow
 
 **Practical frameworks:**
-- Three-tier task prioritization (where to start, what to build toward, what to never attempt with AI)
 - Prompt engineering principles (the five elements of strong prompts)
 - Verification workflows (what to check before shipping AI output)
 
@@ -190,11 +189,6 @@ You can read straight through or jump to the chapter addressing your biggest que
 - When is AI low-risk versus high-risk?
 - Red flags for AI misuse
 - Production readiness checklists that prevent disasters
-
-**Team scaling strategy:**
-- How to build organizational AI literacy
-- Proven prompt libraries your team can use immediately
-- Continuous learning approaches that keep pace with AI evolution
 
 **Confidence:**
 - How to evaluate AI claims and separate hype from reality
@@ -237,7 +231,7 @@ Reading doesn't equal learning. Doing equals learning.
 
 Keep notes on what works for your specific context. Build your own prompt library as you go.
 
-**Recommended pace:** One chapter per week, with experiments between chapters. Better to internalize one concept than skim all nine.
+**Recommended pace:** One chapter per week, with experiments between chapters. Better to internalize one concept than skim all eight.
 
 **If your team is reading together:**
 
