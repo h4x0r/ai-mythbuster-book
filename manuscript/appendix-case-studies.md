@@ -13,13 +13,6 @@ This index provides quick reference to all real-world case studies referenced th
 
 ## Technology and Product Development
 
-**Exposed API Keys Pattern (Ongoing)**
-- **Chapter:** [8](#chapter8)
-- **Issue:** AI-generated code frequently hardcodes API keys in client-side JavaScript; bots scrape GitHub and public websites for exposed keys
-- **Consequence:** $5K-$100K+ unexpected bills when keys are found and abused; pattern repeats constantly across AI-generated applications
-- **Key Lesson:** AI optimizes for "working demo" not "secure production." Always ask: "Where are the API keys stored?" If the answer is "in the code" or "I'm not sure," you have a demo, not a product.
-- **Note:** This represents an ongoing security pattern rather than a single incident. The $20K OpenAI bill example in [Chapter 8](#chapter8) illustrates a common occurrence affecting developers using AI pair programming tools.
-
 **Healthcare.gov Launch Disaster (2013)**
 - **Chapter:** [8](#chapter8)
 - **Issue:** Affordable Care Act website launched with perfect demos but catastrophic production failures
