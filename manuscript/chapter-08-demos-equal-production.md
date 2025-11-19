@@ -2,21 +2,13 @@
 
 ## The Two-Hour Miracle
 
-I watched a developer build a working web app in two hours using AI pair programming.
+I watched a developer build a working web app in two hours using AI pair programming. Not a prototype—an actual, functioning application. Users could sign up, create content, share it, and comment. It had a database, authentication, and looked professional.
 
-Not a prototype. Not wireframes.
+Two hours from zero to demo.
 
-An actual, functioning application.
+Genuinely impressive.
 
-Users could sign up. Create content. Share it. Comment. It had a database. It had authentication. It looked professional.
-
-Two hours.
-
-From zero to demo.
-
-It was genuinely impressive.
-
-The CEO was thrilled. "We're launching next week!" he declared.
+The CEO declared, "We're launching next week!"
 
 The developer went pale.
 
@@ -42,13 +34,9 @@ Repeat until you have something that works... for the happy path.
 
 The "vibe" part refers to going on feel rather than rigorous engineering. Does it look right? Does the main flow work? Ship it.
 
-And for building quick demos or MVPs (Minimum Viable Products) to test an idea?
+For building quick demos or MVPs to test an idea, vibe coding is genuinely revolutionary.
 
-Vibe coding is genuinely revolutionary.
-
-**The problem:** Demos aren't products. MVPs aren't production-ready.
-
-And the gap between them is way bigger than it appears.
+**The problem:** Demos aren't products. MVPs aren't production-ready. The gap between them is way bigger than it appears.
 
 ## The Iceberg Problem
 
@@ -72,15 +60,11 @@ When you see a working demo, here's what you're actually seeing:
 - Documentation so the next developer understands this
 - Maintainability so you can add features without breaking everything
 
-**The ratio:** In most software projects, the visible demo is about 20% of the total work.
+**The ratio:** In most software projects, the visible demo is about 20% of the total work. The underwater part is 80%.
 
-The underwater part is 80%.
+AI excels at the 20% above water—the happy path code that makes demos shine. AI struggles with the 80% below water—all the error handling, edge cases, and resilience needed when things go wrong.
 
-AI excels at the 20% above water (happy path code). AI struggles with the 80% below water (handling when things go wrong).
-
-This is true for traditional development.
-
-It's especially true for AI-generated code.
+This is true for traditional development. It's especially true for AI-generated code.
 
 ![The Iceberg Problem: Demos show 20% of work, production requires the hidden 80%](images/iceberg.png)
 
@@ -88,13 +72,9 @@ It's especially true for AI-generated code.
 
 **Cautionary Tale: The Healthcare.gov Launch Disaster**
 
-October 1, 2013. The Affordable Care Act's healthcare.gov website launched to handle health insurance enrollment for millions of Americans.
+October 1, 2013. The Affordable Care Act's healthcare.gov website launched to handle health insurance enrollment for millions of Americans. The demos had been perfect—clean interfaces, smooth workflows, successful enrollments.
 
-The demos had been perfect. The system worked beautifully in controlled testing. Stakeholders saw clean interfaces, smooth workflows, successful enrollments.
-
-Launch day: catastrophic failure.
-
-The site crashed within hours. Of 250,000 people who tried to enroll on day one, only six succeeded. Error messages everywhere. Timeouts. Data loss. Users locked out of accounts they'd just created.
+Launch day: catastrophic failure. The site crashed within hours. Of 250,000 people who tried to enroll, only six succeeded. Error messages, timeouts, data loss, and users locked out of newly created accounts.
 
 The underwater problems:
 - The system couldn't handle concurrent users (tested with dozens, faced hundreds of thousands)
@@ -104,15 +84,11 @@ The underwater problems:
 - Performance testing used synthetic data that didn't match real user behavior
 - Security reviews focused on features, not production attack scenarios
 
-The cost: $1.7 billion spent. Months of emergency fixes. Political crisis. Congressional hearings.
+The cost: $1.7 billion spent, months of emergency fixes, political crisis, and Congressional hearings.
 
-The root cause wasn't incompetence. It was the demo-to-production gap.
+The root cause wasn't incompetence—it was the demo-to-production gap.
 
-Everything worked in demos because demos don't have:
-- Real load (thousands of simultaneous users)
-- Real data (messy, incomplete, contradictory)
-- Real integration complexity (55 systems trying to coordinate)
-- Real users (who do unexpected things, have slow connections, use old browsers)
+Everything worked in demos because demos don't have real load (thousands of simultaneous users), real data (messy, incomplete, contradictory), real integration complexity (55 systems trying to coordinate), or real users (who do unexpected things, have slow connections, use old browsers).
 
 Three years and hundreds of millions more dollars later, the site finally worked reliably.
 
@@ -124,30 +100,16 @@ This was true before AI. It's even more true with AI-generated code that excels 
 
 ## Why AI-Generated Demos Are Deceptively Fast
 
-AI is spectacularly good at generating code for the happy path:
-- User creates account with valid email, password, confirming password
-- All required fields filled
-- No special characters
-- Perfect data format
-- No duplicate entries
-- Everything works
-
-AI has seen thousands of examples of happy-path code. It completes that pattern perfectly.
+AI is spectacularly good at generating code for the happy path: user creates account with valid email and password, all required fields filled, perfect data format, no duplicates. AI has seen thousands of examples of happy-path code and completes that pattern perfectly.
 
 **What AI doesn't see in typical examples:**
-- What if password is empty?
-- What if email is malformed?
-- What if database connection fails?
-- What if user submits same form twice?
-- What if server runs out of memory?
-- What if someone tries SQL injection?
-- What if two users create conflicting data simultaneously?
+- What if password is empty, email is malformed, or database connection fails?
+- What if user submits same form twice or server runs out of memory?
+- What if someone tries SQL injection or two users create conflicting data simultaneously?
 
-These aren't in the demos AI trained on.
+These aren't in the demos AI trained on, so AI doesn't generate code to handle them.
 
-So AI doesn't generate code to handle them.
-
-**Result:** You get a demo that works perfectly under ideal conditions and fails catastrophically under real-world conditions.
+**Result:** Demos work perfectly under ideal conditions and fail catastrophically under real-world conditions.
 
 ## The 80% You Can't See (Yet)
 
@@ -174,32 +136,26 @@ AI-generated demo code? Usually just the happy path.
 
 ### 2. Edge Cases (10-15% of production work)
 
-**Demo handles:**
-- Users with normal names (John Smith)
-- Typical amounts of data (10-100 items)
-- Expected user flows (signup then use then logout)
+**Demo handles:** Users with normal names, typical data volumes (10-100 items), and expected flows (signup, use, logout).
 
 **Production must handle:**
 - Names with apostrophes (O'Brien), hyphens (Mary-Jane), non-ASCII characters (Chinese, Arabic, Cyrillic), or single letters (X)
-- Users with zero data (empty state) or thousands of items (pagination, performance)
-- Users who hit back button, refresh mid-process, have multiple tabs open, or lose internet connection mid-upload
-- Users who paste emoji, code, or malicious scripts into text fields
-- Users in different timezones, locales, with slow connections, or on mobile devices
+- Zero data (empty state) or thousands of items (pagination, performance)
+- Users who hit back, refresh mid-process, have multiple tabs open, or lose internet connection mid-upload
+- Emoji, code, or malicious scripts pasted into text fields
+- Different timezones, locales, slow connections, and mobile devices
 
-**Why demos miss this:** Edge cases don't appear in typical examples. AI doesn't predict them.
+Edge cases don't appear in typical examples. AI doesn't predict them.
 
 ---
 
 ### 3. Performance Optimization (10-15% of production work)
 
-**Demo scenario:** 10 test users, 50 test records, running on developer's laptop
+**Demo:** 10 test users, 50 records, developer's laptop
 
-**Production reality:** 10,000 concurrent users, 5 million records, running on shared servers
+**Production:** 10,000 concurrent users, 5 million records, shared servers
 
-**What breaks:**
-- Database queries that work fine for 50 records take 30 seconds for 5 million (need indexing)
-- Loading entire dataset into memory works with test data but crashes server with real data (need pagination)
-- Unoptimized code that runs in 100ms with test data takes 10+ seconds with real data (need caching)
+**What breaks:** Database queries that work for 50 records take 30 seconds for 5 million (need indexing). Loading entire datasets into memory crashes servers (need pagination). Unoptimized code that runs in 100ms takes 10+ seconds with real data (need caching).
 
 AI generates functional code, not optimized code.
 
@@ -209,34 +165,19 @@ AI generates functional code, not optimized code.
 
 **Demo security:** Basic authentication (username and password)
 
-**Production security needs:**
-- Password strength requirements
-- Protection against brute force attacks (rate limiting)
-- Protection against SQL injection
-- Protection against cross-site scripting (XSS)
-- Protection against cross-site request forgery (CSRF)
-- Secure session management
-- Data encryption (at rest and in transit)
-- API authentication and authorization
-- Not exposing API keys in client-side code or public repositories
-- Audit logging (who did what when)
-- Compliance (GDPR, CCPA, HIPAA, SOC2, whatever applies to your industry)
+**Production security needs:** Password strength requirements, protection against brute force (rate limiting), SQL injection, XSS, and CSRF, secure session management, data encryption (at rest and in transit), API authentication and authorization, secure API key storage (not exposed in client code or public repos), audit logging, and compliance (GDPR, CCPA, HIPAA, SOC2).
 
-**AI-generated code:** Often includes basic auth but misses many security hardening steps.
-
-**Why this matters:** Security breaches aren't just embarrassing. They're expensive (fines, lawsuits, reputation damage, customer loss).
+AI-generated code often includes basic auth but misses many security hardening steps. Security breaches aren't just embarrassing—they're expensive (fines, lawsuits, reputation damage, customer loss).
 
 ---
 
 **Cautionary Tale: The $20,000 OpenAI Bill from Exposed API Keys**
 
-A developer used AI pair programming to build a web app in a weekend. The demo worked beautifully. They deployed it to production Monday morning.
+A developer used AI to build a web app in a weekend. The demo worked beautifully. They deployed Monday morning. By Wednesday: $20,000 in OpenAI API charges.
 
-By Wednesday, they received an email from OpenAI: $20,000 in API charges.
+What happened? The AI-generated code hardcoded the OpenAI API key in client-side JavaScript. Anyone viewing browser developer tools could see it. Bots scrape GitHub and public websites for exposed API keys 24/7.
 
-What happened? The AI-generated code hardcoded the OpenAI API key directly in the client-side JavaScript. Anyone who opened the browser's developer tools could see it. Bots scrape GitHub and public websites for exposed API keys 24/7.
-
-Someone found the key, extracted it, and used it to run their own workload—cryptomining prompts, bulk content generation, whatever maximizes API usage. All billed to the original developer's account.
+Someone found the key and used it to run their own workload—cryptomining prompts, bulk content generation, whatever maximizes API usage. All billed to the original developer's account.
 
 **The pattern repeats constantly:**
 - Developer asks AI to "build a chatbot that uses GPT-4"
@@ -246,39 +187,25 @@ Someone found the key, extracted it, and used it to run their own workload—cry
 - Bots find the key within hours
 - Bill arrives days later: $5K, $20K, sometimes $100K+
 
-**Why vibe coding makes this worse:**
+**Why vibe coding makes this worse:** AI optimizes for "working demo" not "secure production." The fastest way to make the demo work is putting the API key where the browser can access it. AI doesn't understand deployment context.
 
-AI-generated code optimizes for "working demo" not "secure production." The code that makes the demo work fastest is putting the API key where the browser can access it directly. AI doesn't think "this will be exposed to the public" because AI doesn't understand deployment context.
+Traditional developers learned this the hard way: never commit secrets, always use environment variables, always use backend proxies. These lessons aren't in AI's training data because example code skips the boring parts.
 
-Traditional developers learned this lesson the hard way over decades. They know: never commit secrets, always use environment variables, always use backend proxies for API keys. These lessons aren't in the training data that AI learns from because example code skips the boring parts.
+**The fix:** Backend proxy (browser calls your server, server calls OpenAI), environment variables (keys server-side only), rate limiting (cap spend per user/hour), and monitoring (alert on usage spikes).
 
-**The fix isn't complicated:**
-- Backend proxy: browser calls your server, your server calls OpenAI with the key
-- Environment variables: keys stored server-side, never in client code
-- Rate limiting: cap maximum spend per user/hour
-- Monitoring: alert when usage spikes unexpectedly
+Demos don't need these protections. Only production does. That's the gap.
 
-But demos don't need these protections. Only production does. That's the gap.
-
-**The lesson for executives:** When someone shows you a working AI-powered demo and says "we can ship this," ask: "Where are the API keys stored?" If the answer is "in the code" or "I'm not sure," you have a demo, not a product.
+**The lesson:** When someone shows you a working AI-powered demo, ask: "Where are the API keys stored?" If the answer is "in the code" or "I'm not sure," you have a demo, not a product.
 
 ---
 
 ### 5. Integration with Real Systems (10-15% of production work)
 
-**Demo integration:** Fake data, simulated APIs, everything running locally
+**Demo:** Fake data, simulated APIs, everything local
 
-**Production integration:**
-- Real database with existing data and constraints
-- Third-party APIs (payment processing, email service, analytics) with authentication, rate limits, and error handling
-- Legacy systems that don't follow modern patterns
-- Network latency and timeouts
-- API versioning and backwards compatibility
-- Data migration from old system
+**Production:** Real database with existing data and constraints, third-party APIs (payment, email, analytics) with authentication and rate limits, legacy systems, network latency and timeouts, API versioning, backwards compatibility, and data migration.
 
-Demos work in isolation.
-
-Production works in a complex ecosystem.
+Demos work in isolation. Production works in a complex ecosystem.
 
 ---
 
@@ -294,7 +221,7 @@ Production works in a complex ecosystem.
 - Debug tools (reproduce and fix issues)
 - Performance metrics (identify slowdowns before users complain)
 
-**AI rarely generates monitoring code because it's not part of "working demo" examples.**
+AI rarely generates monitoring code because it's not part of "working demo" examples.
 
 ---
 
@@ -302,17 +229,9 @@ Production works in a complex ecosystem.
 
 **Demo code:** Works, but might be messy, poorly organized, undocumented
 
-**Production code needs:**
-- Clear architecture (so other developers can understand it)
-- Comments explaining non-obvious decisions
-- Documentation for APIs and key functions
-- Tests (so you can modify code without breaking it)
-- Consistent style and patterns
-- Modular structure (so you can update parts without breaking whole)
+**Production code needs:** Clear architecture (so other developers can understand it), comments explaining non-obvious decisions, documentation for APIs and key functions, tests (so you can modify code without breaking it), consistent style and patterns, and modular structure (so you can update parts without breaking the whole).
 
-**Why this matters:** You're not building this once and walking away. You're maintaining and evolving it for years.
-
-Code that's hard to understand is expensive to maintain.
+**Why this matters:** You're not building this once and walking away. You're maintaining and evolving it for years. Code that's hard to understand is expensive to maintain.
 
 ## The Technical Debt Time Bomb
 
@@ -343,109 +262,63 @@ AI-generated code accumulates technical debt fast because:
 
 ## When Vibe Coding Makes Sense
 
-I'm not saying don't use AI for coding.
-
-I'm saying understand when vibe coding is appropriate:
+I'm not saying don't use AI for coding. I'm saying understand when vibe coding is appropriate:
 
 ### Good Use Cases for Vibe Coding
 
-**Throwaway Prototypes:**
-- Purpose: testing an idea, getting stakeholder feedback, validating assumptions
-- Timeline: you use it for days or weeks, then discard
-- Risk: low (you're not shipping this)
+**Throwaway Prototypes:** Testing ideas, getting feedback, validating assumptions. Use for days or weeks, then discard. Low risk.
 
-**Internal Tools (Low Stakes):**
-- Purpose: personal productivity, team utilities, one-off analysis
-- Users: you and your team (forgiving of rough edges)
-- Risk: low (if it breaks, you fix it; no customer impact)
+**Internal Tools (Low Stakes):** Personal productivity, team utilities, one-off analysis. Forgiving users. Low risk.
 
-**Learning and Experimentation:**
-- Purpose: understanding a technology, trying a new approach
-- Timeline: temporary
-- Risk: none (educational)
+**Learning and Experimentation:** Understanding technologies, trying new approaches. Temporary. No risk.
 
-**Proof of Concept for Buy-In:**
-- Purpose: showing what's possible to get budget or approval
-- Audience: internal stakeholders who understand it's not production-ready
-- Risk: low (if you're clear this is concept, not product)
+**Proof of Concept for Buy-In:** Showing what's possible to get budget or approval. Internal stakeholders understand it's not production-ready. Low risk if you're clear this is concept, not product.
 
 ### Dangerous Use Cases for Vibe Coding
 
-**Customer-Facing Applications:**
-- Security risks
-- Performance under load
-- Data integrity
-- Reputation impact when things break
+**Customer-Facing Applications:** Security risks, performance under load, data integrity, reputation impact.
 
-**Revenue-Critical Systems:**
-- Payment processing
-- Billing systems
-- Core product features
-- Anything where downtime equals lost money
+**Revenue-Critical Systems:** Payment processing, billing, core product features. Downtime equals lost money.
 
-**Compliance-Required Software:**
-- Healthcare (HIPAA)
-- Finance (SOX, PCI-DSS)
-- Privacy (GDPR, CCPA)
-- AI generates code that works, not code that's compliant
+**Compliance-Required Software:** Healthcare (HIPAA), finance (SOX, PCI-DSS), privacy (GDPR, CCPA). AI generates code that works, not code that's compliant.
 
-**Long-Term Maintained Systems:**
-- Code you'll evolve over years
-- Systems requiring multiple developers
-- Platforms that need to scale
-- Foundation for future features
+**Long-Term Maintained Systems:** Code you'll evolve over years, systems requiring multiple developers, platforms that need to scale, foundation for future features.
 
 ## The Production Readiness Checklist
 
 If you're evaluating an AI-built demo for production use, run through this checklist:
 
 ### Functional Completeness
-- [ ] All features work (not just the ones demoed)
-- [ ] All user flows tested (not just happy path)
+- [ ] All features work (not just demoed ones), all user flows tested (not just happy path)
 - [ ] Edge cases handled (empty states, maximum values, unexpected inputs)
-- [ ] Error messages are user-friendly (not technical jargon or stack traces)
+- [ ] Error messages are user-friendly (not jargon or stack traces)
 
 ### Reliability
-- [ ] Error handling for all failure points
-- [ ] Graceful degradation when services are unavailable
-- [ ] Data validation on all inputs
-- [ ] Transaction integrity (no partial updates that corrupt data)
+- [ ] Error handling for all failure points, graceful degradation when services unavailable
+- [ ] Data validation on all inputs, transaction integrity (no partial updates)
 
 ### Performance
-- [ ] Tested with realistic data volumes
-- [ ] Database queries optimized (indexed, not loading unnecessary data)
-- [ ] Caching implemented for expensive operations
-- [ ] Load tested (can it handle expected concurrent users)
+- [ ] Tested with realistic data volumes, database queries optimized (indexed)
+- [ ] Caching implemented for expensive operations, load tested for concurrent users
 
 ### Security
-- [ ] Authentication and authorization implemented
-- [ ] Input sanitization (SQL injection, XSS protection)
-- [ ] Secure session management
-- [ ] Data encryption (sensitive data at rest and in transit)
-- [ ] Security headers configured
-- [ ] Rate limiting to prevent abuse
-- [ ] Audit logging for compliance
+- [ ] Authentication and authorization, input sanitization (SQL injection, XSS protection)
+- [ ] Secure session management, data encryption (at rest and in transit)
+- [ ] Security headers configured, rate limiting, audit logging
 
 ### Integration
-- [ ] Connects to production databases and APIs
-- [ ] API authentication configured
-- [ ] Error handling for external service failures
-- [ ] Timeout and retry logic
+- [ ] Connects to production databases and APIs, authentication configured
+- [ ] Error handling for external service failures, timeout and retry logic
 - [ ] Data migration plan (if replacing existing system)
 
 ### Operational Readiness
-- [ ] Logging for debugging
-- [ ] Monitoring and alerting
-- [ ] Deployment process documented
-- [ ] Rollback plan
-- [ ] Backup and recovery procedures
+- [ ] Logging for debugging, monitoring and alerting
+- [ ] Deployment process documented, rollback plan, backup and recovery procedures
 
 ### Maintainability
-- [ ] Code is organized and structured
-- [ ] Key decisions are documented
-- [ ] Tests exist (unit, integration, end-to-end)
-- [ ] Onboarding documentation for new developers
-- [ ] Dependencies are up-to-date and manageable
+- [ ] Code organized and structured, key decisions documented
+- [ ] Tests exist (unit, integration, end-to-end), onboarding documentation
+- [ ] Dependencies up-to-date and manageable
 
 **If you can't check most of these boxes, you have an MVP, not a product.**
 
@@ -453,28 +326,18 @@ If you're evaluating an AI-built demo for production use, run through this check
 
 ## Real-World Time Estimates
 
-To set realistic expectations:
-
 **AI-generated demo:** 2-8 hours
-
-**Production-ready version of same demo:** 1-2 weeks (with experienced developers)
-
-**Production-ready plus all features in roadmap:** 1-3 months
+**Production-ready version:** 1-2 weeks (with experienced developers)
+**Production-ready plus roadmap features:** 1-3 months
 
 **Example breakdown:**
 - Demo (happy path only): 4 hours
-- Add error handling: +8 hours
-- Add edge case handling: +8 hours
-- Security hardening: +12 hours
-- Performance optimization: +12 hours
+- Error handling: +8 hours, edge cases: +8 hours
+- Security hardening: +12 hours, performance optimization: +12 hours
 - Integration with real systems: +16 hours
-- Monitoring and operations: +8 hours
-- Testing and QA: +12 hours
-- Documentation: +4 hours
+- Monitoring and operations: +8 hours, testing and QA: +12 hours, documentation: +4 hours
 
 **Total: 84 hours (4 hours becomes 88 hours = 22x multiplier)**
-
-This isn't pessimism.
 
 This is reality.
 
@@ -483,26 +346,12 @@ This is reality.
 **The right approach:**
 
 1. Use AI to build demo or MVP quickly (hours or days)
-2. Get feedback and validate assumptions (before investing more)
-3. Decide: Prototype, Polish, or Rebuild?
-   - **Prototype:** Demo served its purpose, discard it
-   - **Polish:** Demo is directionally right, invest in production-readiness
-   - **Rebuild:** Demo revealed problems, start over with better approach
+2. Get feedback and validate assumptions
+3. Decide: Prototype (discard it), Polish (invest in production-readiness), or Rebuild (start over with better approach)
 
-If polishing:
-- Budget 4-10x the demo time for production-readiness
-- Hire experienced developers to harden the code (don't ask AI to do this because it doesn't know what it's missing)
-- Implement checklist above systematically
-- Test with real users, real data, and real load
+If polishing: Budget 4-10x the demo time, hire experienced developers to harden the code (AI doesn't know what it's missing), implement checklist systematically, and test with real users, real data, and real load.
 
-**The wrong approach:**
-
-1. Build demo with AI
-2. Show demo to stakeholders
-3. Stakeholders say "Ship it next week!"
-4. Panic
-5. Ship it anyway
-6. Deal with disasters in production
+**The wrong approach:** Build demo with AI, show stakeholders, stakeholders say "Ship it next week!", panic, ship it anyway, deal with disasters in production.
 
 ## Monday Morning Action Plan
 
@@ -510,93 +359,43 @@ This week, evaluate AI-generated code realistically:
 
 ### Experiment 1: The Demo Audit (45 minutes)
 
-If you have an AI-built demo or prototype, go through the Production Readiness Checklist above.
-
-Count how many boxes you can check versus how many are missing.
-
-**If less than 50% checked:** You have a demo, not a product. Budget accordingly.
-
-**Goal:** Realistic assessment of what "done" actually means.
+If you have an AI-built demo or prototype, go through the Production Readiness Checklist. Count how many boxes you can check versus how many are missing. If less than 50% checked, you have a demo, not a product. Budget accordingly.
 
 ---
 
 ### Experiment 2: The Iceberg Exercise (30 minutes)
 
-For your next project, before building anything, list all requirements in two columns:
-
-**Above water (demo requirements):**
-- Features visible to users
-
-**Below water (production requirements):**
-- Error handling, security, performance, monitoring, and related concerns
-
-Estimate hours for each. Calculate ratio.
-
-**Goal:** Understand the real scope before committing to timelines.
+For your next project, before building anything, list requirements in two columns: Above water (features visible to users) and Below water (error handling, security, performance, monitoring). Estimate hours for each. Calculate ratio.
 
 ---
 
 ### Experiment 3: The Technical Debt Review (30 minutes, if you have AI-generated code)
 
-Look at your AI-generated codebase. Ask:
-- How easy is it to understand what the code does?
-- How easy would it be to add a new feature?
-- How confident are you that it handles edge cases?
-- What happens if part of this system fails?
+Look at your AI-generated codebase. Ask: How easy is it to understand what the code does? How easy would it be to add a new feature? How confident are you that it handles edge cases? What happens if part of this system fails?
 
-If answers are "hard," "not confident," "not sure," you have technical debt.
-
-**Decide:** Fix it now (before it gets worse) or rebuild properly?
-
-**Goal:** Identify technical debt before it becomes technical bankruptcy.
+If answers are "hard," "not confident," or "not sure," you have technical debt. Decide: Fix it now or rebuild properly?
 
 ---
 
 ### Experiment 4: Set Realistic Expectations (Ongoing)
 
-Next time someone shows you an AI-built demo and says "we can ship this," ask the questions:
-- "Have we tested with realistic data volumes?"
-- "What happens when this service is down?"
-- "How do we handle [describe edge case]?"
-- "What's our security review process?"
-- "How do we monitor this in production?"
-
-**Goal:** Protect yourself from "ship the demo" pressure.
+Next time someone shows you an AI-built demo and says "we can ship this," ask: "Have we tested with realistic data volumes?" "What happens when this service is down?" "How do we handle [edge case]?" "What's our security review process?" "How do we monitor this in production?"
 
 ## The Bottom Line
 
-AI makes building demos incredibly fast.
-
-10x faster than traditional development for the happy path.
-
-That's real. That's valuable.
+AI makes building demos incredibly fast—10x faster than traditional development for the happy path. That's real and valuable.
 
 **But demos aren't products.**
 
-The gap between a working demo and a production-ready system is roughly 80% of the total work.
+The gap between a working demo and production-ready system is roughly 80% of the total work: error handling, edge cases, security, performance, monitoring, and maintainability. All invisible in demos. All essential for production.
 
-Error handling. Edge cases. Security. Performance. Monitoring. Maintainability.
+Vibe coding is perfect for prototypes (testing ideas), internal tools (low stakes), and learning (experimentation).
 
-All invisible in demos. All essential for production.
+Vibe coding is dangerous for customer-facing systems, revenue-critical applications, long-term maintained software, and compliance-required systems.
 
-Vibe coding is perfect for:
-- Prototypes (to test ideas)
-- Internal tools (low stakes)
-- Learning (experimentation)
+When someone shows you an AI-built demo, ask: "What's underwater?" Budget 4-10x the demo time to make it production-ready.
 
-Vibe coding is dangerous for:
-- Customer-facing systems
-- Revenue-critical applications
-- Long-term maintained software
-- Compliance-required systems
-
-When someone shows you an AI-built demo, ask: "What's underwater?"
-
-Budget 4-10x the demo time to make it production-ready.
-
-The executives who succeed with AI coding understand this gap.
-
-They use AI to accelerate early stages (ideation, prototyping) while budgeting properly for production-readiness.
+The executives who succeed with AI coding understand this gap. They use AI to accelerate early stages (ideation, prototyping) while budgeting properly for production-readiness.
 
 That's the difference between using AI effectively and getting burned by it.
 
