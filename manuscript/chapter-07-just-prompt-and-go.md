@@ -353,11 +353,8 @@ Not suitable for:
 Different tools for different jobs.
 
 **Code generation and review:**
-- GitHub Copilot: good for writing code as you type
-- Augment Code: good for code review without regenerating code (less hallucination)
-- Claude Code: good for iterative coding with human oversight
 
-Each is optimized for specific workflows. Use the right one for your task.
+Specialized AI tools exist for different coding workflows. Some emphasize generation speed, others emphasize code safety and review quality. Have your engineering team evaluate options based on your quality requirements and risk tolerance.
 
 **Data analysis:**
 - General AI can describe trends but might hallucinate statistics

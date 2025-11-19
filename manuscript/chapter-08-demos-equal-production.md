@@ -106,7 +106,7 @@ AI is spectacularly good at generating code for the happy path: user creates acc
 **What AI doesn't see in typical examples:**
 - What if password is empty, email is malformed, or database connection fails?
 - What if user submits same form twice or server runs out of memory?
-- What if someone tries SQL injection or two users create conflicting data simultaneously?
+- What if someone tries to attack it maliciously or two users create conflicting data simultaneously?
 
 These aren't in the demos AI trained on, so AI doesn't generate code to handle them.
 
@@ -166,7 +166,7 @@ AI generates functional code, not optimized code.
 
 **Demo security:** Basic authentication (username and password)
 
-**Production security needs:** Password strength requirements, protection against brute force (rate limiting), SQL injection, XSS, and CSRF, secure session management, data encryption (at rest and in transit), API authentication and authorization, secure API key storage (not exposed in client code or public repos), audit logging, and compliance (GDPR, CCPA, HIPAA, SOC2).
+**Production security needs:** Password strength requirements, protection against brute force (rate limiting), input validation, secure session management, data encryption (at rest and in transit), API authentication and authorization, secure API key storage (not exposed in client code or public repos), audit logging, and compliance (GDPR, CCPA, HIPAA, SOC2).
 
 AI-generated code often includes basic auth but misses many security hardening steps. Security breaches aren't just embarrassing. They're expensive (fines, lawsuits, reputation damage, customer loss).
 
@@ -303,7 +303,7 @@ If you're evaluating an AI-built demo for production use, run through this check
 - [ ] Caching implemented for expensive operations, load tested for concurrent users
 
 ### Security
-- [ ] Authentication and authorization, input sanitization (SQL injection, XSS protection)
+- [ ] Authentication and authorization, input validation and sanitization
 - [ ] Secure session management, data encryption (at rest and in transit)
 - [ ] Security headers configured, rate limiting, audit logging
 

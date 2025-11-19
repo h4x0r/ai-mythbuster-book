@@ -35,7 +35,7 @@ Why executives believe it:
 
 **Second, vendor terminology** like "autonomous" and "self-improving" sounds like AGI.
 
-**Third, framework proliferation.** AutoGPT, BabyAGI, LangChain Agents. Surely it's real?
+**Third, framework proliferation.** There are dozens of "agentic AI" frameworks from startups claiming to deliver genuine autonomy. Surely they're real?
 
 **Fourth, FOMO.** "Competitors are deploying agents. We're falling behind!"
 
@@ -358,20 +358,6 @@ When it does make economic sense:
 - When human talent is genuinely unavailable (24/7 coverage needs)
 
 But most companies don't have that scale or need.
-
-## The Framework Explosion (And What It Means)
-
-You've seen the names: AutoGPT, BabyAGI, LangChain Agents, CrewAI, SuperAGI, AgentGPT...[^agent-frameworks]
-
-What they are: open-source frameworks for building LLM-powered workflows.
-
-What they're not: AGI, autonomous entities, or silver bullets.
-
-Reality: these frameworks make it easier to chain LLM calls together, connect LLMs to tools (web search, calculators, databases), and build multi-step workflows.
-
-But you still have to define the workflow, handle errors, tune prompts, deal with hallucinations, and monitor and maintain the system.
-
-These frameworks are useful for building custom workflows. They're not autonomous AI. They're libraries.
 
 ## The Vendor Sleight of Hand
 
