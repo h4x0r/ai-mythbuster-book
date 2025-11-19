@@ -474,8 +474,8 @@ Positive gain: document what worked, expand carefully.
 
 Count hype words (autonomous, self-improving, AGI-like) versus concrete details (success rates, error modes, limitations).
 
-Hype > details = overhyped.
-Details > hype = realistic.
+Hype > details = probably overhyped.
+Details > hype = probably realistic.
 
 ## The Bottom Line
 
