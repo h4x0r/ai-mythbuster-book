@@ -543,17 +543,17 @@ Test and refine until output is consistently good. Save the working prompt as a 
 
 Here's an example template:
 
-    Summarize this [MEETING TYPE] meeting for [AUDIENCE]. Focus on [KEY TOPICS].
-
-    Include:
-    - Decisions made (bullet points)
-    - Action items with owners
-    - Open questions
-    - Next steps
-
-    Format: [FORMAT]
-    Tone: [TONE]
-    Max length: [LENGTH]
+> Summarize this [MEETING TYPE] meeting for [AUDIENCE]. Focus on [KEY TOPICS].
+>
+> Include:
+> - Decisions made (bullet points)
+> - Action items with owners
+> - Open questions
+> - Next steps
+>
+> Format: [FORMAT]
+> Tone: [TONE]
+> Max length: [LENGTH]
 
 When you need it, just fill in the brackets and paste.
 
