@@ -506,8 +506,8 @@ If you're building anything security-critical, use proper cryptographic librarie
 
 Cross-model verification is a triage filter, not validation.
 
-- Models agree → Still verify manually
-- Models disagree → Definitely verify manually
+- Models agree -> Still verify manually
+- Models disagree -> Definitely verify manually
 
 Think of it as a smoke detector, not a fire inspector. It alerts you to potential problems. It doesn't certify the building is safe.
 
@@ -620,10 +620,10 @@ Try the specialized tool. Compare quality and time vs general AI.
 
 Create your personal AI output review checklist:
 
-- □ Logical sense check
-- □ Facts verified
-- □ Tone appropriate
-- □ [Add your domain-specific checks]
+- [ ] Logical sense check
+- [ ] Facts verified
+- [ ] Tone appropriate
+- [ ] [Add your domain-specific checks]
 
 Print it. Put it next to your monitor. Use it every time.
 

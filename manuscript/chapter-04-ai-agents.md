@@ -43,7 +43,7 @@ Why executives believe it:
 
 The hype hit peak in 2024-2025, with every AI vendor rebranding as "agentic AI."[^agent-hype]
 
-[^agent-hype]: Gartner, "Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027" (June 25, 2025), <https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027>; VentureBeat, "Gartner predicts AI agents will transform work, but disillusionment is growing" (2025); Gartner estimates only about 130 of thousands of "agentic AI" vendors are real, with most engaging in "agent washing."
+[^agent-hype]: Gartner, "Gartner Predicts Over 40% of Agentic AI Projects Will Be Canceled by End of 2027" (June 25, 2025), <https://www.gartner.com/en/newsroom/press-releases/2025-06-25-gartner-predicts-over-40-percent-of-agentic-ai-projects-will-be-canceled-by-end-of-2027>; VentureBeat, "Gartner predicts AI agents will transform work, but disillusionment is growing" (October 2024), <https://venturebeat.com/ai/gartner-predicts-ai-agents-will-transform-work-but-disillusionment-is-growing>. Gartner estimates only about 130 of thousands of "agentic AI" vendors are real, with most engaging in "agent washing."
 
 ## What AI Agents Actually Are
 
@@ -84,7 +84,7 @@ Vendors say their agents use "agentic reasoning" or a "ReAct framework."[^react-
 
 Translation: The agent picks an action, tries it, looks at what happened, then picks the next action. That's it.
 
-It's not intelligent reasoning. It's a loop: pick action → execute → check result → repeat.
+It's not intelligent reasoning. It's a loop: pick action -> execute -> check result -> repeat.
 
 Any automation software can do this. Your vendor isn't doing anything revolutionary. They're just running tasks in sequence and using fancy academic terminology to describe it.
 
