@@ -267,7 +267,7 @@ ELIZA's "intelligence" was embarrassingly basic. It used pattern matching and su
 >
 > **ELIZA:** I am sorry to hear you are depressed.
 
-That's a real ELIZA transcript from 1966. No understanding. No reasoning. Just templates: recognize keywords ("boyfriend" -> "your boyfriend"), transform statements into questions, mirror the user's words.
+That's a real ELIZA transcript from 1966. No understanding. No reasoning. Just templates: recognize keywords ("depressed" -> "I am sorry to hear you are depressed"), transform statements into questions ("my boyfriend made me come here" -> "Your boyfriend made you come here?"), mirror the user's words ("my boyfriend" -> "Your boyfriend").
 
 The magic wasn't the algorithm. It was the chat interface.
 
