@@ -84,7 +84,7 @@ Vendors say their agents use "agentic reasoning" or a "ReAct framework."[^react-
 
 Translation: The agent picks an action, tries it, looks at what happened, then picks the next action. That's it.
 
-It's not intelligent reasoning. It's a loop: pick action &rarr; execute &rarr; check result &rarr; repeat.
+It's not intelligent reasoning. It's a loop: pick action → execute → check result → repeat.
 
 Any automation software can do this. Your vendor isn't doing anything revolutionary. They're just running tasks in sequence and using fancy academic terminology to describe it.
 
