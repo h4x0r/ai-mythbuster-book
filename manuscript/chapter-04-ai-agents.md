@@ -403,7 +403,9 @@ Reality: a hidden chess master operated it via magnets and levers, concealed beh
 
 **The Pattern Persists**
 
-Builder.ai (formerly Engineer.ai) promised apps "6x faster and 70% cheaper" through AI assistant "Natasha." They raised $445 million from Microsoft, SoftBank, and Qatar, achieving $1.5 billion valuation.
+Builder.ai (formerly Engineer.ai) promised apps "6x faster and 70% cheaper" through AI assistant "Natasha." They raised $445 million from Microsoft, SoftBank, and Qatar, achieving $1.5 billion valuation.[^builder-funding]
+
+[^builder-funding]: The Register, "Builder.ai coded itself into a corner – now it's bankrupt" (May 21, 2025), <https://www.theregister.com/2025/05/21/builderai_insolvency/>. Note: Various sources report different fundraising totals ($445M to over $500M) and valuations ($1B to $1.5B) depending on which funding rounds are included.
 
 Behind the AI marketing: 700 human engineers in India and Ukraine manually coded everything. Workers timed communications to UK hours and avoided Indian-English colloquialisms to maintain the illusion.
 
