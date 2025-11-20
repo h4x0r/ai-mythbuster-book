@@ -479,6 +479,26 @@ This is the danger of cross-model verification: if all models share the same tra
 
 ---
 
+**Security Reality: When "Random" Isn't Random**
+
+The Lucky 7 problem isn't just a curiosity—it's a security catastrophe waiting to happen.
+
+Never use AI to generate passwords, cryptographic keys, session tokens, or any security-critical "random" values. AI produces patterns, not randomness. An attacker who knows you used Claude for passwords knows to try "7" first.
+
+**Real-world disaster: $15 billion Bitcoin seizure**
+
+In 2025, U.S. authorities seized 127,271 BTC ($15 billion) from the Lubian Mining Pool. The vulnerability? Weak randomness in private key generation.[^lubian]
+
+Lubian used the Mersenne Twister algorithm (MT19937-32) to generate wallet private keys. This pseudorandom number generator has predictable patterns. Hackers exploited the weak 32-bit entropy to brute-force the private keys and drain the wallets.
+
+The lesson: Cryptographic randomness requires cryptographically secure random number generators (CSPRNGs), not pseudorandom generators and definitely not AI pattern-matchers.
+
+If you're building anything security-critical, use proper cryptographic libraries. Never use AI for randomness.
+
+[^lubian]: Arkham Intelligence first reported the Lubian theft in August 2025; DOJ announced seizure October 2025. See imToken, "Behind the 127,000 BTC Seizure: How Randomness Shapes Crypto Security" (October 2025), <https://token.im/blog/en-us/articles/51820776289305-Behind-the-127-000-BTC-Seizure-How-Randomness-Shapes-Crypto-Security>; Bitcoin News, "127k BTC Seizure | Flaws in Lubian's Private Key Generation" (2025), <https://bitcoinnews.com/legal/us-seized-127k-btc-lubian-prince-group/>
+
+---
+
 - Agreement doesn't mean accuracy (both are pattern-matching, not fact-checking)
 - Neither may catch domain-specific nuances you'd catch instantly
 
