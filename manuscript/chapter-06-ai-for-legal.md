@@ -123,9 +123,16 @@ Hallucinations grab headlines. But AI adoption in high-stakes environments faces
 
 **Challenge 1: Hallucinations at Scale**
 
-AI confidently fabricates information. Even specialized legal AI with access to verified databases hallucinates 17-33% of the time.[^16] That means one in three to one in six queries returns wrong information presented with complete confidence.
+AI confidently fabricates information. The numbers are sobering:
+
+- **General-purpose LLMs** (ChatGPT, Claude, etc.) hallucinate **69-88%** of the time on legal queries, with rates exceeding 75% on core case holdings.[^stanford-reglab]
+- **Specialized legal AI** with verified databases (Lexis+ AI, Westlaw) still hallucinates **17-33%** of the time.[^16]
+
+That means even after spending more on purpose-built tools with RAG and legal databases, one in three to one in six queries still returns wrong information presented with complete confidence.
 
 For any business: if specialized tools fail this often in structured domains with quality data, expect higher error rates in your domain. Verification protocols are non-negotiable.
+
+[^stanford-reglab]: Dahl, Matthew, Varun Magesh, Mirac Suzgun, and Daniel E. Ho. 2024. "Hallucinating Law: Legal Mistakes with Large Language Models are Pervasive." Stanford Human-Centered Artificial Intelligence Institute and RegLab. Testing GPT-3.5, Claude, Llama 2, and PaLM 2 across 200,000+ legal queries. (<https://hai.stanford.edu/news/hallucinating-law-legal-mistakes-large-language-models-are-pervasive>)
 
 [^12]: See Stanford studies referenced in notes 6-10
 

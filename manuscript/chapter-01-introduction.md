@@ -163,7 +163,7 @@ Reality: AI hallucinates frequently. Confidence doesn't equal correctness.
 Why this matters: Teaches you when to trust versus verify output.
 
 **Myth 5: "Legal AI Is Ready for Practice"** ([Chapter 6](#chapter6))
-Reality: Even specialized legal AI hallucinates 17-33% of the time.
+Reality: General LLMs hallucinate 69-88% on legal queries; even specialized legal AI with RAG hallucinates 17-33%.
 Why this matters: Shows that specialized doesn't equal reliable.
 
 **Myth 6: "Just Prompt and Go"** ([Chapter 7](#chapter7))

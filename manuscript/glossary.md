@@ -18,7 +18,7 @@ This glossary defines technical terms used throughout the book. Terms are explai
 
 **Generative AI (GenAI)**: AI systems that generate new content (text, images, code) by predicting what should come next based on patterns in training data. Includes ChatGPT, Claude, Gemini, and similar tools. Distinguished from earlier AI that classified or predicted but didn't generate.
 
-**Hallucination**: When AI confidently generates false information. Not a bug - it's how the system works. AI predicts plausible-sounding text based on patterns, not facts. Hallucinations occur 17-33% of the time even in specialized AI. [See Chapter 5](#chapter5).
+**Hallucination**: When AI confidently generates false information. Not a bug - it's how the system works. AI predicts plausible-sounding text based on patterns, not facts. General LLMs hallucinate 69-88% on legal queries; specialized AI with RAG still hallucinates 17-33%. [See Chapter 5](#chapter5).
 
 **Happy Path**: The ideal scenario where everything works as expected. Users enter valid data, systems don't crash, network connections are fast. Demos focus on happy paths. Production systems must handle unhappy paths (errors, failures, unexpected inputs).
 
