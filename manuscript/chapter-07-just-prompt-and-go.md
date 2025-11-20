@@ -552,7 +552,9 @@ Here's an example template:
 > - Next steps
 >
 > Format: [FORMAT]
+>
 > Tone: [TONE]
+>
 > Max length: [LENGTH]
 
 When you need it, just fill in the brackets and paste.
