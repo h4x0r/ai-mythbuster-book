@@ -175,7 +175,7 @@ Hidden costs vendors don't mention:
 
 ROI calculation: Discount vendor productivity claims by at least 60%. Include all hidden costs. Many organizations find break-even or negative ROI in year one.
 
-[^14]: Attorney at Work, "The AI Adoption Divide Dominates the 2025 Future of Professionals Report" (2025), https://www.attorneyatwork.com/the-ai-adoption-divide-dominates-the-2025-future-of-professionals-report/; Bloomberg Law, "AI in Law Firms: 2024 Predictions; 2025 Perceptions" (2025), https://news.bloomberglaw.com/bloomberg-law-analysis/analysis-ai-in-law-firms-2024-predictions-2025-perceptions
+[^14]: Attorney at Work, "The AI Adoption Divide Dominates the 2025 Future of Professionals Report" (2025), <https://www.attorneyatwork.com/the-ai-adoption-divide-dominates-the-2025-future-of-professionals-report/>; Bloomberg Law, "AI in Law Firms: 2024 Predictions; 2025 Perceptions" (2025), <https://news.bloomberglaw.com/bloomberg-law-analysis/analysis-ai-in-law-firms-2024-predictions-2025-perceptions>
 
 **Challenge 4: Vendor Selection in Rapidly Evolving Markets**
 

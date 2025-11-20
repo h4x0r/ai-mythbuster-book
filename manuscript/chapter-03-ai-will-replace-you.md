@@ -374,7 +374,7 @@ The winning combination isn't "replace humans" or "ignore AI."
 
 It's "humans using AI strategically for the right tasks."
 
-[^hybrid]: Vaccaro, M., Almaatouq, A., & Malone, T. W. (2024). When combinations of humans and AI are useful: A systematic review and meta-analysis. *Nature Human Behaviour*. https://www.nature.com/articles/s41562-024-02024-1
+[^hybrid]: Vaccaro, M., Almaatouq, A., & Malone, T. W. (2024). When combinations of humans and AI are useful: A systematic review and meta-analysis. *Nature Human Behaviour*. <https://www.nature.com/articles/s41562-024-02024-1>
 
 This means:
 - Your judgment becomes more valuable (you're filtering AI output)
