@@ -425,7 +425,7 @@ Fireflies.ai's co-founder admitted their early "AI transcription" was "just two 
 
 **The Lesson**
 
-The SEC coined "AI washing" in 2024 and began criminal prosecutions in 2025. First case (Nate Inc., April 2025): claimed 93% automation while call centers in the Philippines manually processed 100% of transactions.[^nate-doj]
+The SEC coined "AI washing" in 2024 and began criminal prosecutions in 2025. One of the first high-profile criminal cases (Nate Inc., April 2025): founder Albert Saniger claimed 93-97% automated AI execution while overseas contractors manually processed effectively 100% of transactions. Prosecutors explicitly framed exaggerated automation claims as securities and wire fraud.[^nate-doj]
 
 [^nate-doj]: U.S. Department of Justice, U.S. Attorney's Office, Southern District of New York, "Founder and CEO of Artificial Intelligence Company Charged with Securities and Wire Fraud" (April 9, 2025); White & Case LLP, "Evolution of AI Washing Enforcement: DOJ Enters the Picture" (2025), <https://www.whitecase.com/insight-alert/evolution-ai-washing-enforcement-doj-enters-picture>
 

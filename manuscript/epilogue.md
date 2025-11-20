@@ -46,6 +46,8 @@ The case studies? There will be newer, more spectacular failures. (Unfortunately
 
 The specific prompting techniques? AI models will evolve. What works in 2025 may be obsolete in 2026.
 
+The specific numbers? Hallucination rates, case counts, benchmark scores - these will shift as models improve and more incidents are documented. A rate cited as 17-33% today may be 10-20% tomorrow. A case database with 569 entries may have 800 by the time you read this.
+
 **But the principles won't change:**
 
 - AI completes patterns, doesn't reason ([Chapter 2](#chapter2))
