@@ -71,7 +71,7 @@ But first, you need clarity about what AI actually is.
 
 ## Who I Am (And Why I Wrote This)
 
-I'm Albert Hui, and I've spent thirty years watching technology trends cycle through hype, disappointment, and eventual calibration.
+I'm Albert Hui, and I've spent thirty years watching technology trends cycle through hype, disappointment, and eventually figuring out what actually works.
 
 As IBM's Global Security Architect, I worked at a company that's been experimenting with AI since the 1950s. Long before it was trendy. Later, as a Risk Advisory Director at Deloitte and now as a Cyber Security Advisor at the Institute of Directors, I've seen what happens when organizations chase trends without understanding fundamentals.
 
