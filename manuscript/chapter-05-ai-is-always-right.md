@@ -414,7 +414,7 @@ A tool can be incredibly useful while being unreliable. You just need to use it 
 The reasoning tests (Alice and the circle puzzle) aren't gotchas. They're reminders.
 
 Every time you're tempted to trust AI output without verifying, remember:
-- Even the best models get simple logic right only 65% of the time
+- Even the best models get simple logic right only 55-70% of the time[^alice-test]
 - The same question can produce different answers in different conversations
 - AI sounds equally confident whether it's right or completely wrong
 

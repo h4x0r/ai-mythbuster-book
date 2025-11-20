@@ -469,9 +469,11 @@ Try this experiment: Ask ChatGPT, Claude, and Gemini each to "pick a random numb
 
 You'll likely get 7 from all of them.
 
-In rigorous testing, Claude picked 7 in 100 out of 100 trials. GPT-4o picked 7 in 55.5% of cases. When asked to pick between 1 and 50, ChatGPT, Claude, Gemini, and Llama all answered 27.
+In rigorous testing, Claude picked 7 in 100 out of 100 trials. GPT-4o picked 7 in 55.5% of cases. When asked to pick between 1 and 50, ChatGPT, Claude, Gemini, and Llama all answered 27.[^lucky-7]
 
 Why? LLMs learned from human-generated text, and humans have a well-documented bias toward 7 as a "random-seeming" number. The models didn't just inherit this bias—they amplified it. Humans pick 7 about 28% of the time; LLMs pick it up to 90%.
+
+[^lucky-7]: Bhat, Aaditya. "Humans, LLMs and Lucky Number 7." Medium (August 2024), <https://medium.com/@aadityaubhat/humans-large-language-models-and-lucky-number-7-f09248400cc9>; Coronado-Blázquez, Javier. "How Random is Random? Evaluating the Randomness and Fairness of LLMs." arXiv:2406.00092 (June 2024), <https://arxiv.org/abs/2406.00092>; The Register, "AIs have a favorite number, and it's not 42" (June 2025), <https://www.theregister.com/2025/06/30/ai_models_favorite_number_27/>. Numbers containing 7 (37, 47, 73) are consistently favored; GPT-3.5 showed strong bias toward 42 due to "Hitchhiker's Guide to the Galaxy" cultural influence.
 
 This is the danger of cross-model verification: if all models share the same training data bias, they'll all make the same mistake. Three models agreeing on "7" doesn't make it random—it proves they learned the same pattern.
 
