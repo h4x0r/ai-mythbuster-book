@@ -33,7 +33,7 @@ This wasn't carelessness. This was a seasoned professional trusting a tool that 
 
 The $5,000 fine was the least of the consequences.
 
-[^1]: Mata v. Avianca, Inc., 22-cv-1461 (PKC), 2023 WL 4114965 (S.D.N.Y. June 22, 2023)
+[^1]: Mata v. Avianca, Inc., 22-cv-1461 (PKC), 2023 WL 4114965 (S.D.N.Y. June 22, 2023), <https://www.courtlistener.com/docket/63107798/mata-v-avianca-inc/>
 [^2]: CNBC, "Judge sanctions lawyers for brief written by A.I. with fake citations" (June 22, 2023), <https://www.cnbc.com/2023/06/22/judge-sanctions-lawyers-whose-ai-written-filing-contained-fake-citations.html>
 [^3]: Courthouse News Service, "Sanctions ordered for lawyers who relied on ChatGPT" (June 22, 2023), <https://www.courthousenews.com/sanctions-ordered-for-lawyers-who-relied-on-chatgpt-artificial-intelligence-to-prepare-court-brief/>
 [^4]: Legal Dive, "Issues beyond ChatGPT use were at play in fake cases scandal" (June 2023), <https://www.legaldive.com/news/chatgpt-fake-legal-cases-sanctions-generative-ai-steven-schwartz-openai/652731/>
