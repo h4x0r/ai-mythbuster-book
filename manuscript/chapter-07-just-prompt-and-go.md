@@ -445,6 +445,35 @@ The review isn't wasting time.
 
 The review is what makes AI useful.
 
+### Cross-Model Verification: A Triage Technique
+
+Here's a practical trick: use a different AI model to review the first model's output.
+
+Ask Claude to critique ChatGPT's draft. Ask Gemini to fact-check Claude's claims. Different models have different training data and biases, so they catch different errors.
+
+**When this helps:**
+
+- Disagreement between models flags issues for investigation
+- One model may catch hallucinations the other missed
+- Low-effort additional layer before deeper review
+
+**When this fails:**
+
+- Models can share similar training data and make the same mistakes
+- Agreement doesn't mean accuracy (both are pattern-matching, not fact-checking)
+- Neither may catch domain-specific nuances you'd catch instantly
+
+**The right framing:**
+
+Cross-model verification is a triage filter, not validation.
+
+- Models agree &rarr; Still verify manually
+- Models disagree &rarr; Definitely verify manually
+
+Think of it as a smoke detector, not a fire inspector. It alerts you to potential problems. It doesn't certify the building is safe.
+
+This technique supplements human review. It never replaces it.
+
 ## Building Your Prompt Library
 
 One of the best productivity hacks: Build a library of proven prompts for your common tasks.

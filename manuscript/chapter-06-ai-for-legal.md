@@ -105,7 +105,7 @@ That's Steven Schwartz's $5,000 mistake. That's 569 documented cases. That could
 
 Legal and medical AI demonstrate the same pattern: specialized tools with verified data still hallucinate catastrophically.
 
-**Legal:** 486-plus sanctions. Even specialized tools hallucinate 17-33% of the time.[^16] Single fake citation leads to fines, suspension, malpractice claims.
+**Legal:** Over 560 documented cases worldwide as of November 2025, including 387 in U.S. courts.[^6] Even specialized tools hallucinate 17-33% of the time.[^16] Single fake citation leads to fines, suspension, malpractice claims.
 
 **Medical:** FDA's own AI tool "Elsa" hallucinates nonexistent studies despite being purpose-built for drug review.[^11] It "hallucinates confidently" and can't be used for approvals. Over 1,250 AI-enabled medical devices approved, but regulatory standards don't exist yet.
 
@@ -483,7 +483,7 @@ Verify. Everything.
 
 **Chapter Summary:**
 
-486-plus documented cases of lawyers sanctioned for AI-generated fake citations. Even specialized legal AI hallucinates 17-33% of the time. Four critical challenges: hallucinations, confidentiality/data training, verification burden destroying ROI, and vendor selection complexity. Three vendor categories: database incumbents, AI-first platforms, and specialized/budget options. Vendor selection requires 16 questions across 5 categories: accuracy, confidentiality, integration, training/support, and vendor viability. Implementation requires 5 phases over 16 weeks: policy/governance, technical setup, training, verification protocols, and ongoing measurement. Verification is non-negotiable. ROI requires honest accounting for verification overhead. AI assists with tasks; humans own decisions. This framework applies to any high-stakes AI adoption decision.
+Over 560 documented cases worldwide (as of November 2025) where courts found AI-generated hallucinations. Even specialized legal AI hallucinates 17-33% of the time. Four critical challenges: hallucinations, confidentiality/data training, verification burden destroying ROI, and vendor selection complexity. Three vendor categories: database incumbents, AI-first platforms, and specialized/budget options. Vendor selection requires 16 questions across 5 categories: accuracy, confidentiality, integration, training/support, and vendor viability. Implementation requires 5 phases over 16 weeks: policy/governance, technical setup, training, verification protocols, and ongoing measurement. Verification is non-negotiable. ROI requires honest accounting for verification overhead. AI assists with tasks; humans own decisions. This framework applies to any high-stakes AI adoption decision.
 
 The lesson for all executives: Specialized doesn't equal reliable. Vendor claims don't equal verified performance. Verification discipline equals the difference between AI value and AI disaster.
 
