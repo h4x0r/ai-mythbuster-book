@@ -457,7 +457,7 @@ List all costs: licensing, implementation, training, verification overhead. List
 
 ## The Bottom Line
 
-Legal AI in 2025 is not ready to practice law autonomously. Even the best specialized tools hallucinate 17-33% of the time.[^16] That's "wrong one in three to one in six queries," not "nearly perfect."
+Legal AI in 2025 is not ready to practice law autonomously. Even the best specialized tools hallucinate 17-33% of the time.[^16] That's "wrong one in three to one in six queries," not "nearly perfect." These tools are research assistants, not substitutes for licensed judgment.
 
 The lawyers getting sanctioned aren't careless. They're professionals who trusted tools vendors claimed were reliable. The tools weren't.
 

@@ -460,6 +460,23 @@ Ask Claude to critique ChatGPT's draft. Ask Gemini to fact-check Claude's claims
 **When this fails:**
 
 - Models can share similar training data and make the same mistakes
+
+---
+
+**The Lucky 7 Problem**
+
+Try this experiment: Ask ChatGPT, Claude, and Gemini each to "pick a random number between 1 and 10."
+
+You'll likely get 7 from all of them.
+
+In rigorous testing, Claude picked 7 in 100 out of 100 trials. GPT-4o picked 7 in 55.5% of cases. When asked to pick between 1 and 50, ChatGPT, Claude, Gemini, and Llama all answered 27.
+
+Why? LLMs learned from human-generated text, and humans have a well-documented bias toward 7 as a "random-seeming" number. The models didn't just inherit this bias—they amplified it. Humans pick 7 about 28% of the time; LLMs pick it up to 90%.
+
+This is the danger of cross-model verification: if all models share the same training data bias, they'll all make the same mistake. Three models agreeing on "7" doesn't make it random—it proves they learned the same pattern.
+
+---
+
 - Agreement doesn't mean accuracy (both are pattern-matching, not fact-checking)
 - Neither may catch domain-specific nuances you'd catch instantly
 
