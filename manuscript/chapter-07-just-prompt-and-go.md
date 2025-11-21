@@ -163,6 +163,14 @@ The good news: you don't need years to learn this. Just the willingness to be sp
 
 After testing hundreds of prompts, I've found five elements that consistently improve AI output:
 
+**Mnemonic: Chocolate Fudge Causes Excited Smiles**
+
+- **C**ontext
+- **F**ormat
+- **C**onstraints
+- **E**xamples
+- **S**uccess criteria
+
 ### 1. Context (What's the Situation?)
 
 **Weak:** "Summarize this"
